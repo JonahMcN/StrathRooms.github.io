@@ -1,3 +1,4 @@
+Room,Type,Day,Start,End,Weeks
 AB101,Lecture,Mon,9:00,10:00,"25-27,  30"
 AB101,Lecture,Mon,10:00,11:00,"25-27,  30"
 AB101,Lecture,Mon,11:00,12:00,25-35
@@ -31,20 +32,20 @@ AB201,Laboratory,Thu,9:30,12:30,"27-28,  30"
 AB201,Laboratory,Thu,13:30,16:30,"27-28,  30"
 AB201,Laboratory,Fri,9:30,12:30,27
 AB201,Laboratory,Fri,13:30,16:30,27
-BH101,Conference Booking,Mon,8:00,18:00,27
-BH101,Lecture,Tue,9:00,11:00,"25-32,  34-35"
-BH101,Lecture,Tue,11:00,12:00,25-27
-BH101,Conference Booking,Wed,8:00,18:00,27
-BH101,Conference Booking,Thu,8:00,18:00,27
-BH101,Conference Booking,Fri,8:00,18:00,27
-BH102,Conference Booking,Mon,8:00,18:00,27
-BH102,Conference Booking,Wed,8:00,18:00,27
-BH102,Conference Booking,Thu,8:00,18:00,27
-BH102,Conference Booking,Fri,8:00,18:00,27
-BH108,Conference Booking,Mon,8:00,18:00,27
-BH108,Conference Booking,Wed,8:00,18:00,27
-BH108,Conference Booking,Thu,8:00,18:00,27
-BH108,Conference Booking,Fri,8:00,18:00,27
+BH101 / Barony Main Hall,Conference Booking,Mon,8:00,18:00,27
+BH101 / Barony Main Hall,Lecture,Tue,9:00,11:00,"25-32,  34-35"
+BH101 / Barony Main Hall,Lecture,Tue,11:00,12:00,25-27
+BH101 / Barony Main Hall,Conference Booking,Wed,8:00,18:00,27
+BH101 / Barony Main Hall,Conference Booking,Thu,8:00,18:00,27
+BH101 / Barony Main Hall,Conference Booking,Fri,8:00,18:00,27
+BH102 / Barony Patrick Thomas Room,Conference Booking,Mon,8:00,18:00,27
+BH102 / Barony Patrick Thomas Room,Conference Booking,Wed,8:00,18:00,27
+BH102 / Barony Patrick Thomas Room,Conference Booking,Thu,8:00,18:00,27
+BH102 / Barony Patrick Thomas Room,Conference Booking,Fri,8:00,18:00,27
+BH108 / Barony Bicentenary Hall,Conference Booking,Mon,8:00,18:00,27
+BH108 / Barony Bicentenary Hall,Conference Booking,Wed,8:00,18:00,27
+BH108 / Barony Bicentenary Hall,Conference Booking,Thu,8:00,18:00,27
+BH108 / Barony Bicentenary Hall,Conference Booking,Fri,8:00,18:00,27
 CL102,Lecture,Mon,9:00,11:00,25-35
 CL102,Lecture,Mon,11:00,13:00,25-30
 CL102,Lecture,Mon,13:00,15:00,25-35
@@ -234,7 +235,7 @@ CW602,Lecture,Fri,11:00,13:00,27-29
 CW602,Lecture,Fri,13:00,16:00,27
 DW307,Tutorial,Wed,9:00,11:00,26-34
 DW307,Tutorial,Wed,11:00,13:00,26-34
-EXT,Practical,Tue,10:00,12:00,25-28
+EXT / Gorbals (Tennis),Practical,Tue,10:00,12:00,25-28
 GH222b,Seminar,Tue,10:00,12:00,25-27
 GH222b,Seminar,Wed,11:00,13:00,25-35
 GH227,Cll Ad-Hoc,Mon,12:00,14:00,"10,  14,  18,  23,  27,  31,  36"
@@ -2023,26 +2024,26 @@ RC448,Practical,Wed,12:00,13:00,25-35
 RC448,Laboratory,Wed,13:00,15:00,"25-31,  33-35"
 RC448,Practical,Thu,10:00,11:00,25-35
 RC448,Laboratory,Fri,9:00,11:00,25-35
-RC471,Tutorial,Mon,11:00,12:00,26-35
-RC471,Roll Forward,Mon,18:30,21:00,"8,  10-18,  24-37,  44-48"
-RC471,Lecture,Tue,9:00,10:00,"25,  27-35"
-RC471,Lecture,Tue,10:00,11:00,25-27
-RC471,Lecture,Tue,11:00,12:00,"25,  27,  29,  32,  34"
-RC471,Tutorial,Tue,13:00,14:00,26-35
-RC471,Lecture,Tue,14:00,15:00,25-35
-RC471,Lecture,Tue,15:00,16:00,27
-RC471,Ad-Hoc,Tue,17:00,19:00,24-34
-RC471,Roll Forward,Tue,19:00,22:00,"23-37,  43-47"
-RC471,Tutorial,Wed,10:00,11:00,26-35
-RC471,Booking_Accepted,Wed,18:00,22:00,27
-RC471,Lecture,Thu,11:00,12:00,25-27
-RC471,Lecture,Thu,14:00,15:00,25-35
-RC471,Tutorial,Thu,15:00,17:00,26-35
-RC471,Ad-Hoc,Thu,17:00,20:00,"8-15,  18,  23-37,  43"
-RC471,Tutorial,Fri,9:00,12:00,25-35
-RC471,Lecture,Fri,13:00,15:00,25-35
-RC471,Lecture,Fri,15:00,17:00,"25-28,  31-34"
-RC471,Ad-Hoc,Fri,17:00,19:30,24-35
+RC471 / Assembly Hall,Tutorial,Mon,11:00,12:00,26-35
+RC471 / Assembly Hall,Roll Forward,Mon,18:30,21:00,"8,  10-18,  24-37,  44-48"
+RC471 / Assembly Hall,Lecture,Tue,9:00,10:00,"25,  27-35"
+RC471 / Assembly Hall,Lecture,Tue,10:00,11:00,25-27
+RC471 / Assembly Hall,Lecture,Tue,11:00,12:00,"25,  27,  29,  32,  34"
+RC471 / Assembly Hall,Tutorial,Tue,13:00,14:00,26-35
+RC471 / Assembly Hall,Lecture,Tue,14:00,15:00,25-35
+RC471 / Assembly Hall,Lecture,Tue,15:00,16:00,27
+RC471 / Assembly Hall,Ad-Hoc,Tue,17:00,19:00,24-34
+RC471 / Assembly Hall,Roll Forward,Tue,19:00,22:00,"23-37,  43-47"
+RC471 / Assembly Hall,Tutorial,Wed,10:00,11:00,26-35
+RC471 / Assembly Hall,Booking_Accepted,Wed,18:00,22:00,27
+RC471 / Assembly Hall,Lecture,Thu,11:00,12:00,25-27
+RC471 / Assembly Hall,Lecture,Thu,14:00,15:00,25-35
+RC471 / Assembly Hall,Tutorial,Thu,15:00,17:00,26-35
+RC471 / Assembly Hall,Ad-Hoc,Thu,17:00,20:00,"8-15,  18,  23-37,  43"
+RC471 / Assembly Hall,Tutorial,Fri,9:00,12:00,25-35
+RC471 / Assembly Hall,Lecture,Fri,13:00,15:00,25-35
+RC471 / Assembly Hall,Lecture,Fri,15:00,17:00,"25-28,  31-34"
+RC471 / Assembly Hall,Ad-Hoc,Fri,17:00,19:30,24-35
 RC473,Laboratory,Tue,10:00,12:00,25-35
 RC473,Lecture,Tue,12:00,13:00,25-35
 RC473,Workshop,Wed,10:00,12:00,"25-31,  33-35"
@@ -2283,15 +2284,15 @@ RC669,Lecture,Thu,15:30,17:00,"25,  27,  29,  31,  33,  35"
 RC669,Lecture,Fri,9:00,10:00,25-35
 RC669,Lecture,Fri,10:00,12:00,25-34
 RC669,Lecture,Fri,12:00,13:00,27-31
-SH308,Practical,Wed,9:30,10:30,27-34
-SH308,Practical,Thu,10:00,11:00,27-34
-SH308,Practical,Thu,11:00,12:00,27-34
-SH310,Practical,Mon,10:00,12:00,"27-28,  30-31"
-SH310,Practical,Tue,10:00,12:00,27-28
-SH401,Practical,Mon,10:00,12:00,"27-28,  31"
-SH401,Practical,Wed,10:00,12:00,25-28
-SH401,Practical,Thu,10:00,12:00,26-27
-SH401,Roll Forward,Fri,14:00,17:00,"27,  29-30"
+SH308 / Conditioning Suite,Practical,Wed,9:30,10:30,27-34
+SH308 / Conditioning Suite,Practical,Thu,10:00,11:00,27-34
+SH308 / Conditioning Suite,Practical,Thu,11:00,12:00,27-34
+SH310 / Dance Studio,Practical,Mon,10:00,12:00,"27-28,  30-31"
+SH310 / Dance Studio,Practical,Tue,10:00,12:00,27-28
+SH401 / Sports Hall 1,Practical,Mon,10:00,12:00,"27-28,  31"
+SH401 / Sports Hall 1,Practical,Wed,10:00,12:00,25-28
+SH401 / Sports Hall 1,Practical,Thu,10:00,12:00,26-27
+SH401 / Sports Hall 1,Roll Forward,Fri,14:00,17:00,"27,  29-30"
 SW104,Workshop,Mon,9:00,12:00,"26-29,  32-33,  35"
 SW104,Lecture,Mon,14:00,16:00,25-35
 SW104,Lecture,Tue,9:00,11:00,25-35
