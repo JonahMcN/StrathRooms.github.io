@@ -1,197 +1,291 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Strath Rooms</title> <!-- Page title for the browser tab -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="Strath Rooms" />
+    <title>Strath Rooms</title>
+
     <style>
-        body {
-            background-color: black;
-            color: white;
-            font-family: "Courier New", Courier, monospace;
-            text-align: center;
-            margin: 0;
-            padding: 0;
-        }
-        h1 {
-            font-size: 3rem;
-            letter-spacing: 5px;
-            margin-top: 20px;
-        }
-        .filters {
-            margin: 20px;
-        }
-        select {
-            padding: 10px;
-            font-size: 1rem;
-            margin: 5px;
-        }
-        .room {
-            margin: 10px 0;
-        }
+      body {
+        background-color: black;
+        color: white;
+        font-family: "Courier New", Courier, monospace;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+      }
+
+      h1 {
+        font-size: 3.5rem;
+        letter-spacing: 5px;
+        margin-top: 20px;
+      }
+
+      h2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 500px;
+      }
+
+      .filters {
+        margin: 30px;
+        font-size: 1rem;
+      }
+
+      select {
+        padding: 10px;
+        font-size: 1rem;
+        margin: 5px;
+      }
+
+      .building {
+        margin: 20px 0;
+        border: 1px solid white;
+        width: 70%;
+        display: inline-block;
+
+        padding: 10px;
+        border-radius: 10px;
+      }
+
+      .floor {
+        margin: 10px 0;
+        border-top: 1px solid gray;
+        padding-top: 10px;
+      }
+
+      .event {
+        margin: 5px 0;
+        width: 98%;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        background-color: #333;
+        border-radius: 5px;
+      }
+
+      .event .room {
+        flex: 1;
+      }
+
+      .event .free-until {
+        color: green;
+        text-align: right;
+        flex: 1;
+      }
+
+      footer {
+        min-height: 50px;
+        font-size: 20px;
+      }
     </style>
+
+    <!-- Load PapaParse for CSV Parsing -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+
     <script>
-        let roomData = []; // Array to hold parsed room data
-        let filteredRooms = []; // Array to hold filtered room data
+      let roomData = []; // Array to hold parsed room data
+      let filteredRooms = []; // Array to hold filtered room data
 
-        // Function to load and parse the CSV file
-        function loadCSV() {
-            const csvUrl = 'room_bookings.csv';  // Change this to your actual CSV file URL
+      // Parse the CSV file
+      function loadCSV() {
+        const csvUrl = "empty_bookings.csv"; // Ensure the CSV file is in the same directory
 
-            fetch(csvUrl)
-                .then(response => response.text())
-                .then(csvText => {
-                    // Use PapaParse to parse the CSV text
-                    Papa.parse(csvText, {
-                        complete: function(results) {
-                            roomData = results.data;
-                            filteredRooms = roomData; // Start with all rooms visible
-                            generateRoomSchedule();
-                        }
-                    });
-                })
-                .catch(error => console.error('Error fetching CSV:', error));
-        }
-
-        // Function to extract building, floor, and room number from the room ID
-        function parseRoomInfo(room) {
-            const building = room.substring(0, 2); // First 2 characters for building (e.g., 'AB')
-            const floor = room.charAt(2); // First digit of the room number for the floor (e.g., '1' from '101')
-            const roomNumber = room.substring(2); // The full room number (e.g., '101')
-
-            return { building, floor, roomNumber };
-        }
-        
-        // Function to generate the HTML for rooms
-        function generateRoomSchedule() {
-            const container = document.getElementById("roomsContainer");
-            container.innerHTML = ''; // Clear previous content
-
-            // Group rooms by building and floor
-            const groupedRooms = filteredRooms.reduce((acc, row) => {
-                const [room, type, day, start, end, weeks] = row;
-                const { building, floor, roomNumber } = parseRoomInfo(room);
-
-                // Create the building/floor structure if it doesn't exist
-                if (!acc[building]) acc[building] = {};
-                if (!acc[building][floor]) acc[building][floor] = [];
-
-                // Add the event to the correct building/floor
-                acc[building][floor].push({ roomNumber, type, day, start, end, weeks });
-                return acc;
-            }, {});
-
-            // Generate the HTML for rooms
-            Object.keys(groupedRooms).forEach(building => {
-                let buildingDiv = document.createElement("div");
-                buildingDiv.classList.add("building");
-                let buildingHeader = document.createElement("h2");
-                buildingHeader.innerText = `Building ${building}`;
-                buildingDiv.appendChild(buildingHeader);
-
-                Object.keys(groupedRooms[building]).forEach(floor => {
-                    let floorDiv = document.createElement("div");
-                    floorDiv.classList.add("floor");
-                    let floorHeader = document.createElement("h3");
-                    floorHeader.innerText = `Floor ${floor}`;
-                    floorDiv.appendChild(floorHeader);
-
-                    groupedRooms[building][floor].forEach(event => {
-                        let eventDiv = document.createElement("div");
-                        eventDiv.classList.add("event");
-                        eventDiv.innerHTML = `
-                            <strong>Room:</strong> ${event.roomNumber}<br>
-                            <strong>Type:</strong> ${event.type}<br>
-                            <strong>Day:</strong> ${event.day}<br>
-                            <strong>Time:</strong> ${event.start} - ${event.end}<br>
-                            <strong>Weeks:</strong> ${event.weeks}<br>
-                        `;
-                        floorDiv.appendChild(eventDiv);
-                    });
-
-                    buildingDiv.appendChild(floorDiv);
-                });
-
-                container.appendChild(buildingDiv);
+        fetch(csvUrl)
+          .then((response) => response.text())
+          .then((csvText) => {
+            Papa.parse(csvText, {
+              header: true,
+              complete: function (results) {
+                roomData = results.data.filter((row) => row.Room); // Ensure Room is defined
+                filteredRooms = roomData;
+                generateRoomSchedule();
+              },
             });
-        }
+          })
+          .catch((error) => console.error("Error fetching CSV:", error));
+      }
 
-        // Filter rooms based on the selected building and floor
-        function filterRooms() {
-            const buildingFilter = document.getElementById('buildingFilter').value;
-            const floorFilter = document.getElementById('floorFilter').value;
+      // Extract building, floor, and room number from room ID
+      function parseRoomInfo(room) {
+        const building = room.substring(0, 2);
+        const floor = room.charAt(2);
+        const roomNumber = room.substring(2);
+        return { building, floor, roomNumber };
+      }
 
-            filteredRooms = roomData.filter(row => {
-                const { building, floor } = parseRoomInfo(row[0]);
+      // Generate the HTML for displaying room schedules
+      function generateRoomSchedule() {
+        const container = document.getElementById("roomsContainer");
+        container.innerHTML = ""; // Clear previous content
 
-                // Check if the room matches the selected building and floor
-                const buildingMatch = buildingFilter === 'all' || building === buildingFilter;
-                const floorMatch = floorFilter === 'all' || floor === floorFilter;
+        const now = new Date(); // Get current date and time
+        const currentDay = now.toLocaleString("en-GB", { weekday: "short" }); // e.g., "Monday"
+        const currentTime = now.getHours() * 60 + now.getMinutes(); // Current time in minutes since midnight
 
-                return buildingMatch && floorMatch;
+        const groupedRooms = filteredRooms.reduce((acc, row) => {
+          const { Room, Day, Start, Finish } = row;
+          const { building, floor, roomNumber } = parseRoomInfo(Room);
+
+          // Only consider rooms for the current day
+          if (Day !== currentDay) return acc;
+
+          // Convert room Start and Finish times to minutes
+          const [startHour, startMin] = Start.split(":").map(Number);
+          const [finishHour, finishMin] = Finish.split(":").map(Number);
+          const startTime = startHour * 60 + startMin;
+          const finishTime = finishHour * 60 + finishMin;
+
+          // Check if the current time falls between the room's Start and Finish times
+          if (currentTime >= startTime && currentTime <= finishTime) {
+            if (!acc[building]) acc[building] = {};
+            if (!acc[building][floor]) acc[building][floor] = [];
+
+            acc[building][floor].push({
+              roomNumber,
+              Day,
+              Start,
+              Finish,
+            });
+          }
+
+          return acc;
+        }, {});
+
+        // Display the filtered rooms
+        if (Object.keys(groupedRooms).length === 0) {
+          container.innerHTML =
+            "<h2>No rooms available at this time. <br/> &nbsp; <br/> Why you here? &nbsp; Go home. </h2>";
+        } else {
+          Object.keys(groupedRooms).forEach((building) => {
+            const buildingDiv = document.createElement("div");
+            buildingDiv.classList.add("building");
+            const buildingHeader = document.createElement("h2");
+            buildingHeader.innerText = `Building ${building}`;
+            buildingDiv.appendChild(buildingHeader);
+
+            Object.keys(groupedRooms[building]).forEach((floor) => {
+              const floorDiv = document.createElement("div");
+              floorDiv.classList.add("floor");
+              const floorHeader = document.createElement("h3");
+              floorHeader.innerText = `Floor ${floor}`;
+              floorDiv.appendChild(floorHeader);
+
+              groupedRooms[building][floor].forEach((event) => {
+                const eventDiv = document.createElement("div");
+                eventDiv.classList.add("event");
+                eventDiv.innerHTML = `
+                  <div class="room"><strong>Room:</strong> ${event.roomNumber}</div>
+                  <div class="free-until"><strong>Free until:</strong> ${event.Finish}</div>
+                `;
+                floorDiv.appendChild(eventDiv);
+              });
+
+              buildingDiv.appendChild(floorDiv);
             });
 
-            generateRoomSchedule(); // Regenerate the schedule with filtered rooms
+            container.appendChild(buildingDiv);
+          });
         }
+      }
 
-        // Call loadCSV on page load
-        window.onload = function() {
-            loadCSV();
-            // Add event listeners to filters
-            document.getElementById('buildingFilter').addEventListener('change', filterRooms);
-            document.getElementById('floorFilter').addEventListener('change', filterRooms);
-        };
+      // Filter rooms based on selected building and floor
+      function filterRooms() {
+        const buildingFilter = document.getElementById("buildingFilter").value;
+        const floorFilter = document.getElementById("floorFilter").value;
+
+        filteredRooms = roomData.filter((row) => {
+          const { building, floor } = parseRoomInfo(row.Room);
+
+          const buildingMatch =
+            buildingFilter === "all" || building === buildingFilter;
+          const floorMatch = floorFilter === "all" || floor === floorFilter;
+
+          return buildingMatch && floorMatch;
+        });
+
+        generateRoomSchedule();
+      }
+
+      // Load CSV and set up event listeners on page load
+      window.onload = function () {
+        loadCSV();
+        document
+          .getElementById("buildingFilter")
+          .addEventListener("change", filterRooms);
+        document
+          .getElementById("floorFilter")
+          .addEventListener("change", filterRooms);
+      };
     </script>
-</head>
-<body>
-    <h1>STRATH ROOMS</h1> <!-- Main heading for the webpage -->
+  </head>
 
+  <body>
+    <h1>STRATH ROOMS</h1>
+
+    <!-- Filter Section -->
     <div class="filters">
-        <label for="buildingFilter">Building:</label>
-        <select id="buildingFilter">
-            <option value="all">All</option>
-            <option value="AB">Robertson Wing</option>
-            <option value="BH">Barony Hall</option>
-            <option value="CL">Collins Building</option>
-            <option value="CU">Curran Building (Library)</option>
-            <option value="CW">Cathedral Street Wing (Business School)</option>
-            <option value="DW">Sir William Duncan Win</option>
-            <option value="GH">Graham Hills Building</option>
-            <option value="HD">Henry Dyer Building</option>
-            <option value="HW">Hamnett Wing</option>
-            <option value="JA">John Anderson Building</option>
-            <option value="JW">James Weir Building</option>
-            <option value="LH">Lord Hope Building</option>
-            <option value="LT">Livingstone Tower</option>
-            <option value="MC">McCance Building</option>
-            <option value="RC">Royal College Building</option>
-            <option value="SH">Strathclyde Sport</option>
-            <option value="SP">St Paul's Chaplaincy Centre</option>
-            <option value="SW">Stenhouse Wing (Business School)</option>
-            <option value="TC">Technology Innovation Centre</option>
-            <option value="TG">Thomas Graham Building</option>
-            <option value="TL">Learning and Teaching Building</option>
-            <option value="UC">University Centre</option>
-            <option value="WC">Wolfson Centre</option>
-            <!-- Add more buildings as needed -->
-        </select>
+      <label for="buildingFilter">Building:</label>
+      <select id="buildingFilter">
+        <option value="all">All</option>
+        <option value="Robertson Wing">Robertson Wing</option>
+        <option value="Barony Hall">Barony Hall</option>
+        <option value="Collins Building">Collins Building</option>
+        <option value="Curran Building (Library)">
+          Curran Building (Library)
+        </option>
+        <option value="Cathedral Street Wing (Business School)">
+          Cathedral Street Wing (Business School)
+        </option>
+        <option value="Sir William Duncan Wing">Sir William Duncan Wing</option>
+        <option value="Graham Hills Building">Graham Hills Building</option>
+        <option value="Henry Dyer Building">Henry Dyer Building</option>
+        <option value="Hamnett Wing">Hamnett Wing</option>
+        <option value="John Anderson Building">John Anderson Building</option>
+        <option value="James Weir Building">James Weir Building</option>
+        <option value="Lord Hope Building">Lord Hope Building</option>
+        <option value="Livingstone Tower">Livingstone Tower</option>
+        <option value="McCance Building">McCance Building</option>
+        <option value="Royal College Building">Royal College Building</option>
+        <option value="Strathclyde Sport">Strathclyde Sport</option>
+        <option value="St Paul's Chaplaincy Centre">
+          St Paul's Chaplaincy Centre
+        </option>
+        <option value="Stenhouse Wing (Business School)">
+          Stenhouse Wing (Business School)
+        </option>
+        <option value="Technology Innovation Centre">
+          Technology Innovation Centre
+        </option>
+        <option value="Thomas Graham Building">Thomas Graham Building</option>
+        <option value="Learning and Teaching Building">
+          Learning and Teaching Building
+        </option>
+        <option value="University Centre">University Centre</option>
+        <option value="Wolfson Centre">Wolfson Centre</option>
+      </select>
 
-        <label for="floorFilter">Floor:</label>
-        <select id="floorFilter">
-            <option value="all">All</option>
-            <option value="1">1st Floor</option>
-            <option value="2">2nd Floor</option>
-            <option value="3">3rd Floor</option>
-            <option value="4">4th Floor</option>
-            <option value="5">5th Floor</option>
-            <option value="6">6th Floor</option>
-            <option value="7">7th Floor</option>
-            <option value="8">8th Floor</option>
-        </select>
+      <label for="floorFilter">Floor:</label>
+      <select id="floorFilter">
+        <option value="all">All</option>
+        <option value="1">1st Floor</option>
+        <option value="2">2nd Floor</option>
+        <option value="3">3rd Floor</option>
+        <option value="4">4th Floor</option>
+        <option value="5">5th Floor</option>
+        <option value="6">6th Floor</option>
+        <option value="7">7th Floor</option>
+        <option value="8">8th Floor</option>
+        <option value="9">9th Floor</option>
+      </select>
     </div>
 
+    <!-- Container to Display Rooms -->
     <div id="roomsContainer"></div>
+  </body>
 
-</body>
+  <footer>JM &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;YA</footer>
 </html>
