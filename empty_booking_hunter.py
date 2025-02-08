@@ -54,5 +54,9 @@ for r in range(len(room_list)):
                 free_from = bookings_today.iloc[i-1]['End']
                 free_till = bookings_today.iloc[i]['Start']
                 writer.writerow({'Room Code':room_code,'Day':day,'Free From':str(free_from)[:5],'Free Till':str(free_till)[:5]})
-                    
+
+# New headings for jonah :)
+empty_rooms = pd.read_csv("empty_bookings.csv")
+empty_rooms = empty_rooms.rename(columns={'Room Code':'Room','Free From': 'Start', 'Free Till': 'Finish'})
+empty_rooms.to_csv('empty_bookings.csv',index=False)
     
