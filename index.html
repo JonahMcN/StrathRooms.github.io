@@ -162,7 +162,7 @@
             const buildingDiv = document.createElement("div");
             buildingDiv.classList.add("building");
             const buildingHeader = document.createElement("h2");
-            buildingHeader.innerText = `Building ${building}`;
+            buildingHeader.innerText = `${building}`;
             buildingDiv.appendChild(buildingHeader);
 
             Object.keys(groupedRooms[building]).forEach((floor) => {
