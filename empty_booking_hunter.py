@@ -1,14 +1,4 @@
 
-# # details reader
-# room_list = open('room_details.csv',newline='')
-# room_list_reader = csv.DictReader(room_list)
-# room_list = list(room_list_reader)
-# # bookings reader
-# room_bookings = open('room_bookings.csv',newline='')
-# room_bookings_reader = csv.DictReader(room_bookings)
-# room_bookings = list(room_bookings_reader)
-# room_bookings_codes = list(room_bookings_reader['Room'])
-
 import pandas as pd
 # Load room details and bookings
 room_list = pd.read_csv("room_details.csv")
@@ -65,7 +55,4 @@ for r in range(len(room_list)):
                 free_till = bookings_today.iloc[i]['Start']
                 writer.writerow({'Room Code':room_code,'Day':day,'Free From':str(free_from)[:5],'Free Till':str(free_till)[:5]})
                     
-
-    # # if no bookings for current day set free space as all day
-    # if not day in room_bookings[room_bookings['Room'] == room_code]['Day']:
     
