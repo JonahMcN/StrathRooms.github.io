@@ -1,12 +1,23 @@
-import csv
-# details reader
-room_list = open('room_details.csv',newline='')
-room_list_reader = csv.DictReader(room_list)
-# bookings reader
-room_bookings = open('room_bookings.csv',newline='')
-room_bookings_reader = csv.DictReader(room_bookings)
-room_bookings = list(room_bookings_reader)
 
+# # details reader
+# room_list = open('room_details.csv',newline='')
+# room_list_reader = csv.DictReader(room_list)
+# room_list = list(room_list_reader)
+# # bookings reader
+# room_bookings = open('room_bookings.csv',newline='')
+# room_bookings_reader = csv.DictReader(room_bookings)
+# room_bookings = list(room_bookings_reader)
+# room_bookings_codes = list(room_bookings_reader['Room'])
+
+import pandas as pd
+# Load room details and bookings
+room_list = pd.read_csv("room_details.csv")
+room_bookings = pd.read_csv("room_bookings.csv")
+# Change time format from csv
+room_bookings['Start'] = pd.to_datetime(room_bookings['Start'], format='%H:%M').dt.time
+room_bookings['End'] = pd.to_datetime(room_bookings['End'], format='%H:%M').dt.time
+
+import csv
 # empty bookings writer
 empty_bookings_file = open('empty_bookings.csv', 'w+', newline='')
 d_fieldnames = ['Room Code','Day','Free From','Free Till']
@@ -18,33 +29,43 @@ open_time = datetime.strptime("8:00", '%H:%M').time()
 close_time = datetime.strptime("17:00", '%H:%M').time()
 
 ## Find times when each room is free
-days = ["Mon","Tue","Wed","Thur","Fri","Sat","Sun"]
+days = ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"]
 # room loop
-for row_room in room_list_reader:
-    room_code = row_room['Room Code']
+for r in range(len(room_list)):
+    room_code = room_list.iloc[r]['Room Code']
     # day loop
     for day in days:
         time = open_time
-        # booking loop
-        for i in range(len(room_bookings)):
-            if room_bookings[i]['Room'] == room_code: # check current booking matches current room
-                if room_bookings[i]['Day'] == day: # check current booking matches current day
-                    booking_start = datetime.strptime(room_bookings[i]['Start'], '%H:%M').time()
-                    booking_end = datetime.strptime(room_bookings[i]['End'], '%H:%M').time()
-                    if booking_start > time and booking_end <= close_time:
-                        free_from = time
-                        free_till = booking_start
-                        writer.writerow({'Room Code':room_code,'Day':day,'Free From':str(free_from)[:5],'Free Till':str(free_till)[:5]})
-                    if i+1 < len(room_bookings):
-                        if (room_bookings[i+1]['Day'] != day or i+1 > len(room_bookings)) and booking_end < close_time:
-                            free_from = room_bookings[i]['End']
-                            free_till = close_time
-                            writer.writerow({'Room Code':room_code,'Day':day,'Free From':str(free_from)[:5],'Free Till':str(free_till)[:5]})
-                    elif booking_end < close_time:
-                        free_from = room_bookings[i]['End']
-                        free_till = close_time
-                        writer.writerow({'Room Code':room_code,'Day':day,'Free From':str(free_from)[:5],'Free Till':str(free_till)[:5]})
-                    time = booking_end
-          
-                       
-                
+        current_room_bookings = room_bookings[room_bookings['Room'] == room_code]
+        bookings_today = current_room_bookings[current_room_bookings['Day'] == day]
+
+        if bookings_today.empty:
+            free_from = open_time
+            free_till = close_time
+            writer.writerow({'Room Code':room_code,'Day':day,'Free From':str(free_from)[:5],'Free Till':str(free_till)[:5]})
+            continue
+
+        for i in range(len(bookings_today)):
+                           
+            # if first booking of the day check if there is space before 
+            if i == 0:
+                if bookings_today.iloc[i]['Start'] > open_time:
+                    free_from = open_time
+                    free_till = bookings_today.iloc[i]['Start']
+                    writer.writerow({'Room Code':room_code,'Day':day,'Free From':str(free_from)[:5],'Free Till':str(free_till)[:5]})
+            # if last booking in the day check if there is space before close
+            if  i == len(bookings_today)-1:
+                if bookings_today.iloc[i]['End'] < close_time:
+                    free_from = bookings_today.iloc[i]['End']
+                    free_till = close_time
+                    writer.writerow({'Room Code':room_code,'Day':day,'Free From':str(free_from)[:5],'Free Till':str(free_till)[:5]})
+            # if not the first or last booking in the day check if there is space between bookings
+            if bookings_today.iloc[i-1]['End'] < bookings_today.iloc[i]['Start']:
+                free_from = bookings_today.iloc[i-1]['End']
+                free_till = bookings_today.iloc[i]['Start']
+                writer.writerow({'Room Code':room_code,'Day':day,'Free From':str(free_from)[:5],'Free Till':str(free_till)[:5]})
+                    
+
+    # # if no bookings for current day set free space as all day
+    # if not day in room_bookings[room_bookings['Room'] == room_code]['Day']:
+    
