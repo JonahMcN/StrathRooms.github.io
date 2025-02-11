@@ -2,7 +2,7 @@ name: run-booking-scraper
 
 on:
   schedule:
-    - cron: '0 0 * * SUN' # At 00:00 on Sunday
+    - cron: '50 14 * * TUE' # At 00:00 on Sunday
 
 jobs:
   build:
