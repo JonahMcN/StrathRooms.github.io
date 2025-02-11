@@ -1,8 +1,11 @@
 name: run-booking-scraper
 
-on:
-  schedule:
-    - cron: '50 14 * * TUE' # At 00:00 on Sunday
+# on:
+#   schedule:
+#     - cron: '50 14 * * TUE' # At 00:00 on Sunday
+
+on: workflow_dispatch
+
 
 jobs:
   build:
