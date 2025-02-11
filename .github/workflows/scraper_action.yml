@@ -1,0 +1,23 @@
+name: run booking scraper
+
+on:
+  schedule:
+    - cron: '0 0 * * SUN' # At 00:00 on Sunday
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: setup python
+        uses: actions/setup-python@v5.4.0
+        with:
+          python-version: '3.13' # install the python version needed
+
+      - name: install python packages
+        run: |
+          python -m pip install --upgrade pip
+          pip install selenium
+          pip install bs4
+
+      - name: execute py script # run main.py
+        run: python room_timetable_scraper.py
