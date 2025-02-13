@@ -14,12 +14,12 @@ driver = webdriver.Firefox(options=options)
 ## Setting up csv files
 import csv
 # bookings file
-bookings_file = open('room_bookings.csv', 'w+', newline='')
+bookings_file = open('data/room_bookings.csv', 'w+', newline='')
 b_fieldnames = ['Room','Type','Day','Start','End','Weeks']
 writer1 = csv.DictWriter(bookings_file,fieldnames=b_fieldnames)
 writer1.writeheader()
 # details file
-details_file = open('room_details.csv', 'w+', newline='')
+details_file = open('data/room_details.csv', 'w+', newline='')
 d_fieldnames = ['Room Code','Building','Floor','Room Number','Room Type']
 writer2 = csv.DictWriter(details_file,fieldnames=d_fieldnames)
 writer2.writeheader()

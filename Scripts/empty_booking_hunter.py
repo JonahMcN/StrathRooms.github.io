@@ -1,15 +1,15 @@
 
 import pandas as pd
 # Load room details and bookings
-room_list = pd.read_csv("room_details.csv")
-room_bookings = pd.read_csv("room_bookings.csv")
+room_list = pd.read_csv("data/room_details.csv")
+room_bookings = pd.read_csv("data/room_bookings.csv")
 # Change time format from csv
 room_bookings['Start'] = pd.to_datetime(room_bookings['Start'], format='%H:%M').dt.time
 room_bookings['End'] = pd.to_datetime(room_bookings['End'], format='%H:%M').dt.time
 
 import csv
 # empty bookings writer
-empty_bookings_file = open('empty_bookings.csv', 'w+', newline='')
+empty_bookings_file = open('data/empty_bookings.csv', 'w+', newline='')
 d_fieldnames = ['Room Code','Day','Free From','Free Till']
 writer = csv.DictWriter(empty_bookings_file,fieldnames=d_fieldnames)
 writer.writeheader()
@@ -56,7 +56,7 @@ for r in range(len(room_list)):
                 writer.writerow({'Room Code':room_code,'Day':day,'Free From':str(free_from)[:5],'Free Till':str(free_till)[:5]})
 
 # New headings for jonah :)
-empty_rooms = pd.read_csv("empty_bookings.csv")
+empty_rooms = pd.read_csv("data/empty_bookings.csv")
 empty_rooms = empty_rooms.rename(columns={'Room Code':'Room','Free From': 'Start', 'Free Till': 'Finish'})
-empty_rooms.to_csv('empty_bookings.csv',index=False)
+empty_rooms.to_csv('data/empty_bookings.csv',index=False)
     
