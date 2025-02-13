@@ -32,6 +32,6 @@ jobs:
            push-branch: 'main'
            commit-message: 'Auto update data'
            force-add: 'true'
-           files: data/empty_booking.csv
+           files: data/empty_bookings.csv
           
                    
