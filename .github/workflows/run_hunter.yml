@@ -35,7 +35,7 @@ jobs:
       
           git checkout -b "$branch_name"
       
-          git add <replace_this_csv_filename>
+          git add data/empty_bookings.csv
       
           git commit -m "Update CSV file"
       
