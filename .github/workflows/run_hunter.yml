@@ -25,13 +25,13 @@ jobs:
       - name: execute hunter script # run main.py
         run: python Scripts/empty_booking_hunter.py
         
-      - name: Update files on GitHub
-        uses: test-room-7/action-update-file@v2.0.0
+      - name: push
+        uses: github-actions-x/commit@v2.9
         with:
-           commit-msg: Update empty_bookings.csv
-           file-path: data/empty_bookings.csv
            github-token: ${{ secrets.GITHUB_TOKEN }}
-           allow-removing: true
-         
+           push-branch: 'main'
+           commit-message: 'Auto update data'
+           force-add: 'true'
+           files: data/empty_booking.csv
           
                    
