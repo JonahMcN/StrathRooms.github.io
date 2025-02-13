@@ -23,7 +23,7 @@ jobs:
           pip install pandas
 
       - name: execute hunter script # run main.py
-        run: python empty_booking_hunter.py
+        run: python Scrtipts/empty_booking_hunter.py
 
       - name: Commit and Push Changes
         run: |
