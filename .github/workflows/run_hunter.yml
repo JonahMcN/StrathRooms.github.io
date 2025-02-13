@@ -24,8 +24,13 @@ jobs:
 
       - name: execute hunter script # run main.py
         run: python Scripts/empty_booking_hunter.py
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git add .
-          git commit -m "data/emptybookings.csv"
-          git push
+        
+      - name: Update files on GitHub
+        uses: test-room-7/action-update-file@v2.0.0
+        with:
+           commit-msg: Update empty_bookings.csv
+           file-path: data/empty_bookings.csv
+           github-token: ${{ secrets.GITHUB_TOKEN }}
+         
+          
+                   
