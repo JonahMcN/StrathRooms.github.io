@@ -21,10 +21,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install selenium
           pip install bs4
-          pip install pandas
 
       - name: execute scraper script # run main.py
         run: python room_timetable_scraper.py
-
-      - name: execute hunter script # run main.py
-        run: python empty_booking_hunter.py
