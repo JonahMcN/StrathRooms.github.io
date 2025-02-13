@@ -31,6 +31,7 @@ jobs:
            commit-msg: Update empty_bookings.csv
            file-path: data/empty_bookings.csv
            github-token: ${{ secrets.GITHUB_TOKEN }}
+           allow-removing: true
          
           
                    
