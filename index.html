@@ -90,7 +90,7 @@
 
       // Parse the CSV file
       function loadCSV() {
-        const csvUrl = "empty_bookings.csv"; // Ensure the CSV file is in the same directory
+        const csvUrl = "data/empty_bookings.csv"; // Ensure the CSV file is in data folder
 
         fetch(csvUrl)
           .then((response) => response.text())
