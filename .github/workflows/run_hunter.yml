@@ -1,13 +1,18 @@
 name: run-empty-timeslot-hunter
 
 on:
-  schedule:
-    - cron: '0 1 * * SUN' # At 00:00 on Sunday
+   # schedule:
+   #   - cron: '0 0 * * SUN' # At 00:00 on Sunday
+   workflow_dispatch
+
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4.2.2
+        
       - name: setup python
         uses: actions/setup-python@v5.4.0
         with:
@@ -18,5 +23,5 @@ jobs:
           python -m pip install --upgrade pip
           pip install pandas
 
-      - name: execute py script # run main.py
+      - name: execute hunter script # run main.py
         run: python empty_booking_hunter.py
