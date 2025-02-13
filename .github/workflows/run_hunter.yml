@@ -31,6 +31,7 @@ jobs:
         run: python Scripts/empty_booking_hunter.py
         
       - name: push
+        run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add data/
