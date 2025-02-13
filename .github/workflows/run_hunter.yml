@@ -24,27 +24,8 @@ jobs:
 
       - name: execute hunter script # run main.py
         run: python Scripts/empty_booking_hunter.py
-
-      - name: Commit and Push Changes
-        run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
-          
-          timestamp=$(date +'%Y%m%d%H%M%S')
-          branch_name="update-csv-$timestamp"
-      
-          git checkout -b "$branch_name"
-      
-          git add data/empty_bookings.csv
-      
-          git commit -m "Update CSV file"
-      
-          git push origin "$branch_name"
-      
-          git checkout main
-          git merge --no-ff "$branch_name"
-          git push origin main
-      
-          # delete the temporary branch
-          git branch -d "$branch_name"
-          git push origin --delete "$branch_name"
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "data/emptybookings.csv"
+          git push
