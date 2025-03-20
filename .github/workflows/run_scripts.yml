@@ -2,7 +2,7 @@ name: run-data-scripts
 
 on:
    schedule:
-     - cron: '01 0 * * MON' # At 00:01 on Monday
+     - cron: '01 0 * * *' # At 00:01 on Monday
    # workflow_dispatch
 
 jobs:
