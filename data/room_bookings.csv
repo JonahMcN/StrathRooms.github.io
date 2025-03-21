@@ -1,6 +1,5 @@
 Room,Type,Day,Start,End,Weeks
 AB101,Lecture,Mon,11:00,12:00,25-35
-AB101,Lecture,Mon,12:00,13:00,"25-31,  33,  35"
 AB101,Lecture,Mon,14:00,15:00,"30-31,  33-35"
 AB101,Lecture,Mon,15:00,16:00,"30-31,  33-35"
 AB101,Lecture,Tue,9:00,10:00,30-34
@@ -27,7 +26,6 @@ AB201,Workshop,Wed,11:00,13:00,33
 AB201,Workshop,Thu,9:00,11:00,33
 AB201,Workshop,Thu,11:00,13:00,33
 BH101 / Barony Main Hall,Conference Booking,Mon,8:00,22:00,33
-BH101 / Barony Main Hall,Lecture,Tue,9:00,11:00,33
 BH101 / Barony Main Hall,Conference Booking,Tue,16:00,22:00,33
 BH101 / Barony Main Hall,Conference Booking,Wed,8:00,22:00,33
 BH101 / Barony Main Hall,Conference Booking,Thu,8:00,18:00,33
@@ -57,17 +55,22 @@ CL201,Booking_Accepted,Thu,10:00,12:00,33
 CL201,Booking_Accepted,Thu,12:30,16:30,33
 CL202,Booking_Accepted,Tue,13:00,15:00,33
 CL202,Booking_Accepted,Thu,10:30,12:30,33
+CL203,Booking_Accepted,Tue,10:30,12:00,33
+CL203,Booking_Accepted,Wed,9:00,12:00,33
 CL203,Booking_Accepted,Thu,9:00,13:00,33
 CL204,Booking_Accepted,Tue,10:00,11:00,33
 CL204,Booking_Accepted,Tue,15:00,16:00,33
-CL204,Booking_Accepted,Wed,10:00,11:00,33
 CL204,Booking_Accepted,Fri,13:00,14:00,33
 CL205,Booking_Accepted,Tue,15:00,17:00,33
+CL205,Booking_Accepted,Wed,13:00,17:00,33
 CU239,Lecture,Mon,13:00,17:00,33
 CU242,Lecture,Mon,9:00,16:00,33
 CU242,Lecture,Tue,9:00,12:00,33
+CU242,Lecture,Thu,9:00,17:00,33-34
+CU242,Lecture,Fri,9:00,13:00,33-34
 CU243,Lecture,Mon,14:00,17:00,33
-CU244,Lecture,Fri,9:00,17:00,31-33
+CU243,Lecture,Fri,13:00,17:00,33-34
+CU244,Lecture,Fri,13:00,17:00,33-34
 CU271,Lecture,Fri,9:00,13:00,"28,  32-34"
 CU321a,Tutorial,Thu,14:30,16:30,33
 CU321b,Computer Lab,Thu,11:00,13:00,33
@@ -100,7 +103,6 @@ CU627c,Practical,Tue,13:00,16:00,"4-8,  10,  12,  24-26,  33-35"
 CU627c,Seminar,Wed,10:00,12:00,25-34
 CU633,Practical,Wed,13:00,14:00,31-34
 CU633,Seminar,Thu,13:00,15:00,33
-CW404a,Booking_Accepted,Mon,11:00,13:00,33
 CW404a,Lecture,Mon,14:00,16:00,"25-29,  31-34"
 CW404a,Lecture,Tue,11:00,13:00,33
 CW404a,Booking_Accepted,Tue,13:00,15:00,33
@@ -123,6 +125,7 @@ CW404b,Tutorial,Thu,10:00,11:00,31-35
 CW404b,Tutorial,Thu,11:00,12:00,31-35
 CW404b,Booking_Accepted,Thu,12:00,15:00,33
 CW404b,Tutorial,Thu,15:00,16:00,"26-28,  33-34"
+CW404b,Booking_Accepted,Fri,8:00,10:00,33
 CW404b,Tutorial,Fri,14:00,15:00,26-35
 CW404b,Tutorial,Fri,15:00,16:00,26-35
 CW404b,Tutorial,Fri,16:00,17:00,26-35
@@ -138,6 +141,7 @@ CW406a,Booking_Accepted,Wed,15:30,16:00,33
 CW406a,Roll Forward,Wed,16:00,17:00,24-35
 CW406a,Booking_Accepted,Wed,17:00,17:30,33
 CW406a,Booking_Accepted,Thu,11:00,12:00,33
+CW406a,Booking_Accepted,Thu,12:00,14:00,33
 CW406a,Lecture,Thu,15:00,17:00,33
 CW406b,Tutorial,Mon,14:00,15:00,25-34
 CW406b,Lecture,Tue,9:00,12:00,33
@@ -187,7 +191,6 @@ CW507a,Tutorial,Tue,13:00,14:00,28-33
 CW507a,Lecture,Tue,14:00,16:00,25-35
 CW507a,Tutorial,Wed,10:00,11:00,25-33
 CW507a,Seminar,Wed,11:00,13:00,25-35
-CW507a,Booking_Accepted,Wed,14:00,15:30,33
 CW507a,Lecture,Wed,16:00,18:00,"25-28,  33"
 CW507a,Seminar,Thu,10:00,12:00,25-35
 CW507a,Lecture,Thu,12:00,13:00,24-35
@@ -236,7 +239,7 @@ GH322,Cll Ad-Hoc,Mon,12:00,14:00,26-33
 GH327,Cll Ad-Hoc,Tue,10:00,12:00,26-35
 GH327,Cll Ad-Hoc,Tue,18:00,20:30,"4-13,  15-26,  28-38,  40-47"
 GH327,Cll Ad-Hoc,Wed,10:00,12:30,"5-14,  16-26,  28-38,  40-47"
-GH327,Cll Ad-Hoc,Thu,12:00,14:00,"10-19,  26-35"
+GH327,Cll Ad-Hoc,Thu,12:00,14:00,"10-19,  26-35,  37-42"
 GH327,Cll Ad-Hoc,Fri,10:00,12:30,"4-12,  14-26,  28-36,  38-46"
 GH330,Cll Ad-Hoc,Tue,14:00,16:30,33-37
 GH330,Cll Ad-Hoc,Wed,10:00,16:00,"23-28,  30-35,  37-49"
@@ -244,11 +247,13 @@ GH330,Cll Ad-Hoc,Thu,12:00,14:30,26-35
 GH330,Cll Ad-Hoc,Fri,12:30,15:00,"23,  25,  27,  29,  31,  33,  35"
 GH509,Booking_Accepted,Mon,10:00,17:00,33
 GH509,Tutorial,Tue,9:00,11:00,"24-27,  30-35"
+GH509,Booking_Accepted,Tue,13:00,14:00,33
 GH509,Booking_Accepted,Tue,14:00,15:00,33
 GH509,Tutorial,Tue,15:00,17:00,27-33
 GH509,Lecture,Wed,10:00,12:00,33
 GH509,Booking_Accepted,Wed,15:00,17:00,27-42
 GH509,Lecture,Fri,10:30,16:30,"30-35,  38-41"
+GH510,Booking_Accepted,Mon,11:00,12:00,33
 GH510,Tutorial,Mon,12:00,13:00,"27-28,  30-33"
 GH510,Booking_Accepted,Mon,13:30,14:00,25-35
 GH510,Seminar,Mon,14:00,15:00,25-35
@@ -262,8 +267,7 @@ GH510,Tutorial,Tue,16:00,17:00,25-35
 GH510,Seminar,Wed,9:00,11:00,25-35
 GH510,Tutorial,Wed,11:00,12:00,25-35
 GH510,Lecture,Wed,12:00,13:00,25-34
-GH510,Booking_Accepted,Wed,14:00,15:00,33
-GH510,Tutorial,Thu,9:00,10:00,25-35
+GH510,Tutorial,Thu,9:00,10:00,25-34
 GH510,Tutorial,Thu,12:00,13:00,25-33
 GH510,Tutorial,Thu,13:00,14:00,"27-28,  30-33"
 GH510,Booking_Accepted,Thu,14:00,17:00,25-34
@@ -301,7 +305,8 @@ GH512,Tutorial,Tue,13:00,14:00,"27,  29,  31,  33"
 GH512,Tutorial,Tue,14:00,15:00,25-34
 GH512,Lecture,Tue,15:00,17:00,"25,  27,  29,  31,  33,  35"
 GH512,Lecture,Wed,9:00,11:00,"32-33,  35"
-GH512,Tutorial,Thu,9:00,10:00,25-35
+GH512,Booking_Accepted,Wed,11:00,12:00,33
+GH512,Tutorial,Thu,9:00,10:00,25-34
 GH512,Lecture,Thu,10:00,11:00,25-35
 GH512,Tutorial,Thu,12:00,13:00,"27,  29,  31,  33"
 GH512,Tutorial,Thu,13:00,14:00,"27,  29,  31,  33"
@@ -316,7 +321,6 @@ GH513,Roll Forward,Mon,18:00,20:00,28-35
 GH513,Tutorial,Tue,9:00,10:00,27-35
 GH513,Booking_Accepted,Tue,10:00,12:00,33
 GH513,Seminar,Tue,12:00,13:00,25-35
-GH513,Lecture,Tue,13:00,15:00,"26-31,  33-35"
 GH513,Tutorial,Tue,15:00,16:00,28-35
 GH513,Tutorial,Tue,16:00,17:00,28-35
 GH513,Seminar,Wed,10:00,12:00,"26-28,  31,  33"
@@ -341,6 +345,7 @@ GH514,Lecture,Tue,13:00,14:00,25-34
 GH514,Lecture,Tue,14:00,16:00,"26,  28-35"
 GH514,Lecture,Wed,9:00,11:00,25-35
 GH514,Lecture,Wed,11:00,13:00,25-35
+GH514,Booking_Accepted,Wed,13:00,14:00,33
 GH514,Lecture,Thu,9:00,11:00,25-35
 GH514,Lecture,Thu,11:00,12:00,33
 GH514,Lecture,Thu,12:00,13:00,30-34
@@ -358,12 +363,13 @@ GH515,Lecture,Tue,9:00,11:00,25-35
 GH515,Lecture,Tue,11:00,12:00,25-35
 GH515,Lecture,Tue,12:00,13:00,25-35
 GH515,Tutorial,Tue,13:00,16:00,30-35
+GH515,Ad-Hoc,Tue,18:00,19:30,33
 GH515,Tutorial,Wed,10:00,11:00,"25-29,  31-34"
 GH515,Seminar,Thu,9:00,11:00,26-33
 GH515,Tutorial,Thu,11:00,12:00,"25-29,  31-34"
-GH515,Booking_Accepted,Thu,12:00,15:00,33
 GH515,Seminar,Fri,10:00,12:00,"24-26,  33"
 GH515,Lecture,Fri,12:00,14:00,25-35
+GH515,Booking_Accepted,Fri,15:30,17:00,33
 GH515,Ad-Hoc,Fri,17:00,20:00,24-33
 GH542,Lecture,Mon,9:00,11:00,25-35
 GH542,Lecture,Mon,11:00,13:00,27-35
@@ -401,7 +407,10 @@ GH554,Classtest,Fri,9:30,11:00,33
 GH554,Lecture,Fri,11:00,13:00,31-34
 GH554,Tutorial,Fri,13:00,14:30,25-35
 GH554,Lecture,Fri,15:00,17:00,27-34
+GH557,Booking_Accepted,Wed,9:00,16:30,33
+GH557,Booking_Accepted,Thu,9:00,17:00,33
 GH560,Booking_Accepted,Mon,10:00,12:00,25-33
+GH560,Booking_Accepted,Mon,15:00,17:00,33
 GH560,Classtest,Tue,9:30,12:30,33
 GH560,Computer Lab,Thu,15:00,17:00,"28-29,  31,  33"
 GH560,Computer Lab,Fri,9:00,11:00,33
@@ -420,6 +429,7 @@ GH614,Tutorial,Tue,16:00,17:00,"27,  29,  31,  33"
 GH614,Lecture,Wed,10:00,12:00,"28-29,  31,  33"
 GH614,Booking_Accepted,Wed,14:00,16:00,33
 GH614,Seminar,Thu,10:00,11:00,33
+GH614,Booking_Accepted,Thu,11:00,15:00,33
 GH614,Lecture,Fri,10:00,12:00,32-34
 GH614,Tutorial,Fri,14:00,15:00,25-35
 GH614,Tutorial,Fri,15:00,16:00,25-34
@@ -456,6 +466,8 @@ GH621,Seminar,Fri,11:30,13:00,25-35
 GH621,Lecture,Fri,13:00,15:00,25-34
 GH621,Tutorial,Fri,15:00,16:00,25-35
 GH626,Tutorial,Mon,11:00,12:00,"28-29,  33-34"
+GH626,Booking_Accepted,Mon,14:00,15:00,33
+GH626,Booking_Accepted,Mon,15:00,16:00,33
 GH626,Tutorial,Mon,16:00,17:00,25-35
 GH626,Lecture,Tue,10:00,11:00,32-35
 GH626,Tutorial,Tue,13:00,15:00,"27,  29,  31,  33"
@@ -473,6 +485,9 @@ GH630,Lecture,Tue,12:00,14:00,33
 GH630,Booking_Cancelled,Tue,14:00,15:00,33
 GH630,Lecture,Tue,15:00,17:00,33
 GH630,Booking_Accepted,Wed,9:00,12:00,33
+GH630,Booking_Accepted,Wed,12:00,13:00,33
+GH630,Booking_Accepted,Wed,14:00,15:00,33
+GH630,Booking_Accepted,Thu,9:00,12:00,33
 GH630,Lecture,Fri,9:00,17:00,33
 GH634,Computer Lab,Mon,9:00,11:00,26-34
 GH634,Computer Lab,Mon,11:00,13:00,33
@@ -493,6 +508,7 @@ GH634,Computer Lab,Fri,12:00,13:00,"25,  27,  29-33,  35"
 GH634,Practical,Fri,13:00,15:00,"27,  29,  31,  33"
 GH634,Workshop,Fri,15:00,17:00,33
 GH637,Booking_Accepted,Tue,9:30,14:00,33
+GH637,Booking_Accepted,Tue,14:00,15:00,33
 GH637,Tutorial,Tue,15:00,17:00,"27-29,  31-33"
 GH637,Booking_Accepted,Wed,9:00,12:00,33
 GH637,Tutorial,Thu,11:00,13:00,24-33
@@ -507,7 +523,7 @@ GH640,Lecture,Tue,14:00,15:00,25-35
 GH640,Booking_Accepted,Tue,15:00,16:00,33
 GH640,Tutorial,Tue,16:00,17:00,25-35
 GH640,Seminar,Tue,18:00,21:00,"31,  33,  35"
-GH640,Booking_Accepted,Wed,10:00,11:00,33
+GH640,Booking_Accepted,Wed,11:00,13:00,33
 GH640,Lecture,Wed,14:00,15:00,25-35
 GH640,Workshop,Thu,10:00,11:00,"26-30,  32-35"
 GH640,Tutorial,Thu,12:00,13:00,26-35
@@ -516,14 +532,19 @@ GH640,Workshop,Fri,10:00,11:00,"26-30,  32-35"
 GH640,Tutorial,Fri,11:00,12:00,"26,  28-34"
 GH640,Tutorial,Fri,12:00,13:00,"26,  28-34"
 GH640,Tutorial,Fri,13:30,17:00,"24-35,  38-49"
+GH641,Booking_Accepted,Mon,11:00,13:00,33
+GH641,Booking_Accepted,Mon,15:00,17:00,33
 GH641,Booking_Accepted,Tue,10:00,17:00,33
 GH641,Booking_Accepted,Wed,9:00,12:00,33
+GH641,Booking_Accepted,Thu,10:00,13:00,33
+GH641,Booking_Accepted,Fri,11:00,12:00,33
 GH643,Tutorial,Mon,12:00,13:00,"27-28,  30-33"
 GH643,Tutorial,Mon,13:00,14:00,"27-28,  30,  33-34"
 GH643,Lecture,Mon,14:00,15:00,25-35
 GH643,Tutorial,Tue,10:00,11:00,27-34
 GH643,Tutorial,Tue,11:00,12:00,"27,  29,  31,  33"
 GH643,Lecture,Tue,12:00,13:00,31-33
+GH643,Booking_Accepted,Tue,13:00,14:00,33
 GH643,Tutorial,Tue,14:00,15:00,28-33
 GH643,Tutorial,Tue,15:00,16:00,"27-28,  30-33"
 GH643,Tutorial,Tue,16:00,17:00,25-35
@@ -652,7 +673,9 @@ GH714,Practical,Thu,15:00,16:00,25-35
 GH714,Lecture,Fri,10:00,12:00,33
 GH729,Lecture,Tue,9:00,11:00,25-35
 GH729,Booking_Accepted,Tue,13:00,15:00,33-34
+GH729,Booking_Accepted,Wed,14:00,16:00,33
 GH729,Lecture,Thu,14:00,17:00,25-35
+GH731,Booking_Accepted,Mon,10:00,12:00,33
 GH731,Workshop,Tue,9:30,10:30,"31-33,  39,  42"
 GH731,Lecture,Tue,11:00,13:00,33-34
 GH731,Seminar,Tue,13:00,15:00,25-35
@@ -662,6 +685,8 @@ GH731,Tutorial,Thu,12:00,13:00,25-35
 GH731,Practical,Thu,13:00,14:00,25-35
 GH732,Tutorial,Mon,11:00,12:00,"27,  29,  31,  33"
 GH732,Tutorial,Mon,12:00,13:00,"27,  29,  31,  33"
+GH732,Booking_Accepted,Tue,9:00,11:00,33
+GH732,Booking_Accepted,Tue,11:00,12:00,33
 GH732,Seminar,Tue,14:00,16:00,"25,  33"
 GH732,Tutorial,Tue,16:00,17:00,25-35
 GH732,Tutorial,Wed,9:00,10:00,25-35
@@ -694,6 +719,10 @@ GH737,Tutorial,Fri,10:00,11:00,26-35
 GH737,Tutorial,Fri,11:00,12:00,26-35
 GH737,Tutorial,Fri,12:00,13:00,26-35
 GH737a,Booking_Accepted,Tue,10:00,11:00,33
+GH737a,Booking_Accepted,Tue,11:30,12:30,33
+GH737a,Booking_Accepted,Tue,14:00,16:00,33
+GH737b,Booking_Accepted,Mon,10:00,12:00,33
+GH737b,Booking_Accepted,Tue,10:00,11:00,33
 GH737b,Practical,Tue,11:00,12:00,25-34
 GH737b,Practical,Tue,13:00,14:00,25-35
 GH737b,Lecture,Tue,14:00,15:00,25-35
@@ -740,7 +769,7 @@ GH739,Seminar,Fri,10:00,12:00,"24-26,  33"
 GH740,Cll Ad-Hoc,Mon,12:00,14:00,"10-13,  15-20,  26-35"
 GH740,Cll Ad-Hoc,Mon,14:30,16:30,"10-13,  15-20,  26-35"
 GH740,Cll Ad-Hoc,Wed,9:30,12:00,26-35
-GH740,Cll Ad-Hoc,Wed,14:30,16:30,26-35
+GH740,Cll Ad-Hoc,Wed,14:30,16:30,"26-35,  37-42"
 GH740,Cll Ad-Hoc,Thu,10:00,12:00,"26-28,  30-34"
 GH740,Cll Ad-Hoc,Thu,12:00,14:30,29-35
 GH740,Cll Ad-Hoc,Fri,10:00,12:00,30-33
@@ -757,23 +786,23 @@ GH744,Cll Ad-Hoc,Mon,14:00,16:30,26-35
 GH744,Cll Ad-Hoc,Tue,9:30,12:00,26-35
 GH744,Cll Ad-Hoc,Tue,12:00,14:00,"10-19,  26-35"
 GH744,Cll Ad-Hoc,Tue,14:00,17:00,26-35
-GH744,Cll Ad-Hoc,Wed,9:30,12:00,"10-19,  26-35"
+GH744,Cll Ad-Hoc,Wed,9:30,12:00,"10-19,  26-35,  38-43"
 GH744,Cll Ad-Hoc,Wed,12:00,14:00,"26-36,  38-46"
-GH744,Cll Ad-Hoc,Thu,9:30,12:00,"11-20,  26-35"
-GH744,Cll Ad-Hoc,Thu,12:00,14:00,"11-20,  26-35"
+GH744,Cll Ad-Hoc,Thu,9:30,12:00,"11-20,  26-35,  37-42"
+GH744,Cll Ad-Hoc,Thu,12:00,14:00,"11-20,  26-35,  37-42"
 GH744,Cll Ad-Hoc,Thu,14:00,16:30,26-35
-GH744,Cll Ad-Hoc,Fri,9:30,12:00,"10-19,  26-35"
-GH744,Cll Ad-Hoc,Fri,12:00,14:00,"11,  13,  15,  17,  19,  27,  29,  31,  33,  35"
+GH744,Cll Ad-Hoc,Fri,9:30,12:00,"10-19,  26-35,  38-43"
+GH744,Cll Ad-Hoc,Fri,12:00,14:00,"11,  13,  15,  17,  19,  27,  29,  31,  33,  35,  38-43"
 GH748,Cll Ad-Hoc,Tue,12:30,14:30,"26-28,  30-36"
-GH748,Cll Ad-Hoc,Wed,10:00,12:00,"10-19,  26-35"
+GH748,Cll Ad-Hoc,Wed,10:00,12:00,"10-19,  26-35,  37-42"
 GH748,Cll Ad-Hoc,Wed,12:00,14:30,26-35
 GH748,Cll Ad-Hoc,Wed,14:30,16:30,"10-19,  26-35"
 GH748,Cll Ad-Hoc,Thu,10:00,12:00,26-35
-GH748,Cll Ad-Hoc,Fri,12:00,14:30,"10-19,  26-35"
+GH748,Cll Ad-Hoc,Fri,12:00,14:30,"10-19,  26-35,  38-43"
 GH752,Cll Ad-Hoc,Mon,14:00,16:00,"26-30,  32-36"
 GH752,Cll Ad-Hoc,Tue,9:30,12:00,"10-19,  26-35"
-GH752,Cll Ad-Hoc,Tue,12:00,14:30,"10-19,  26-35"
-GH752,Cll Ad-Hoc,Wed,9:30,12:00,"10-19,  26-35"
+GH752,Cll Ad-Hoc,Tue,12:00,14:30,"10-19,  26-35,  37-42"
+GH752,Cll Ad-Hoc,Wed,9:30,12:00,"10-19,  26-35,  38-43"
 GH752,Cll Ad-Hoc,Wed,12:00,14:30,"10,  14,  18,  25,  29,  33"
 GH752,Cll Ad-Hoc,Thu,10:00,12:00,"26-30,  32-36"
 GH752,Cll Ad-Hoc,Thu,12:00,14:30,27-34
@@ -788,6 +817,7 @@ GH753,Cll Ad-Hoc,Fri,12:30,14:30,"27,  29,  31,  33"
 GH863,Tutorial,Mon,10:00,11:00,26-35
 GH863,Tutorial,Mon,11:00,12:00,25-35
 GH863,Seminar,Mon,12:00,15:00,25-35
+GH863,Booking_Accepted,Tue,9:00,11:00,33
 GH863,Tutorial,Tue,11:00,12:00,28-33
 GH863,Seminar,Tue,13:00,15:00,"24-26,  33"
 GH863,Lecture,Wed,10:00,11:00,25-35
@@ -900,7 +930,7 @@ JA325,Lecture,Tue,11:00,13:00,25-35
 JA325,Lecture,Tue,14:00,15:00,25-34
 JA325,Lecture,Tue,15:00,17:00,"25-29,  31-35"
 JA325,Lecture,Wed,9:00,11:00,"25-30,  32-35"
-JA325,Lecture,Wed,11:00,12:00,"25-27,  30-35"
+JA325,Lecture,Wed,11:00,12:00,"25-27,  30-33,  35"
 JA325,Ad-Hoc,Wed,12:00,13:00,25-35
 JA325,Lecture,Thu,9:00,11:00,25-35
 JA325,Lecture,Thu,11:00,13:00,"25-30,  32-35"
@@ -927,7 +957,7 @@ JA327,Lecture,Tue,10:00,12:00,33
 JA327,Tutorial,Tue,14:00,16:00,"25-30,  33-34"
 JA327,Tutorial,Wed,10:00,11:00,"27,  29,  31,  33"
 JA327,Lecture,Wed,11:00,13:00,25-35
-JA327,Lecture,Thu,11:00,13:00,25-35
+JA327,Lecture,Thu,11:00,13:00,25-33
 JA327,Lecture,Fri,10:30,11:30,33
 JA327,Seminar,Fri,13:00,15:00,26-33
 JA410,Laboratory,Mon,9:00,12:00,25-35
@@ -1030,7 +1060,7 @@ JW310,Seminar,Thu,13:00,15:00,33
 JW311,Practical,Wed,9:30,12:30,25-35
 JW311,Practical,Wed,13:30,15:30,25-35
 JW410,Computer Lab,Mon,9:00,11:00,33
-JW410,Computer Lab,Mon,11:00,13:00,33
+JW410,Computer Lab,Mon,11:00,13:00,33-34
 JW410,Computer Lab,Mon,13:00,15:00,"25-27,  29-35"
 JW410,Computer Lab,Tue,10:00,11:00,25-35
 JW410,Computer Lab,Tue,11:00,13:00,28-35
@@ -1056,7 +1086,6 @@ JW411,Computer Lab,Thu,13:00,15:00,"29,  31,  33"
 JW411,Computer Lab,Thu,15:00,17:00,"29,  31,  33"
 JW411,Computer Lab,Fri,9:00,12:00,33
 JW411,Computer Lab,Fri,13:00,15:00,"28,  32-33"
-JW411,Workshop,Fri,15:00,17:00,33
 JW706b,Lecture,Mon,9:00,11:00,25-35
 JW706b,Lecture,Mon,11:00,13:00,25-35
 JW706b,Practical,Mon,13:00,17:00,25-35
@@ -1073,6 +1102,7 @@ LH211a,Tutorial,Tue,9:00,11:00,24-33
 LH211a,Tutorial,Tue,11:00,13:00,24-33
 LH211a,Booking_Accepted,Tue,13:00,15:00,33
 LH211a,Booking_Accepted,Tue,15:00,17:00,33
+LH211a,Booking_Accepted,Wed,9:30,12:00,33
 LH211a,Lecture,Wed,12:00,14:00,25-35
 LH211a,Booking_Accepted,Wed,14:00,15:00,33
 LH211a,Booking_Accepted,Thu,11:30,13:00,33
@@ -1110,6 +1140,7 @@ LH217,Tutorial,Tue,15:00,17:00,"27-29,  31-33"
 LH217,Booking_Accepted,Wed,9:00,11:00,33
 LH217,Practical,Wed,12:00,13:00,26-35
 LH217,Tutorial,Wed,13:00,15:00,24-33
+LH217,Booking_Accepted,Wed,15:00,17:00,33
 LH217,Tutorial,Thu,9:00,11:00,24-33
 LH217,Tutorial,Thu,11:00,13:00,24-33
 LH217,Seminar,Thu,13:00,14:00,25-35
@@ -1193,7 +1224,6 @@ LH229a,Tutorial,Wed,15:00,17:00,"24-27,  30-35"
 LH229a,Seminar,Thu,9:00,11:00,"25-31,  33"
 LH229a,Practical,Thu,11:00,12:00,25-35
 LH229a,Tutorial,Thu,12:00,13:00,25-34
-LH229a,Workshop,Fri,10:00,12:00,33
 LH229b,Tutorial,Mon,10:00,11:00,"27,  29,  31,  33"
 LH229b,Tutorial,Mon,11:00,12:00,"27,  29,  31,  33"
 LH229b,Tutorial,Mon,13:00,15:00,"27,  29,  31,  33"
@@ -1209,7 +1239,7 @@ LH229b,Lecture,Fri,10:00,12:00,25-35
 LT1105,Computer Lab,Mon,9:00,11:00,25-35
 LT1105,Computer Lab,Mon,11:00,13:00,25-35
 LT1105,Computer Lab,Mon,13:00,15:00,25-35
-LT1105,Computer Lab,Mon,15:00,16:00,25-35
+LT1105,Computer Lab,Mon,15:00,16:00,25-34
 LT1105,Computer Lab,Tue,9:00,11:00,25-35
 LT1105,Computer Lab,Tue,11:00,13:00,25-35
 LT1105,Computer Lab,Tue,13:00,15:00,25-35
@@ -1225,7 +1255,6 @@ LT1105,Computer Lab,Fri,13:00,15:00,30-35
 LT1105,Computer Lab,Fri,15:00,17:00,30-35
 LT1201,Computer Lab,Mon,11:00,12:00,25-35
 LT1201,Computer Lab,Tue,12:00,13:00,25-35
-LT1221,Computer Lab,Tue,11:00,13:00,25-34
 LT1221,Computer Lab,Wed,15:00,17:00,25-35
 LT1301,Computer Lab,Tue,11:00,13:00,25-35
 LT1301,Computer Lab,Wed,14:00,15:00,30-35
@@ -1311,6 +1340,7 @@ LT210,Seminar,Tue,15:00,16:00,25-35
 LT210,Seminar,Tue,16:00,17:00,25-35
 LT210,Tutorial,Wed,10:00,11:00,"25,  27,  29,  31,  33,  35"
 LT210,Tutorial,Wed,11:00,12:00,"27,  29,  31,  33"
+LT210,Booking_Accepted,Wed,16:00,17:00,33
 LT210,Tutorial,Thu,9:00,10:00,25-35
 LT210,Lecture,Thu,11:00,13:00,30-35
 LT210,Seminar,Thu,13:00,15:00,32-33
@@ -1332,6 +1362,7 @@ LT211,Roll Forward,Thu,17:00,21:00,"10-18,  25-35"
 LT211,Roll Forward,Fri,17:00,21:00,"10-18,  25-35"
 LT211,Booking_Accepted,Tue,10:00,11:00,33
 LT211,Booking_Accepted,Tue,11:00,13:00,33
+LT211,Booking_Accepted,Tue,13:00,14:00,33
 LT211,Booking_Accepted,Tue,14:00,15:00,33
 LT211,Project,Tue,15:00,17:00,28-35
 LT211,Roll Forward,Mon,17:00,21:00,"10-18,  25-35"
@@ -1346,7 +1377,7 @@ LT211,Roll Forward,Tue,17:00,21:00,"10-18,  25-35"
 LT211,Roll Forward,Wed,17:00,21:00,"10-18,  25-35"
 LT211,Roll Forward,Thu,17:00,21:00,"10-18,  25-35"
 LT211,Roll Forward,Fri,17:00,21:00,"10-18,  25-35"
-LT211,Booking_Accepted,Thu,9:00,12:00,33
+LT211,Booking_Accepted,Thu,10:00,12:00,33
 LT211,Roll Forward,Mon,17:00,21:00,"10-18,  25-35"
 LT211,Roll Forward,Tue,17:00,21:00,"10-18,  25-35"
 LT211,Roll Forward,Wed,17:00,21:00,"10-18,  25-35"
@@ -1368,6 +1399,7 @@ LT212,Roll Forward,Fri,17:00,21:00,"10-18,  25-35"
 LT212,Tutorial,Tue,10:00,11:00,"27,  29,  31,  33"
 LT212,Tutorial,Tue,11:00,12:00,"27,  29,  31,  33"
 LT212,Tutorial,Tue,12:00,13:00,"27,  29,  31,  33"
+LT212,Booking_Accepted,Tue,13:00,14:00,33
 LT212,Roll Forward,Mon,17:00,21:00,"10-18,  25-35"
 LT212,Roll Forward,Tue,17:00,21:00,"10-18,  25-35"
 LT212,Roll Forward,Wed,17:00,21:00,"10-18,  25-35"
@@ -1466,6 +1498,7 @@ LT311,Booking_Accepted,Thu,10:00,11:00,33
 LT313,Practical,Mon,11:00,13:00,25-35
 LT313,Practical,Mon,14:00,15:00,"25,  27,  29,  31,  33,  35"
 LT313,Booking_Accepted,Tue,11:00,14:00,33
+LT313,Booking_Accepted,Thu,12:00,16:00,33
 LT401,Lecture,Mon,9:00,11:00,25-35
 LT401,Tutorial,Mon,11:00,12:00,26-35
 LT401,Tutorial,Mon,12:00,13:00,26-35
@@ -1480,7 +1513,7 @@ LT401,Tutorial,Tue,13:00,14:00,26-35
 LT401,Tutorial,Tue,14:00,15:00,26-35
 LT401,Tutorial,Tue,15:00,16:00,26-35
 LT401,Lecture,Wed,9:00,12:00,"25-33,  35"
-LT401,Tutorial,Thu,9:00,10:00,25-35
+LT401,Tutorial,Thu,9:00,10:00,25-34
 LT401,Tutorial,Thu,10:00,11:00,25-35
 LT401,Seminar,Thu,13:00,15:00,26-34
 LT401,Tutorial,Thu,16:00,17:00,"27-29,  32-33"
@@ -1498,6 +1531,7 @@ LT403,Seminar,Tue,9:00,10:00,25-35
 LT403,Booking_Accepted,Wed,10:30,14:00,33
 LT403,Seminar,Thu,9:00,10:00,25-35
 LT403,Booking_Accepted,Thu,10:30,14:00,33
+LT403,Booking_Accepted,Fri,13:00,15:00,33
 LT404,Practical,Mon,11:00,13:00,25-35
 LT404,Ad-Hoc,Tue,17:00,19:00,28-35
 LT404,Booking_Accepted,Wed,10:30,14:00,33
@@ -1560,13 +1594,19 @@ LT413,Workshop,Tue,10:00,12:00,"27,  29,  31-34"
 LT413,Practical,Tue,13:00,14:00,25-35
 LT413,Booking_Cancelled,Tue,14:00,16:00,33
 LT413,Ad-Hoc,Tue,17:00,19:00,28-35
+LT413,Booking_Accepted,Wed,9:00,14:30,33
+LT415,Booking_Accepted,Tue,13:00,17:00,33
 LT415,Ad-Hoc,Tue,17:00,19:00,28-35
 LT415,Booking_Accepted,Wed,10:00,11:00,33
+LT415,Booking_Accepted,Fri,10:00,13:00,33
+LT415,Booking_Accepted,Fri,14:00,17:00,33
+LT416,Booking_Accepted,Tue,10:00,11:00,33
 LT416,Ad-Hoc,Tue,17:00,19:00,28-35
 LT416,Practical,Wed,10:00,13:00,33-34
 LT417,Ad-Hoc,Tue,17:00,19:00,28-35
 LT417,Practical,Wed,10:00,13:00,33-34
 LT418,Practical,Wed,10:00,13:00,33-34
+LT418,Booking_Accepted,Wed,15:00,16:00,33
 LT419,Practical,Mon,11:00,13:00,25-35
 LT419,Workshop,Mon,13:00,15:00,"29,  33"
 LT419,Seminar,Mon,15:00,16:00,25-35
@@ -1630,6 +1670,7 @@ LT505,Workshop,Thu,14:00,17:00,"24,  26,  28-30,  32-33,  38-39,  43,  46"
 LT507,Workshop,Tue,10:00,13:00,"24-25,  27,  29-35,  38-42"
 LT507,Workshop,Tue,14:00,17:00,"24,  27,  29-35,  38-42"
 LT507,Practical,Wed,10:00,13:00,33-34
+LT507,Booking_Accepted,Wed,13:00,14:00,33
 LT507,Practical,Wed,14:00,17:00,33-34
 LT507,Workshop,Thu,14:00,17:00,"24,  26,  28-30,  32-33,  38-39,  43,  46"
 LT508,Lecture,Mon,10:00,11:00,25-35
@@ -1675,10 +1716,11 @@ LT514,Practical,Wed,14:00,17:00,33-34
 LT514,Workshop,Thu,10:00,13:00,"24,  27-35,  38-47"
 LT515,Workshop,Tue,10:00,13:00,"24-25,  27,  29-35,  38-42"
 LT515,Practical,Wed,10:00,13:00,33-34
-LT515,Booking_Accepted,Wed,14:30,16:00,33
+LT515,Booking_Accepted,Wed,14:30,15:30,33
 LT515,Workshop,Thu,10:00,13:00,"24,  27-35,  38-47"
 LT516,Seminar,Tue,9:00,11:00,25-35
 LT516,Booking_Accepted,Tue,12:00,13:00,28-35
+LT516,Booking_Accepted,Tue,13:00,14:00,33
 LT516,Practical,Wed,10:00,13:00,33-34
 LT516,Workshop,Thu,10:00,13:00,"24,  27-35,  38-47"
 LT517,Booking_Accepted,Mon,9:00,14:00,33
@@ -1701,6 +1743,7 @@ LT621,Practical,Wed,10:00,13:00,33-34
 LT711,Workshop,Mon,10:00,12:00,"26,  28,  32-33"
 LT711,Tutorial,Tue,11:00,12:00,25-35
 LT711,Tutorial,Tue,12:00,13:00,"27-28,  30-33"
+LT711,Lecture,Tue,13:00,15:00,33
 LT711,Tutorial,Tue,16:00,17:00,25-35
 LT711,Tutorial,Wed,10:00,11:00,25-35
 LT711,Seminar,Wed,11:00,13:00,25-35
@@ -1760,6 +1803,7 @@ LT718,Seminar,Tue,12:00,13:00,27-35
 LT718,Seminar,Tue,13:00,16:00,25-35
 LT718,Seminar,Wed,10:00,11:00,27-35
 LT718,Seminar,Wed,11:00,13:00,25-35
+LT718,Booking_Accepted,Thu,11:00,12:00,33
 LT718,Tutorial,Thu,14:00,15:00,26-33
 LT718,Tutorial,Thu,15:00,16:00,26-33
 LT718,Lecture,Fri,10:00,11:00,25-35
@@ -1782,7 +1826,6 @@ LT719,Tutorial,Thu,11:00,13:00,"27,  29,  31,  33"
 LT719,Seminar,Thu,13:00,15:00,27-34
 LT719,Tutorial,Thu,15:00,16:00,25-35
 LT719,Practical,Thu,16:00,17:00,26-35
-LT901,Workshop,Mon,14:00,17:00,33
 LT901,Computer Lab,Tue,10:00,11:00,25-34
 LT901,Classtest,Wed,12:00,13:00,33
 LT901,Computer Lab,Wed,16:00,17:00,30-35
@@ -1797,10 +1840,12 @@ LT908,Tutorial,Wed,10:00,11:00,"25-29,  31-34"
 LT908,Tutorial,Thu,10:00,11:00,26-35
 LT908,Tutorial,Thu,11:00,12:00,"25-29,  31-34"
 LT908,Tutorial,Fri,12:00,13:00,25-34
-MC301,Lecture,Mon,11:00,12:00,"25-27,  30-35"
+MC301,Lecture,Mon,11:00,12:00,"25-27,  30-33,  35"
+MC301,Lecture,Mon,12:00,13:00,25-33
 MC301,Lecture,Mon,13:00,14:00,25-35
 MC301,Lecture,Mon,14:00,15:00,"25-28,  30-34"
 MC301,Lecture,Mon,15:00,17:00,25-35
+MC301,Lecture,Tue,9:00,10:00,33
 MC301,Lecture,Tue,10:00,11:00,"32-33,  35"
 MC301,Lecture,Tue,11:00,12:00,32-33
 MC301,Lecture,Tue,12:00,13:00,"32-33,  35"
@@ -1808,6 +1853,7 @@ MC301,Lecture,Tue,15:00,16:00,25-35
 MC301,Tutorial,Tue,16:00,17:00,"25-27,  29-35"
 MC301,Lecture,Wed,10:00,11:00,31-35
 MC301,Lecture,Wed,12:00,14:00,25-35
+MC301,Ad-Hoc,Wed,14:00,16:00,33
 MC301,Lecture,Thu,9:00,10:00,30-34
 MC301,Lecture,Thu,10:00,11:00,25-35
 MC301,Lecture,Thu,11:00,12:00,"25-29,  31-35"
@@ -1822,7 +1868,6 @@ MC303,Lecture,Mon,13:00,15:00,25-34
 MC303,Lecture,Mon,15:00,17:00,25-35
 MC303,Tutorial,Tue,13:00,14:30,25-35
 MC303,Tutorial,Tue,14:30,16:00,25-35
-MC303,Lecture,Wed,9:00,12:00,33
 MC303,Lecture,Thu,9:00,11:00,25-35
 MC303,Lecture,Thu,13:00,15:00,"25-28,  30-35"
 MC303,Lecture,Fri,11:00,13:00,33
@@ -1916,6 +1961,7 @@ RC426,Workshop,Mon,13:00,14:00,"25-27,  30-35"
 RC426,Lecture,Mon,14:00,15:00,25-35
 RC426,Lecture,Mon,15:00,16:00,25-35
 RC426,Lecture,Tue,9:00,10:00,"26,  28,  31,  33,  35"
+RC426,Booking_Accepted,Tue,10:00,11:00,33
 RC426,Lecture,Tue,11:00,12:00,33
 RC426,Workshop,Tue,13:00,15:00,33
 RC426,Lecture,Tue,15:00,16:00,32-34
@@ -1968,6 +2014,7 @@ RC440,Tutorial,Thu,11:00,12:00,25-35
 RC440,Lecture,Thu,14:00,15:00,25-35
 RC440,Lecture,Thu,15:00,16:00,25-35
 RC440,Tutorial,Fri,9:00,12:30,24-35
+RC440,Booking_Accepted,Fri,16:00,17:00,33
 RC443,Laboratory,Tue,9:00,12:00,"24-26,  33"
 RC443,Laboratory,Tue,13:00,16:00,"24-26,  33"
 RC443,Laboratory,Fri,9:00,12:00,"24-26,  33"
@@ -2066,6 +2113,7 @@ RC503,Workshop,Wed,9:00,11:00,31-35
 RC503,Seminar,Wed,11:00,12:00,25-35
 RC503,Tutorial,Wed,12:00,13:00,25-35
 RC503,Lecture,Wed,15:00,17:00,30-33
+RC503,Booking_Accepted,Thu,10:00,10:30,33
 RC503,Workshop,Thu,11:00,13:00,"25-28,  31-35"
 RC503,Lecture,Thu,13:00,15:00,"25,  27-29,  31,  33-35"
 RC503,Tutorial,Fri,9:00,10:00,25-34
@@ -2126,6 +2174,7 @@ RC537,Laboratory,Thu,14:00,17:00,"26,  30,  33"
 RC537,Laboratory,Thu,14:00,17:00,"27,  30,  33"
 RC538,Lecture,Mon,10:00,12:00,25-35
 RC538,Lecture,Mon,13:00,14:00,25-35
+RC538,Workshop,Mon,14:00,17:00,33
 RC538,Tutorial,Tue,9:00,10:00,"29,  31,  33,  35"
 RC538,Tutorial,Tue,10:00,11:00,"29,  31,  33,  35"
 RC538,Tutorial,Tue,11:00,12:00,"29,  31,  33,  35"
@@ -2147,6 +2196,7 @@ RC540,Tutorial,Tue,13:00,14:00,25-35
 RC540,Tutorial,Tue,16:00,17:00,27-35
 RC540,Booking_Accepted,Wed,9:00,11:00,33
 RC540,Tutorial,Wed,11:00,12:00,33
+RC540,Presentation,Wed,14:00,16:00,33
 RC540,Laboratory,Thu,9:00,12:00,"33,  35"
 RC540,Tutorial,Thu,12:00,13:00,25-35
 RC540,Lecture,Thu,13:00,14:00,25-35
@@ -2154,6 +2204,7 @@ RC540,Lecture,Thu,14:00,15:00,25-35
 RC540,Tutorial,Thu,15:00,16:00,"25-31,  33-35"
 RC540,Workshop,Fri,9:00,11:00,31-34
 RC540,Workshop,Fri,11:00,13:00,31-34
+RC540,Booking_Accepted,Fri,13:00,14:00,33
 RC540,Lecture,Fri,14:00,15:00,31-35
 RC546,Lecture,Mon,10:00,11:00,"25-30,  32-35"
 RC546,Lecture,Mon,11:00,12:00,33
@@ -2167,6 +2218,7 @@ RC546,Tutorial,Wed,9:00,11:00,26-34
 RC546,Tutorial,Wed,11:00,13:00,26-34
 RC546,Booking_Accepted,Wed,14:00,15:00,25-35
 RC546,Lecture,Thu,10:00,12:00,25-35
+RC546,Booking_Accepted,Thu,15:30,16:30,33
 RC546,Lecture,Fri,9:00,11:00,25-35
 RC546,Lecture,Fri,11:00,13:00,25-35
 RC546,Lecture,Fri,13:00,14:00,"25-30,  32-35"
@@ -2207,7 +2259,6 @@ RC641,Lecture,Mon,11:00,12:00,25-35
 RC641,Lecture,Mon,12:00,15:00,33
 RC641,Lecture,Mon,15:00,16:00,25-35
 RC641,Lecture,Tue,9:00,10:00,31-35
-RC641,Lecture,Tue,10:00,11:00,25-35
 RC641,Lecture,Tue,11:00,13:00,30-35
 RC641,Lecture,Tue,13:00,14:00,25-35
 RC641,Booking_Accepted,Tue,14:00,15:00,33
@@ -2327,6 +2378,8 @@ SW105,Booking_Accepted,Tue,16:00,18:00,33
 SW105,Booking_Accepted,Wed,13:00,14:00,33
 SW105,Booking_Accepted,Wed,14:00,17:00,33
 SW105,Lecture,Thu,10:00,13:00,25-35
+SW105,Booking_Accepted,Thu,14:00,16:00,33
+SW105,Booking_Accepted,Thu,16:00,17:00,33
 SW105,Lecture,Fri,9:00,11:00,25-34
 SW105,Lecture,Fri,15:00,17:00,"25-26,  28-35"
 SW106,Lecture,Mon,10:00,11:00,25-35
@@ -2354,6 +2407,7 @@ SW107,Workshop,Wed,9:00,12:00,"33,  35"
 SW107,Booking_Accepted,Wed,12:00,17:00,33
 SW107,Lecture,Thu,11:00,13:00,"27-31,  33-34"
 SW107,Booking_Accepted,Thu,13:00,15:00,33
+SW107,Booking_Accepted,Fri,9:00,13:00,33
 SW107,Seminar,Fri,13:00,14:00,"26-28,  30-34"
 SW107,Tutorial,Fri,15:00,16:00,25-35
 SW108,Lecture,Mon,10:00,16:00,33
@@ -2381,6 +2435,7 @@ SW109,Booking_Accepted,Thu,10:00,12:00,33
 SW109,Seminar,Thu,13:00,15:00,33
 SW109,Seminar,Thu,15:00,16:00,25-35
 SW109,Lecture,Fri,13:00,15:00,25-35
+SW203,Sbs Ad-Hoc,Tue,13:00,14:30,33
 SW203,Lecture,Wed,10:00,16:00,33
 SW203,Lecture,Thu,10:00,12:00,25-35
 SW204,Lecture,Mon,9:00,13:00,33-34
@@ -2408,7 +2463,6 @@ SW204,Lecture,Tue,9:00,13:00,33-34
 SW204,Lecture,Wed,9:00,13:00,33-34
 SW204,Lecture,Thu,9:00,13:00,33-34
 SW204,Lecture,Fri,9:00,13:00,33-34
-SW205,Sbs Ad-Hoc,Tue,13:00,14:30,33
 SW205,Classtest,Thu,13:30,15:00,33
 SW601a,Drop In,Mon,14:00,15:00,33
 SW601a,Computer Lab,Tue,9:00,11:00,25-35
@@ -2432,7 +2486,6 @@ SW601b,Tutorial,Mon,13:00,15:00,25-35
 SW601b,Computer Lab,Tue,10:00,12:00,"26,  28,  30,  32-34"
 SW601b,Classtest,Tue,13:00,14:30,33
 SW601b,Computer Lab,Tue,15:00,17:00,30-35
-SW601b,Workshop,Wed,10:00,13:00,33
 SW601b,Laboratory,Thu,12:00,14:00,25-35
 SW601b,Computer Lab,Thu,15:00,17:00,"28-29,  31,  33"
 SW601b,Workshop,Fri,9:00,12:00,33
@@ -2501,7 +2554,7 @@ TG310,Tutorial,Fri,14:00,15:00,25-35
 TG312,Lecture,Mon,9:00,11:00,25-34
 TG312,Lecture,Mon,12:00,13:00,30-34
 TG312,Lecture,Mon,13:00,14:00,25-35
-TG312,Lecture,Mon,15:00,17:00,25-35
+TG312,Lecture,Mon,15:00,17:00,"25-33,  35"
 TG312,Lecture,Tue,9:00,11:00,25-35
 TG312,Lecture,Tue,11:00,12:00,25-35
 TG312,Lecture,Tue,12:00,13:00,31-35
@@ -2509,6 +2562,7 @@ TG312,Tutorial,Tue,13:00,14:00,25-35
 TG312,Lecture,Tue,14:00,15:00,25-35
 TG312,Lecture,Tue,15:00,17:00,25-35
 TG312,Lecture,Wed,9:00,10:00,25-35
+TG312,Workshop,Wed,10:00,13:00,33
 TG312,Booking_Accepted,Wed,13:30,15:30,33
 TG312,Lecture,Thu,9:00,10:00,25-35
 TG312,Lecture,Thu,11:00,13:00,"25-29,  31-35"
@@ -2558,6 +2612,7 @@ TL328,Lecture,Tue,14:00,15:00,25-35
 TL328,Lecture,Tue,15:00,17:00,25-35
 TL328,Booking_Accepted,Tue,17:00,22:00,33
 TL328,Lecture,Wed,9:00,11:00,"25-29,  31-35"
+TL328,Booking_Accepted,Wed,11:00,13:00,33
 TL328,Roll Forward,Wed,13:00,17:00,33
 TL328,Roll Forward,Wed,17:00,22:00,"9,  13,  25,  29,  33"
 TL328,Roll Forward,Thu,8:00,9:00,"9,  13,  25,  29,  33"
@@ -2570,6 +2625,7 @@ TL329,Booking_Accepted,Mon,9:00,10:00,33
 TL329,Tutorial,Mon,10:00,11:00,25-35
 TL329,Lecture,Mon,11:00,12:00,25-35
 TL329,Lecture,Mon,12:00,13:00,25-35
+TL329,Workshop,Mon,13:00,15:00,33
 TL329,Seminar,Mon,16:00,18:00,"25-28,  30-31,  33-34"
 TL329,Seminar,Mon,18:00,20:00,"26-29,  33-35"
 TL329,Tutorial,Tue,10:00,12:00,"25,  27-35"
@@ -2604,10 +2660,10 @@ TL423,Lecture,Wed,9:00,11:00,"25-27,  29-33,  35"
 TL423,Lecture,Wed,11:00,13:00,25-35
 TL423,Roll Forward,Wed,14:00,16:00,33-34
 TL423,Booking_Accepted,Thu,9:00,11:00,33
-TL423,Lecture,Thu,11:00,12:00,33
 TL423,Lecture,Thu,12:00,13:00,"25-29,  31-35"
 TL423,Booking_Accepted,Thu,14:00,15:00,33
 TL423,Roll Forward,Thu,18:30,21:30,"9-19,  24-33,  36-38"
+TL423,Booking_Accepted,Fri,9:00,9:30,33
 TL423,Lecture,Fri,11:00,13:00,30-34
 TL423,Lecture,Fri,13:00,15:00,25-35
 TL423,Lecture,Fri,15:00,17:00,25-35
@@ -2636,7 +2692,9 @@ TL551b,Tutorial,Mon,10:00,11:00,"27,  29,  31,  33"
 TL551b,Tutorial,Mon,11:00,12:00,"27,  29,  31,  33"
 TL551b,Booking_Accepted,Mon,14:00,15:00,33
 TL551b,Booking_Accepted,Mon,15:00,16:00,33
+TL551b,Booking_Accepted,Mon,16:00,17:00,33
 TL551b,Seminar,Tue,10:00,13:00,"25-28,  30-33"
+TL551b,Booking_Accepted,Tue,13:00,14:00,33
 TL551b,Lecture,Tue,14:00,16:00,25-35
 TL551b,Tutorial,Tue,17:30,19:30,32-33
 TL551b,Booking_Accepted,Wed,10:00,11:00,33
@@ -2644,8 +2702,8 @@ TL551b,Booking_Accepted,Wed,11:00,12:00,33
 TL551b,Booking_Accepted,Wed,13:00,14:00,33
 TL551b,Booking_Accepted,Wed,14:00,17:00,30-34
 TL551b,Seminar,Thu,10:00,12:00,25-35
-TL551b,Booking_Accepted,Thu,12:00,13:00,26-34
 TL551b,Booking_Accepted,Thu,14:00,15:00,27-34
+TL551b,Booking_Accepted,Thu,15:00,16:00,33
 TL551b,Booking_Accepted,Thu,17:30,18:30,33
 TL551b,Tutorial,Fri,11:00,12:00,25-35
 TL551b,Ad-Hoc,Fri,18:00,22:00,27-36
@@ -2659,6 +2717,7 @@ TL553,Tutorial,Wed,10:00,14:00,25-35
 TL553,Tutorial,Wed,14:00,17:00,25-35
 TL553,Tutorial,Wed,18:00,20:00,24-33
 TL553,Booking_Accepted,Thu,10:00,11:00,33
+TL553,Booking_Accepted,Thu,11:00,12:00,33
 TL553,Lecture,Thu,13:00,15:00,25-35
 TL553,Booking_Accepted,Thu,16:30,18:30,31-35
 TL553,Booking_Accepted,Fri,10:00,11:00,33
@@ -2676,7 +2735,10 @@ TL556,Booking_Accepted,Thu,9:00,10:00,"26-41,  45-47"
 TL556,Tutorial,Thu,10:00,12:00,25-35
 TL556,Tutorial,Thu,13:00,14:00,"27,  29,  31,  33"
 TL556,Seminar,Thu,14:00,16:00,25-35
+TL556,Booking_Accepted,Fri,9:00,10:00,33
+TL556,Booking_Accepted,Fri,11:00,12:00,33
 TL556,Booking_Accepted,Fri,12:00,13:00,33
+TL556,Booking_Accepted,Fri,14:00,16:00,33
 TL556,Ad-Hoc,Fri,18:00,22:00,27-36
 TL557,Tutorial,Mon,12:00,13:00,"29,  31,  33,  35"
 TL557,Tutorial,Mon,13:00,14:00,"29,  31,  33,  35"
@@ -2695,6 +2757,7 @@ TL557,Tutorial,Thu,11:00,12:00,25-35
 TL557,Seminar,Thu,12:00,13:00,26-35
 TL557,Seminar,Thu,13:00,15:00,33
 TL557,Booking_Accepted,Thu,15:00,16:00,33
+TL557,Booking_Accepted,Thu,16:00,17:00,33
 TL557,Tutorial,Fri,12:00,14:00,25-34
 TL557,Ad-Hoc,Fri,18:00,22:00,27-36
 TL560,Booking_Accepted,Mon,10:00,11:00,33
@@ -2726,9 +2789,9 @@ TL563,Tutorial,Wed,10:00,14:00,25-35
 TL563,Tutorial,Wed,14:00,17:00,25-35
 TL563,Tutorial,Thu,9:00,10:00,"27,  29,  31,  33"
 TL563,Booking_Accepted,Thu,11:00,13:00,33
-TL563,Booking_Accepted,Thu,14:00,15:00,33
+TL563,Booking_Accepted,Thu,14:00,17:00,33
 TL563,Tutorial,Thu,18:00,20:00,24-33
-TL563,Booking_Accepted,Fri,10:00,13:00,33
+TL563,Booking_Accepted,Fri,9:00,13:00,33
 TL563,Ad-Hoc,Fri,18:00,22:00,27-36
 TL565,Lecture,Mon,10:00,11:00,25-35
 TL565,Lecture,Mon,11:00,12:00,25-35
@@ -2752,7 +2815,6 @@ TL565,Lecture,Fri,11:00,12:00,25-33
 TL565,Seminar,Fri,13:00,15:00,"24-26,  33"
 TL565,Ad-Hoc,Fri,17:00,20:00,"1-18,  23-36,  45-49,  51"
 TL651,Lecture,Mon,10:00,12:00,"25-27,  29-35"
-TL651,Workshop,Mon,13:00,15:00,33
 TL651,Lecture,Tue,9:00,10:00,25-35
 TL651,Booking_Accepted,Tue,10:00,11:00,33
 TL651,Tutorial,Tue,11:00,12:00,26-35
@@ -2779,6 +2841,7 @@ TL652,Tutorial,Tue,12:00,13:00,25-35
 TL652,Seminar,Tue,14:00,16:00,33-34
 TL652,Tutorial,Wed,10:00,11:00,"27,  29,  31,  33"
 TL652,Booking_Accepted,Wed,11:00,12:00,33
+TL652,Booking_Accepted,Wed,13:30,15:00,33
 TL652,Booking_Accepted,Wed,15:00,16:00,33
 TL652,Lecture,Thu,10:00,12:00,"25-26,  29-35"
 TL652,Lecture,Thu,12:00,13:00,31-33
@@ -2798,6 +2861,7 @@ TL655,Tutorial,Wed,10:00,13:00,25-35
 TL655,Tutorial,Wed,13:00,17:00,25-35
 TL655,Booking_Accepted,Thu,10:00,11:00,27-34
 TL655,Tutorial,Thu,11:00,12:00,25-35
+TL655,Booking_Accepted,Thu,12:00,13:00,33
 TL655,Tutorial,Thu,14:00,15:00,"27,  29,  31,  33"
 TL655,Seminar,Fri,10:00,11:00,28-35
 TL655,Seminar,Fri,11:00,12:00,28-35
@@ -2815,8 +2879,6 @@ TL657,Tutorial,Wed,10:00,14:00,25-35
 TL657,Tutorial,Wed,14:00,17:00,25-35
 TL657,Tutorial,Thu,10:00,11:00,25-35
 TL657,Lecture,Thu,11:00,12:00,26-35
-TL657,Booking_Accepted,Thu,13:30,14:00,33
-TL657,Booking_Accepted,Thu,14:00,16:30,33
 TL657,Booking_Accepted,Fri,14:00,16:30,33
 TL657,Booking_Accepted,Fri,17:00,22:00,29-36
 TL660,Seminar,Mon,10:00,12:00,"27-28,  33-35"
@@ -2832,6 +2894,7 @@ TL660,Booking_Accepted,Tue,14:00,17:00,33
 TL660,Tutorial,Tue,18:00,20:00,"27-29,  31-33"
 TL660,Tutorial,Wed,10:00,14:00,25-35
 TL660,Tutorial,Wed,14:00,17:00,25-35
+TL660,Booking_Accepted,Wed,19:30,21:30,33
 TL660,Lecture,Thu,10:00,12:00,25-35
 TL660,Seminar,Thu,12:00,14:00,25-35
 TL660,Booking_Accepted,Thu,14:00,17:00,33
@@ -2853,16 +2916,18 @@ TL662,Booking_Accepted,Wed,11:00,12:00,33
 TL662,Tutorial,Wed,12:00,13:00,25-35
 TL662,Booking_Accepted,Wed,14:00,15:00,33
 TL662,Lecture,Wed,15:00,17:00,31-34
+TL662,Booking_Accepted,Wed,19:30,21:30,33
 TL662,Tutorial,Thu,10:00,11:00,25-35
 TL662,Tutorial,Thu,11:00,12:00,"25-29,  31-34"
 TL662,Lecture,Thu,12:00,13:00,25-35
 TL662,Booking_Accepted,Thu,13:30,14:00,33
+TL662,Booking_Accepted,Thu,18:00,21:00,33
 TL662,Lecture,Fri,10:00,12:00,25-35
 TL662,Tutorial,Fri,12:00,13:00,25-34
 TL662,Lecture,Fri,13:00,16:00,25-34
 WC106,Lecture,Mon,14:00,16:00,"27,  33"
-WC106,Lecture,Thu,9:00,17:00,33
 WC202,Ad-Hoc,Tue,10:00,11:00,33
 WC202,Lecture,Thu,9:00,12:00,33
+WC202,Lecture,Fri,11:00,15:00,33
 WC301,Laboratory,Tue,10:00,13:00,26-33
 WC301,Laboratory,Fri,14:00,16:00,"8,  10,  12,  14,  16,  18,  25,  27,  29,  31,  33"
