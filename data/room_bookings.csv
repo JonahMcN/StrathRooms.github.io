@@ -477,6 +477,7 @@ GH626,Seminar,Tue,18:00,21:00,"31,  33,  35"
 GH626,Lecture,Wed,10:00,12:00,25-35
 GH626,Seminar,Thu,10:00,11:00,33
 GH626,Seminar,Thu,13:00,15:00,33
+GH626,Booking_Accepted,Fri,10:00,12:00,33
 GH630,Tutorial,Mon,11:00,12:00,25-35
 GH630,Booking_Accepted,Mon,12:00,13:00,33
 GH630,Booking_Accepted,Mon,16:00,17:00,33
@@ -538,6 +539,7 @@ GH641,Booking_Accepted,Tue,10:00,17:00,33
 GH641,Booking_Accepted,Wed,9:00,12:00,33
 GH641,Booking_Accepted,Thu,10:00,13:00,33
 GH641,Booking_Accepted,Fri,11:00,12:00,33
+GH641,Booking_Accepted,Fri,13:00,14:00,33
 GH643,Tutorial,Mon,12:00,13:00,"27-28,  30-33"
 GH643,Tutorial,Mon,13:00,14:00,"27-28,  30,  33-34"
 GH643,Lecture,Mon,14:00,15:00,25-35
@@ -1603,6 +1605,7 @@ LT415,Booking_Accepted,Fri,14:00,17:00,33
 LT416,Booking_Accepted,Tue,10:00,11:00,33
 LT416,Ad-Hoc,Tue,17:00,19:00,28-35
 LT416,Practical,Wed,10:00,13:00,33-34
+LT416,Booking_Accepted,Fri,13:00,17:00,33
 LT417,Ad-Hoc,Tue,17:00,19:00,28-35
 LT417,Practical,Wed,10:00,13:00,33-34
 LT418,Practical,Wed,10:00,13:00,33-34
@@ -2186,6 +2189,7 @@ RC538,Booking_Accepted,Thu,11:00,12:00,33
 RC538,Seminar,Thu,13:00,15:00,33
 RC538,Seminar,Thu,15:00,16:00,25-35
 RC538,Lecture,Fri,10:00,12:00,33
+RC538,Booking_Accepted,Fri,14:00,15:00,33
 RC540,Lecture,Mon,10:00,11:00,25-35
 RC540,Workshop,Mon,11:00,13:00,33
 RC540,Seminar,Mon,14:00,16:00,33-34
@@ -2381,6 +2385,7 @@ SW105,Lecture,Thu,10:00,13:00,25-35
 SW105,Booking_Accepted,Thu,14:00,16:00,33
 SW105,Booking_Accepted,Thu,16:00,17:00,33
 SW105,Lecture,Fri,9:00,11:00,25-34
+SW105,Lecture,Fri,11:00,13:00,"30-31,  33"
 SW105,Lecture,Fri,15:00,17:00,"25-26,  28-35"
 SW106,Lecture,Mon,10:00,11:00,25-35
 SW106,Tutorial,Mon,11:00,12:00,26-35
@@ -2593,7 +2598,7 @@ TL324,Seminar,Tue,9:00,12:00,"24-26,  33"
 TL324,Seminar,Tue,13:00,16:00,"24-26,  33"
 TL324,Seminar,Wed,10:00,13:00,27-34
 TL324,Booking_Accepted,Wed,13:00,17:00,33
-TL324,Seminar,Wed,18:00,20:00,"25-31,  33-35"
+TL324,Seminar,Wed,18:00,20:00,"25-31,  33"
 TL324,Seminar,Thu,10:00,11:00,33
 TL324,Seminar,Thu,13:00,15:00,33
 TL324,Booking_Accepted,Thu,17:00,20:00,33
