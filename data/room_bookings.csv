@@ -506,14 +506,13 @@ GH640,Workshop,Thu,10:00,11:00,"26-30,  32-35"
 GH640,Tutorial,Thu,12:00,13:00,26-35
 GH640,Lecture,Thu,13:00,15:00,25-35
 GH640,Workshop,Fri,10:00,11:00,"26-30,  32-35"
-GH640,Tutorial,Fri,11:00,12:00,"26,  28-34"
-GH640,Tutorial,Fri,12:00,13:00,"26,  28-34"
 GH640,Tutorial,Fri,13:30,17:00,"24-35,  38-49"
 GH641,Booking_Accepted,Tue,11:00,12:00,34
 GH641,Booking_Accepted,Tue,15:00,16:00,34
 GH641,Booking_Accepted,Wed,10:30,14:00,34
 GH641,Booking_Accepted,Thu,10:00,17:00,34
 GH641,Booking_Accepted,Fri,10:00,11:30,34
+GH641,Booking_Accepted,Fri,13:00,14:00,34
 GH643,Seminar,Mon,10:00,12:00,"31-32,  34-35"
 GH643,Tutorial,Mon,13:00,14:00,"27-28,  30,  33-34"
 GH643,Lecture,Mon,14:00,15:00,25-35
@@ -911,8 +910,8 @@ JA327,Tutorial,Tue,12:00,13:00,"28,  30,  32,  34"
 JA327,Tutorial,Tue,14:00,16:00,"25-30,  33-34"
 JA327,Lecture,Wed,11:00,13:00,25-35
 JA327,Lecture,Thu,10:00,14:00,34
-JA410,Laboratory,Mon,9:00,12:00,25-35
-JA410,Laboratory,Mon,14:00,17:00,25-35
+JA410,Laboratory,Mon,9:00,12:00,25-34
+JA410,Laboratory,Mon,14:00,17:00,25-34
 JA410,Laboratory,Tue,13:00,17:00,25-35
 JA410,Laboratory,Wed,9:00,13:00,25-35
 JA410,Laboratory,Thu,13:00,17:00,25-35
@@ -1099,6 +1098,7 @@ LH218,Booking_Accepted,Thu,13:00,15:00,34
 LH218,Classtest,Thu,15:00,18:00,33-34
 LH218,Seminar,Fri,13:00,14:00,26-34
 LH218,Seminar,Fri,14:00,15:00,26-34
+LH218,Booking_Accepted,Fri,15:00,17:00,34
 LH226a,Tutorial,Mon,12:00,13:00,"28,  30,  32,  34"
 LH226a,Tutorial,Mon,13:00,14:00,"28,  30,  32,  34"
 LH226a,Tutorial,Tue,9:00,11:00,"24-27,  30-35"
@@ -1252,7 +1252,6 @@ LT209,Booking_Accepted,Thu,12:00,13:00,34
 LT209,Seminar,Thu,13:00,15:00,34
 LT209,Tutorial,Thu,15:00,16:00,26-35
 LT209,Classtest,Fri,9:30,13:00,34
-LT209,Tutorial,Fri,13:00,14:00,"26,  28-34"
 LT210,Lecture,Mon,11:00,12:00,25-35
 LT210,Tutorial,Mon,13:00,14:00,27-35
 LT210,Tutorial,Mon,14:00,15:00,27-35
@@ -1268,6 +1267,7 @@ LT210,Tutorial,Wed,11:00,12:00,"28,  30,  32,  34"
 LT210,Seminar,Wed,14:00,15:00,34
 LT210,Tutorial,Thu,9:00,10:00,25-35
 LT210,Lecture,Thu,11:00,13:00,30-35
+LT210,Booking_Accepted,Thu,14:00,15:00,34
 LT210,Seminar,Thu,15:00,17:00,24-35
 LT210,Tutorial,Fri,11:00,12:00,26-35
 LT210,Tutorial,Fri,12:00,13:00,26-35
@@ -1397,6 +1397,7 @@ LT309,Tutorial,Thu,9:00,10:00,25-35
 LT309,Tutorial,Thu,10:00,11:00,"28,  30,  32,  34"
 LT309,Booking_Accepted,Thu,11:00,12:00,34
 LT309,Booking_Accepted,Thu,14:00,15:00,34
+LT309,Booking_Accepted,Fri,9:00,16:00,34
 LT310,Seminar,Mon,13:00,14:00,26-35
 LT310,Tutorial,Tue,10:00,11:00,25-35
 LT310,Tutorial,Tue,11:00,12:00,25-35
@@ -1980,7 +1981,7 @@ RC501,Seminar,Tue,14:00,15:00,33-34
 RC501,Roll Forward,Wed,9:00,15:00,34
 RC501,Lecture,Thu,10:00,12:00,30-34
 RC501,Presentation,Thu,12:00,13:00,34
-RC501,Tutorial,Thu,13:00,16:00,"29-32,  34-35"
+RC501,Tutorial,Thu,13:00,16:00,"29-32,  34"
 RC501,Tutorial,Fri,9:00,10:00,25-34
 RC501,Lecture,Fri,10:00,11:00,"25-32,  34-35"
 RC501,Lecture,Fri,11:00,12:00,25-35
@@ -2236,7 +2237,6 @@ SW105,Lecture,Thu,15:00,17:00,34
 SW105,Lecture,Fri,9:00,11:00,25-34
 SW105,Lecture,Fri,11:00,12:00,34
 SW105,Lecture,Fri,12:00,14:00,34
-SW105,Lecture,Fri,15:00,17:00,"25-26,  28-35"
 SW106,Lecture,Mon,10:00,11:00,25-35
 SW106,Tutorial,Mon,11:00,12:00,26-35
 SW106,Seminar,Mon,14:00,15:00,"26-28,  30-35"
@@ -2564,7 +2564,7 @@ TL551b,Tutorial,Fri,12:00,13:00,"28,  30,  32,  34"
 TL551b,Tutorial,Fri,13:00,14:00,"28,  30,  32,  34"
 TL551b,Tutorial,Fri,14:00,15:00,"28,  30,  32,  34"
 TL551b,Ad-Hoc,Fri,18:00,22:00,27-36
-TL553,Seminar,Mon,10:00,12:00,"27-28,  33-35"
+TL553,Seminar,Mon,10:00,12:00,"27-28,  33-34"
 TL553,Tutorial,Mon,12:00,13:00,"28,  30,  32,  34"
 TL553,Lecture,Mon,14:30,16:30,25-34
 TL553,Seminar,Tue,11:00,12:00,27-35
@@ -2732,7 +2732,7 @@ TL657,Lecture,Thu,11:00,12:00,26-35
 TL657,Tutorial,Thu,12:00,13:00,"28,  30,  32,  34"
 TL657,Tutorial,Thu,13:00,14:00,"28,  30,  32,  34"
 TL657,Booking_Accepted,Fri,17:00,22:00,29-36
-TL660,Seminar,Mon,10:00,12:00,"27-28,  33-35"
+TL660,Seminar,Mon,10:00,12:00,"27-28,  33-34"
 TL660,Seminar,Mon,12:00,13:00,27-35
 TL660,Seminar,Mon,13:00,14:00,27-35
 TL660,Seminar,Mon,15:00,16:00,25-34
