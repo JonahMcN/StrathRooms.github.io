@@ -126,8 +126,10 @@ GH327,Cll Ad-Hoc,Thu,15:30,21:00,"35-39,  41-46,  48-49,  52"
 GH327,Cll Ad-Hoc,Fri,10:00,12:30,"4-12,  14-26,  28-36,  38-46"
 GH330,Cll Ad-Hoc,Tue,14:00,16:30,33-37
 GH330,Cll Ad-Hoc,Thu,13:00,15:00,36
+GH509,Booking_Accepted,Tue,15:00,16:00,36
 GH509,Booking_Cancelled,Wed,10:00,11:30,36
 GH509,Booking_Accepted,Wed,15:00,17:00,27-42
+GH510,Booking_Accepted,Tue,14:00,16:00,36
 GH510,Booking_Accepted,Thu,18:30,20:00,36
 GH511,Booking_Accepted,Tue,18:00,22:00,36
 GH512,Ad-Hoc,Thu,18:00,21:00,"16-20,  23-39"
@@ -137,7 +139,6 @@ GH515,Roll Forward,Wed,9:00,12:30,36
 GH515,Booking_Accepted,Wed,13:00,14:00,36
 GH542,External,Thu,19:30,21:30,"23-24,  27,  29-31,  33,  36"
 GH554,Booking_Accepted,Tue,14:30,16:00,36
-GH557,Booking_Accepted,Tue,10:30,12:30,36
 GH617,Ad-Hoc,Thu,18:00,19:30,"9-20,  23-47"
 GH621,Booking_Accepted,Thu,12:00,13:00,24-47
 GH630,Booking_Accepted,Mon,11:00,12:00,36
@@ -163,7 +164,7 @@ GH742,Cll Ad-Hoc,Tue,10:30,12:30,"26-27,  29-36"
 GH742,Cll Ad-Hoc,Wed,13:30,15:30,"10-11,  15-16,  19,  24,  36"
 GH742,Cll Ad-Hoc,Thu,13:30,16:00,"23,  36"
 GH742,Cll Ad-Hoc,Fri,12:00,14:00,"10,  14,  19,  23,  28,  32,  36"
-GH744,Cll Ad-Hoc,Wed,12:00,14:00,"26-36,  38-46"
+GH744,Cll Ad-Hoc,Wed,12:00,14:00,"26-36,  38-47"
 GH748,Cll Ad-Hoc,Mon,12:00,14:00,36
 GH748,Cll Ad-Hoc,Tue,12:30,14:30,"26-28,  30-36"
 GH748,Cll Ad-Hoc,Wed,10:00,15:00,36
@@ -189,13 +190,16 @@ LT211,Booking_Accepted,Tue,11:00,14:00,36
 LT211,Booking_Accepted,Thu,9:00,12:00,36
 LT309,Booking_Accepted,Mon,11:00,13:00,36
 LT310,External,Wed,19:00,21:00,"23,  25,  28,  30,  32,  34,  36,  38,  41,  43,  45,  47"
+LT313,Booking_Accepted,Tue,11:00,15:00,36
 LT313,Booking_Accepted,Wed,12:00,17:00,36
+LT313,Booking_Accepted,Thu,10:00,13:00,36
 LT313,Booking_Accepted,Fri,9:00,14:00,36
 LT412,Booking_Accepted,Mon,14:30,16:30,30-36
 LT413,Booking_Accepted,Wed,12:00,13:00,35-38
 LT415,Booking_Accepted,Wed,10:00,11:00,36
 LT415,Booking_Accepted,Wed,11:00,12:00,36
 LT416,Booking_Accepted,Tue,14:00,17:00,36
+LT417,Booking_Accepted,Mon,12:00,13:00,36
 LT511,Ad-Hoc,Mon,17:00,19:00,"11-20,  23-37"
 LT719,Booking_Accepted,Wed,14:00,15:00,36
 MC316,Ad-Hoc,Tue,10:00,12:00,36
@@ -289,6 +293,8 @@ TL553,Ad-Hoc,Fri,18:00,22:00,27-36
 TL556,Booking_Accepted,Mon,10:00,11:00,36
 TL556,Booking_Accepted,Mon,13:00,14:00,36
 TL556,Booking_Accepted,Mon,16:00,17:00,36
+TL556,Booking_Accepted,Tue,15:00,16:00,36
+TL556,Booking_Accepted,Tue,16:00,16:30,36
 TL556,Booking_Accepted,Thu,9:00,10:00,"26-41,  45-47"
 TL556,Ad-Hoc,Fri,18:00,22:00,27-36
 TL557,Booking_Accepted,Mon,9:00,17:00,36
