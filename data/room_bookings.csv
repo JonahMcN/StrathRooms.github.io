@@ -148,6 +148,7 @@ GH621,Booking_Accepted,Thu,12:00,13:00,24-47
 GH630,Booking_Accepted,Mon,11:00,12:00,36
 GH630,Workshop,Tue,10:00,12:00,36
 GH630,Booking_Accepted,Tue,14:00,15:00,36
+GH630,Booking_Accepted,Wed,15:00,17:00,36
 GH630,Booking_Accepted,Thu,10:00,13:00,36
 GH630,Booking_Accepted,Thu,14:00,15:00,36
 GH637,Booking_Accepted,Tue,10:00,17:00,36
@@ -271,8 +272,15 @@ TL329,Booking_Accepted,Thu,8:00,17:00,36
 TL329,Booking_Accepted,Thu,17:00,19:00,36
 TL329,Booking_Accepted,Thu,19:00,22:00,36
 TL329,Booking_Accepted,Fri,8:00,16:00,36
-TL330,Ad-Hoc,Thu,8:00,19:00,36
-TL330,Ad-Hoc,Fri,8:00,17:00,36
+TL330,Ad-Hoc,Wed,14:30,22:00,36
+TL330,Ad-Hoc,Thu,8:00,22:00,36
+TL330,Ad-Hoc,Fri,8:00,22:00,36
+TL330,Ad-Hoc,Sat,8:00,22:00,36
+TL330,Ad-Hoc,Sun,8:00,22:00,36
+TL330,Ad-Hoc,Thu,8:00,22:00,36
+TL330,Ad-Hoc,Fri,8:00,22:00,36
+TL330,Ad-Hoc,Sat,8:00,22:00,36
+TL330,Ad-Hoc,Sun,8:00,22:00,36
 TL423,Booking_Accepted,Wed,12:30,16:00,36
 TL423,Booking_Accepted,Thu,8:00,17:00,36
 TL423,Roll Forward,Thu,18:30,21:30,"9-19,  24-33,  36-38"
@@ -286,13 +294,13 @@ TL455,Booking_Accepted,Fri,8:00,16:00,36
 TL551b,Booking_Accepted,Mon,9:30,16:30,36
 TL551b,Booking_Accepted,Wed,11:00,12:00,36
 TL551b,Booking_Accepted,Wed,14:00,15:00,36
-TL551b,Booking_Accepted,Wed,15:00,16:00,36
 TL551b,Booking_Accepted,Thu,9:00,11:00,36
 TL551b,Booking_Accepted,Thu,15:00,16:00,36
 TL551b,Booking_Accepted,Fri,14:00,16:00,36
 TL551b,Ad-Hoc,Fri,18:00,22:00,27-36
 TL553,Booking_Accepted,Mon,9:00,17:00,36
 TL553,Booking_Accepted,Tue,9:00,17:00,36
+TL553,Booking_Accepted,Wed,11:00,13:00,36
 TL553,Booking_Accepted,Wed,14:30,22:00,36
 TL553,Booking_Accepted,Thu,8:00,17:00,36
 TL553,Booking_Accepted,Thu,17:00,19:00,36
@@ -305,6 +313,7 @@ TL556,Booking_Accepted,Mon,16:00,17:00,36
 TL556,Booking_Accepted,Tue,15:00,16:00,36
 TL556,Booking_Accepted,Tue,16:00,16:30,36
 TL556,Booking_Accepted,Wed,14:00,15:00,36
+TL556,Booking_Accepted,Wed,15:00,16:00,36
 TL556,Booking_Accepted,Thu,9:00,10:00,"26-41,  45-47"
 TL556,Ad-Hoc,Fri,18:00,22:00,27-36
 TL557,Booking_Accepted,Mon,9:00,17:00,36
@@ -335,3 +344,9 @@ TL655,Booking_Accepted,Thu,16:30,18:30,36
 TL655,Ad-Hoc,Fri,18:00,22:00,27-36
 TL657,Booking_Accepted,Tue,10:30,13:00,36
 TL657,Booking_Accepted,Fri,17:00,22:00,29-36
+TL660,Booking_Accepted,Wed,15:00,16:00,36
+TL662,Booking_Accepted,Mon,14:00,15:00,36
+TL662,Booking_Accepted,Mon,15:00,16:00,36
+TL662,Booking_Accepted,Mon,18:00,20:00,28-37
+TL662,Booking_Accepted,Wed,12:30,16:00,36
+WC202,Biomedical Ad-Hoc,Tue,13:00,17:00,36
