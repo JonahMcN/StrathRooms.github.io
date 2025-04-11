@@ -155,6 +155,7 @@ GH637,Booking_Accepted,Tue,10:00,17:00,36
 GH640,Booking_Accepted,Fri,14:00,17:00,36
 GH641,Booking_Accepted,Tue,11:00,12:00,36
 GH641,Booking_Accepted,Wed,12:00,13:00,36
+GH641,Booking_Accepted,Fri,13:00,15:00,36
 GH644,Booking_Accepted,Tue,13:00,14:00,36
 GH644,Booking_Accepted,Tue,15:00,16:00,36
 GH646,Booking_Accepted,Tue,11:30,12:30,36
@@ -202,12 +203,14 @@ LT310,External,Wed,19:00,21:00,"23,  25,  28,  30,  32,  34,  36,  38,  41,  43,
 LT313,Booking_Accepted,Tue,11:00,15:00,36
 LT313,Booking_Accepted,Wed,12:00,17:00,36
 LT313,Booking_Accepted,Thu,10:00,13:00,36
+LT313,Booking_Accepted,Thu,16:00,17:00,36
 LT313,Booking_Accepted,Fri,9:00,14:00,36
 LT412,Booking_Accepted,Mon,14:30,16:30,30-36
 LT413,Booking_Accepted,Wed,12:00,13:00,35-38
 LT415,Booking_Accepted,Wed,10:00,11:00,36
 LT415,Booking_Accepted,Wed,11:00,12:00,36
 LT416,Booking_Accepted,Tue,14:00,17:00,36
+LT416,Booking_Accepted,Fri,10:00,13:00,36
 LT417,Booking_Accepted,Mon,12:00,13:00,36
 LT511,Ad-Hoc,Mon,17:00,19:00,"11-20,  23-37"
 LT719,Booking_Accepted,Wed,14:00,15:00,36
