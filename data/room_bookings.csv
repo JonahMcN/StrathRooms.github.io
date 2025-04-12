@@ -205,12 +205,14 @@ LT313,Booking_Accepted,Wed,12:00,17:00,36
 LT313,Booking_Accepted,Thu,10:00,13:00,36
 LT313,Booking_Accepted,Thu,16:00,17:00,36
 LT313,Booking_Accepted,Fri,9:00,14:00,36
+LT313,Booking_Accepted,Fri,14:00,17:00,36
 LT412,Booking_Accepted,Mon,14:30,16:30,30-36
 LT413,Booking_Accepted,Wed,12:00,13:00,35-38
 LT415,Booking_Accepted,Wed,10:00,11:00,36
 LT415,Booking_Accepted,Wed,11:00,12:00,36
 LT416,Booking_Accepted,Tue,14:00,17:00,36
 LT416,Booking_Accepted,Fri,10:00,13:00,36
+LT416,Booking_Accepted,Fri,14:00,17:00,36
 LT417,Booking_Accepted,Mon,12:00,13:00,36
 LT511,Ad-Hoc,Mon,17:00,19:00,"11-20,  23-37"
 LT719,Booking_Accepted,Wed,14:00,15:00,36
@@ -229,6 +231,7 @@ RC471 / Assembly Hall,Roll Forward,Mon,18:30,21:00,"8,  10-18,  24-37,  44-48"
 RC471 / Assembly Hall,Roll Forward,Tue,19:00,22:00,"23-37,  43-47"
 RC471 / Assembly Hall,Booking_Accepted,Wed,18:00,22:00,36
 RC471 / Assembly Hall,Ad-Hoc,Thu,17:00,20:00,"8-15,  18,  23-37,  43"
+RC503,Booking_Accepted,Fri,14:00,16:00,36
 RC512,Ad-Hoc,Wed,17:00,19:30,30-41
 RC513,Booking_Accepted,Tue,9:00,11:00,36
 RC540,Ad-Hoc,Mon,17:00,18:00,"15-18,  23-37"
