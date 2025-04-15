@@ -62,6 +62,8 @@ BH108 / Barony Bicentenary Hall,Roll Forward,Sun,8:00,22:00,37
 CL102,Ad-Hoc,Mon,9:00,17:00,37
 CL102,Ad-Hoc,Tue,12:00,12:30,37
 CL102,Ad-Hoc,Wed,9:00,17:00,37
+CL102,Estates,Wed,17:00,22:00,37
+CL102,Estates,Thu,8:00,22:00,37
 CL102,Roll Forward,Fri,8:00,22:00,37
 CL102,Roll Forward,Sat,8:00,22:00,37
 CL102,Roll Forward,Sun,8:00,22:00,37
@@ -126,6 +128,10 @@ CW507b,Lecture,Mon,10:00,16:00,37
 CW507b,Lecture,Tue,10:00,16:00,37
 CW507b,Lecture,Wed,10:00,16:00,37
 CW507b,Lecture,Thu,10:00,16:00,37
+CW602,Estates,Wed,8:00,22:00,37
+CW602,Estates,Thu,8:00,22:00,37
+CW602,Estates,Wed,8:00,22:00,37
+CW602,Estates,Thu,8:00,22:00,37
 CW602,Roll Forward,Fri,8:00,22:00,37
 CW602,Roll Forward,Sat,8:00,22:00,37
 CW602,Roll Forward,Sun,8:00,22:00,37
@@ -152,9 +158,12 @@ GH509,Roll Forward,Fri,8:00,22:00,37
 GH509,Roll Forward,Sat,8:00,22:00,37
 GH509,Roll Forward,Sun,8:00,22:00,37
 GH510,Booking_Accepted,Mon,9:00,15:30,37
+GH510,Booking_Accepted,Tue,11:00,16:00,37
+GH510,Booking_Accepted,Thu,14:00,16:00,37
 GH510,Roll Forward,Fri,8:00,22:00,37
 GH510,Roll Forward,Sat,8:00,22:00,37
 GH510,Roll Forward,Sun,8:00,22:00,37
+GH511,Booking_Accepted,Tue,14:00,15:00,37
 GH511,Booking_Accepted,Tue,18:00,22:00,37
 GH511,Roll Forward,Fri,8:00,22:00,37
 GH511,Roll Forward,Sat,8:00,22:00,37
@@ -219,6 +228,7 @@ GH637,Roll Forward,Sun,8:00,22:00,37
 GH640,Roll Forward,Fri,8:00,22:00,37
 GH640,Roll Forward,Sat,8:00,22:00,37
 GH640,Roll Forward,Sun,8:00,22:00,37
+GH641,Booking_Accepted,Mon,14:00,15:30,37
 GH641,Roll Forward,Fri,8:00,22:00,37
 GH641,Roll Forward,Sat,8:00,22:00,37
 GH641,Roll Forward,Sun,8:00,22:00,37
@@ -237,12 +247,24 @@ GH648,Roll Forward,Sat,8:00,22:00,37
 GH648,Roll Forward,Sun,8:00,22:00,37
 GH701,Ad-Hoc,Mon,17:00,20:00,"2-8,  10-18,  23-37,  44-50"
 GH701,Ad-Hoc,Tue,17:00,22:00,"11-18,  23-37,  43-47"
+GH701,Estates,Wed,8:00,22:00,37
+GH701,Estates,Thu,8:00,22:00,37
+GH701,Estates,Wed,8:00,22:00,37
+GH701,Estates,Thu,8:00,22:00,37
 GH701,Roll Forward,Fri,8:00,22:00,37
 GH701,Roll Forward,Sat,8:00,22:00,37
 GH701,Roll Forward,Sun,8:00,22:00,37
+GH702,Estates,Wed,8:00,22:00,37
+GH702,Estates,Thu,8:00,22:00,37
+GH702,Estates,Wed,8:00,22:00,37
+GH702,Estates,Thu,8:00,22:00,37
 GH702,Roll Forward,Fri,8:00,22:00,37
 GH702,Roll Forward,Sat,8:00,22:00,37
 GH702,Roll Forward,Sun,8:00,22:00,37
+GH703,Estates,Wed,8:00,22:00,37
+GH703,Estates,Thu,8:00,22:00,37
+GH703,Estates,Wed,8:00,22:00,37
+GH703,Estates,Thu,8:00,22:00,37
 GH703,Roll Forward,Fri,8:00,22:00,37
 GH703,Roll Forward,Sat,8:00,22:00,37
 GH703,Roll Forward,Sun,8:00,22:00,37
@@ -368,6 +390,7 @@ LH211a,Booking_Accepted,Thu,12:30,14:00,37
 LH211a,Roll Forward,Fri,8:00,22:00,37
 LH211a,Roll Forward,Sat,8:00,22:00,37
 LH211a,Roll Forward,Sun,8:00,22:00,37
+LH211b,Booking_Accepted,Thu,9:30,17:00,37
 LH211b,Roll Forward,Fri,8:00,22:00,37
 LH211b,Roll Forward,Sat,8:00,22:00,37
 LH211b,Roll Forward,Sun,8:00,22:00,37
@@ -382,6 +405,7 @@ LH217,Booking_Accepted,Wed,10:00,15:00,37
 LH217,Roll Forward,Fri,8:00,22:00,37
 LH217,Roll Forward,Sat,8:00,22:00,37
 LH217,Roll Forward,Sun,8:00,22:00,37
+LH218,Booking_Accepted,Mon,15:30,17:00,37
 LH218,Booking_Cancelled,Wed,13:00,15:00,37
 LH218,Roll Forward,Fri,8:00,22:00,37
 LH218,Roll Forward,Sat,8:00,22:00,37
@@ -399,7 +423,7 @@ LH227b,Booking_Accepted,Tue,14:00,16:00,27-39
 LH227b,Roll Forward,Fri,8:00,22:00,37
 LH227b,Roll Forward,Sat,8:00,22:00,37
 LH227b,Roll Forward,Sun,8:00,22:00,37
-LH228,Booking_Accepted,Wed,11:00,12:30,37
+LH228,Booking_Accepted,Wed,11:00,17:00,37
 LH228,Roll Forward,Fri,8:00,22:00,37
 LH228,Roll Forward,Sat,8:00,22:00,37
 LH228,Roll Forward,Sun,8:00,22:00,37
@@ -458,6 +482,8 @@ LT310,Roll Forward,Sun,8:00,22:00,37
 LT311,Roll Forward,Fri,8:00,22:00,37
 LT311,Roll Forward,Sat,8:00,22:00,37
 LT311,Roll Forward,Sun,8:00,22:00,37
+LT313,Booking_Accepted,Tue,12:00,15:00,37
+LT313,Booking_Accepted,Thu,10:00,13:00,37
 LT313,Roll Forward,Fri,8:00,22:00,37
 LT313,Roll Forward,Sat,8:00,22:00,37
 LT313,Roll Forward,Sun,8:00,22:00,37
@@ -500,6 +526,7 @@ LT415,Booking_Accepted,Wed,12:00,13:00,37
 LT415,Roll Forward,Fri,8:00,22:00,37
 LT415,Roll Forward,Sat,8:00,22:00,37
 LT415,Roll Forward,Sun,8:00,22:00,37
+LT416,Booking_Accepted,Tue,10:00,13:00,37
 LT416,Roll Forward,Fri,8:00,22:00,37
 LT416,Roll Forward,Sat,8:00,22:00,37
 LT416,Roll Forward,Sun,8:00,22:00,37
@@ -633,6 +660,8 @@ RC345,Roll Forward,Fri,8:00,22:00,37
 RC345,Roll Forward,Sat,8:00,22:00,37
 RC345,Roll Forward,Sun,8:00,22:00,37
 RC426,Booking_Accepted,Wed,17:30,21:30,37
+RC426,Estates,Wed,21:30,22:00,37
+RC426,Estates,Thu,8:00,22:00,37
 RC426,Roll Forward,Fri,8:00,22:00,37
 RC426,Roll Forward,Sat,8:00,22:00,37
 RC426,Roll Forward,Sun,8:00,22:00,37
@@ -647,6 +676,10 @@ RC440,Lecture,Wed,10:00,11:00,34-39
 RC440,Roll Forward,Fri,8:00,22:00,37
 RC440,Roll Forward,Sat,8:00,22:00,37
 RC440,Roll Forward,Sun,8:00,22:00,37
+RC447,Estates,Wed,8:00,22:00,37
+RC447,Estates,Thu,8:00,22:00,37
+RC447,Estates,Wed,8:00,22:00,37
+RC447,Estates,Thu,8:00,22:00,37
 RC447,Roll Forward,Fri,8:00,22:00,37
 RC447,Roll Forward,Sat,8:00,22:00,37
 RC447,Roll Forward,Sun,8:00,22:00,37
@@ -654,12 +687,21 @@ RC471 / Assembly Hall,Roll Forward,Mon,18:30,21:00,"8,  10-18,  24-37,  44-48"
 RC471 / Assembly Hall,Roll Forward,Tue,19:00,22:00,"23-37,  43-47"
 RC471 / Assembly Hall,Booking_Accepted,Wed,18:00,22:00,37
 RC471 / Assembly Hall,Ad-Hoc,Thu,17:00,20:00,"8-15,  18,  23-37,  43"
+RC471 / Assembly Hall,Estates,Thu,20:00,22:00,37
 RC471 / Assembly Hall,Roll Forward,Fri,8:00,22:00,37
 RC471 / Assembly Hall,Roll Forward,Sat,8:00,22:00,37
 RC471 / Assembly Hall,Roll Forward,Sun,8:00,22:00,37
+RC501,Estates,Wed,8:00,22:00,37
+RC501,Estates,Thu,8:00,22:00,37
+RC501,Estates,Wed,8:00,22:00,37
+RC501,Estates,Thu,8:00,22:00,37
 RC501,Roll Forward,Fri,8:00,22:00,37
 RC501,Roll Forward,Sat,8:00,22:00,37
 RC501,Roll Forward,Sun,8:00,22:00,37
+RC503,Estates,Wed,8:00,22:00,37
+RC503,Estates,Thu,8:00,22:00,37
+RC503,Estates,Wed,8:00,22:00,37
+RC503,Estates,Thu,8:00,22:00,37
 RC503,Roll Forward,Fri,8:00,22:00,37
 RC503,Roll Forward,Sat,8:00,22:00,37
 RC503,Roll Forward,Sun,8:00,22:00,37
@@ -684,6 +726,10 @@ RC540,Roll Forward,Sun,8:00,22:00,37
 RC546,Roll Forward,Fri,8:00,22:00,37
 RC546,Roll Forward,Sat,8:00,22:00,37
 RC546,Roll Forward,Sun,8:00,22:00,37
+RC557,Estates,Wed,8:00,22:00,37
+RC557,Estates,Thu,8:00,22:00,37
+RC557,Estates,Wed,8:00,22:00,37
+RC557,Estates,Thu,8:00,22:00,37
 RC557,Roll Forward,Fri,8:00,22:00,37
 RC557,Roll Forward,Sat,8:00,22:00,37
 RC557,Roll Forward,Sun,8:00,22:00,37
@@ -760,6 +806,7 @@ TG314,Roll Forward,Sun,8:00,17:00,37
 TL324,Booking_Accepted,Mon,9:00,17:00,37
 TL324,Booking_Accepted,Tue,9:00,17:00,37
 TL324,Booking_Accepted,Wed,9:00,17:00,37
+TL324,Booking_Accepted,Thu,14:30,17:00,37
 TL324,Roll Forward,Fri,8:00,22:00,37
 TL324,Roll Forward,Sat,8:00,22:00,37
 TL324,Roll Forward,Sun,8:00,22:00,37
@@ -772,12 +819,18 @@ TL325b,Roll Forward,Sun,8:00,22:00,37
 TL328,Booking_Accepted,Mon,8:00,17:00,37
 TL328,Booking_Accepted,Tue,9:00,17:00,37
 TL328,Booking_Accepted,Wed,9:00,17:00,37
+TL328,Estates,Wed,17:00,22:00,37
+TL328,Estates,Thu,8:00,22:00,37
 TL328,Roll Forward,Fri,8:00,22:00,37
 TL328,Roll Forward,Sat,8:00,22:00,37
 TL328,Roll Forward,Sun,8:00,22:00,37
 TL329,Booking_Accepted,Mon,9:00,10:00,37
 TL329,Booking_Accepted,Mon,16:00,17:00,37
 TL329,Booking_Accepted,Tue,12:00,16:30,37
+TL329,Estates,Wed,8:00,22:00,37
+TL329,Estates,Thu,8:00,22:00,37
+TL329,Estates,Wed,8:00,22:00,37
+TL329,Estates,Thu,8:00,22:00,37
 TL329,Roll Forward,Fri,8:00,22:00,37
 TL329,Roll Forward,Sat,8:00,22:00,37
 TL329,Roll Forward,Sun,8:00,22:00,37
@@ -820,6 +873,10 @@ TL560,Roll Forward,Sun,8:00,22:00,37
 TL563,Roll Forward,Fri,8:00,22:00,37
 TL563,Roll Forward,Sat,8:00,22:00,37
 TL563,Roll Forward,Sun,8:00,22:00,37
+TL565,Estates,Wed,8:00,22:00,37
+TL565,Estates,Thu,8:00,22:00,37
+TL565,Estates,Wed,8:00,22:00,37
+TL565,Estates,Thu,8:00,22:00,37
 TL565,Roll Forward,Fri,8:00,22:00,37
 TL565,Roll Forward,Sat,8:00,22:00,37
 TL565,Roll Forward,Sun,8:00,22:00,37
