@@ -199,7 +199,9 @@ GH614,Roll Forward,Fri,8:00,22:00,37
 GH614,Roll Forward,Sat,8:00,22:00,37
 GH614,Roll Forward,Sun,8:00,22:00,37
 GH617,Ad-Hoc,Thu,18:00,19:30,"9-20,  23-47"
-GH617,Booking_Accepted,Fri,14:00,17:00,37
+GH617,Roll Forward,Fri,8:00,22:00,37
+GH617,Roll Forward,Sat,8:00,22:00,37
+GH617,Roll Forward,Sun,8:00,22:00,37
 GH621,Ad-Hoc,Wed,14:00,17:00,"15,  17,  19,  23,  25,  27,  29,  31,  33,  35,  37,  39"
 GH621,Booking_Accepted,Thu,12:00,13:00,24-47
 GH621,Roll Forward,Fri,8:00,22:00,37
@@ -299,6 +301,7 @@ GH737,Roll Forward,Sat,8:00,22:00,37
 GH737,Roll Forward,Sun,8:00,22:00,37
 GH737a,Booking_Accepted,Tue,13:00,16:00,37
 GH737a,Booking_Accepted,Wed,14:00,15:00,37
+GH737a,Booking_Accepted,Wed,15:00,16:00,37
 GH737a,Roll Forward,Fri,8:00,22:00,37
 GH737a,Roll Forward,Sat,8:00,22:00,37
 GH737a,Roll Forward,Sun,8:00,22:00,37
@@ -761,7 +764,6 @@ SW105,Roll Forward,Fri,8:00,22:00,37
 SW105,Roll Forward,Sat,8:00,22:00,37
 SW105,Roll Forward,Sun,8:00,22:00,37
 SW106,Booking_Accepted,Tue,10:00,11:00,37
-SW106,Booking_Accepted,Thu,9:00,12:30,37
 SW106,Roll Forward,Fri,8:00,22:00,37
 SW106,Roll Forward,Sat,8:00,22:00,37
 SW106,Roll Forward,Sun,8:00,22:00,37
@@ -774,7 +776,6 @@ SW108,Roll Forward,Sun,8:00,22:00,37
 SW109,Booking_Accepted,Wed,10:00,12:00,37
 SW109,Booking_Accepted,Wed,12:00,13:30,37
 SW109,Booking_Accepted,Wed,14:00,16:00,37
-SW109,Booking_Accepted,Thu,9:00,12:30,37
 SW109,Roll Forward,Fri,8:00,22:00,37
 SW109,Roll Forward,Sat,8:00,22:00,37
 SW109,Roll Forward,Sun,8:00,22:00,37
