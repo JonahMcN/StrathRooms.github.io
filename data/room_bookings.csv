@@ -576,6 +576,7 @@ LT512,Roll Forward,Sun,8:00,22:00,37
 LT514,Roll Forward,Fri,8:00,22:00,37
 LT514,Roll Forward,Sat,8:00,22:00,37
 LT514,Roll Forward,Sun,8:00,22:00,37
+LT515,Booking_Accepted,Wed,9:00,17:00,37
 LT515,Roll Forward,Fri,8:00,22:00,37
 LT515,Roll Forward,Sat,8:00,22:00,37
 LT515,Roll Forward,Sun,8:00,22:00,37
@@ -680,6 +681,7 @@ RC434b,Roll Forward,Sat,8:00,22:00,37
 RC434b,Roll Forward,Sun,8:00,22:00,37
 RC440,Roll Forward,Tue,18:30,19:00,"15-20,  23-47"
 RC440,Lecture,Wed,10:00,11:00,34-39
+RC440,Booking_Accepted,Thu,9:30,12:00,37
 RC440,Roll Forward,Fri,8:00,22:00,37
 RC440,Roll Forward,Sat,8:00,22:00,37
 RC440,Roll Forward,Sun,8:00,22:00,37
@@ -722,6 +724,7 @@ RC513,Roll Forward,Sun,8:00,22:00,37
 RC530,Roll Forward,Fri,8:00,22:00,37
 RC530,Roll Forward,Sat,8:00,22:00,37
 RC530,Roll Forward,Sun,8:00,22:00,37
+RC538,Booking_Accepted,Thu,9:00,10:00,37
 RC538,Roll Forward,Fri,8:00,22:00,37
 RC538,Roll Forward,Sat,8:00,22:00,37
 RC538,Roll Forward,Sun,8:00,22:00,37
@@ -741,6 +744,7 @@ RC557,Roll Forward,Fri,8:00,22:00,37
 RC557,Roll Forward,Sat,8:00,22:00,37
 RC557,Roll Forward,Sun,8:00,22:00,37
 RC641,Booking_Accepted,Wed,14:00,15:00,"31,  33,  35,  37,  39,  41,  43"
+RC641,Booking_Accepted,Thu,13:30,14:30,37
 RC641,Roll Forward,Fri,8:00,22:00,37
 RC641,Roll Forward,Sat,8:00,22:00,37
 RC641,Roll Forward,Sun,8:00,22:00,37
