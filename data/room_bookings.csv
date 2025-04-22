@@ -414,6 +414,7 @@ LH218,Booking_Accepted,Fri,9:00,12:30,38
 LH226a,Roll Forward,Mon,8:00,22:00,38
 LH226a,Booking_Accepted,Tue,13:30,16:00,38
 LH226a,Booking_Accepted,Wed,10:00,13:00,38
+LH226a,Booking_Accepted,Wed,14:00,15:30,38
 LH226a,Presentation,Thu,9:00,17:00,38
 LH226a,Booking_Accepted,Fri,9:00,12:00,38
 LH226b,Roll Forward,Mon,8:00,22:00,38
@@ -463,7 +464,7 @@ LT211,Roll Forward,Mon,8:00,22:00,38
 LT211,Booking_Accepted,Tue,12:00,14:00,38
 LT211,Booking_Accepted,Wed,9:00,10:00,38
 LT211,Booking_Accepted,Wed,12:00,13:00,38
-LT211,Booking_Accepted,Thu,9:00,12:00,38
+LT211,Booking_Accepted,Thu,10:00,12:00,38
 LT212,Roll Forward,Mon,8:00,22:00,38
 LT212,Booking_Accepted,Tue,9:00,11:30,38
 LT212,Booking_Accepted,Thu,9:00,12:00,38
@@ -477,7 +478,6 @@ LT301b,Roll Forward,Mon,8:00,22:00,38
 LT301b,Booking_Accepted,Tue,9:00,13:00,38
 LT301b,Booking_Accepted,Fri,8:00,17:00,38
 LT302,Roll Forward,Mon,8:00,22:00,38
-LT302,Booking_Accepted,Tue,9:00,11:30,38
 LT302,Booking_Accepted,Thu,9:00,12:30,38
 LT303,Roll Forward,Mon,8:00,22:00,38
 LT303,Booking_Accepted,Tue,9:00,14:00,38
