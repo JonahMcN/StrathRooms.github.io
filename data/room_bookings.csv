@@ -272,6 +272,7 @@ GH641,Booking_Accepted,Thu,14:00,15:00,39
 GH643,Booking_Accepted,Tue,9:00,13:00,39
 GH644,Booking_Accepted,Tue,10:30,14:00,39
 GH646,Booking_Accepted,Wed,10:00,11:00,39
+GH646,Booking_Accepted,Fri,14:00,17:00,39
 GH648,Lecture,Mon,10:00,16:00,39
 GH648,Lecture,Tue,10:00,16:00,39
 GH648,Lecture,Wed,10:00,16:00,39
@@ -540,6 +541,7 @@ LT309,Booking_Accepted,Fri,9:00,14:00,39
 LT310,Booking_Accepted,Mon,8:00,17:00,39
 LT310,Booking_Accepted,Tue,9:30,13:30,38-39
 LT311,Booking_Accepted,Wed,13:00,16:00,39
+LT311,Booking_Accepted,Fri,10:30,15:00,39
 LT313,Booking_Accepted,Tue,11:30,13:00,39
 LT313,Booking_Accepted,Thu,10:00,12:00,39
 LT402,Booking_Accepted,Mon,10:00,17:00,39
