@@ -470,11 +470,13 @@ LT307,Roll Forward,Mon,8:00,22:00,"40,  43"
 LT307,External,Wed,8:30,13:00,40
 LT307,Lecture,Thu,11:00,12:00,40
 LT309,Roll Forward,Mon,8:00,22:00,"40,  43"
+LT309,Booking_Accepted,Thu,10:00,17:00,40
 LT310,Roll Forward,Mon,8:00,22:00,"40,  43"
 LT310,External,Wed,8:30,14:00,40
 LT311,Roll Forward,Mon,8:00,22:00,"40,  43"
 LT311,External,Tue,8:30,13:30,40
 LT311,External,Wed,8:30,14:00,40
+LT311,Booking_Accepted,Thu,10:00,12:00,40
 LT313,Roll Forward,Mon,8:00,22:00,"40,  43"
 LT313,External,Wed,8:30,14:00,40
 LT313,Booking_Accepted,Thu,14:00,15:00,40
