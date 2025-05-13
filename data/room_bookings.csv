@@ -209,6 +209,7 @@ GH552,Booking_Accepted,Mon,9:00,12:00,41
 GH554,Lecture,Fri,14:00,16:00,41
 GH560,Booking_Accepted,Mon,9:00,10:30,41
 GH560,Booking_Accepted,Wed,10:00,12:00,41
+GH614,Booking_Accepted,Tue,9:00,11:00,41
 GH614,Booking_Accepted,Tue,11:00,14:00,41
 GH614,Booking_Accepted,Wed,11:00,14:30,41
 GH614,Booking_Accepted,Thu,10:30,14:00,41
@@ -399,11 +400,12 @@ LH213a,Booking_Accepted,Thu,11:00,13:00,41
 LH213b,Booking_Accepted,Mon,13:30,17:00,41
 LH213b,Seminar,Tue,10:00,13:00,38-45
 LH213b,Booking_Accepted,Wed,9:00,17:00,41
+LH217,Booking_Accepted,Mon,14:00,15:30,41
 LH217,Booking_Accepted,Tue,10:30,12:30,41
 LH217,Booking_Accepted,Tue,12:30,14:00,41
 LH217,Tutorial,Tue,17:00,20:00,"38-42,  45"
 LH217,Booking_Accepted,Wed,13:00,15:00,41
-LH217,Booking_Accepted,Wed,15:00,17:00,41
+LH217,Booking_Accepted,Fri,13:30,16:00,41
 LH218,Booking_Accepted,Tue,14:00,16:00,41
 LH218,Booking_Accepted,Thu,13:00,14:30,41
 LH226a,Booking_Accepted,Mon,9:00,16:00,41
@@ -413,6 +415,7 @@ LH228,Tutorial,Thu,9:00,12:00,41
 LH228,Tutorial,Thu,12:00,16:00,41
 LH229a,Booking_Accepted,Tue,12:30,13:00,41
 LH229a,Booking_Accepted,Tue,13:00,16:00,41
+LH229a,Booking_Accepted,Wed,14:00,17:00,41
 LH229b,Booking_Accepted,Tue,12:30,13:00,41
 LH229b,Booking_Accepted,Tue,13:00,16:00,41
 LT207,Booking_Accepted,Mon,9:00,13:30,41
@@ -420,12 +423,16 @@ LT208,Booking_Accepted,Mon,9:00,14:00,41
 LT208,Booking_Accepted,Tue,9:30,11:30,41
 LT208,Booking_Accepted,Tue,13:30,15:00,41
 LT208,Booking_Accepted,Wed,9:30,11:30,41
+LT208,Booking_Accepted,Thu,10:00,11:00,41
+LT211,Booking_Accepted,Tue,12:00,14:00,41
 LT211,Booking_Accepted,Wed,9:30,11:30,41
 LT211,External,Thu,8:30,16:00,41
 LT211,Booking_Accepted,Fri,10:00,12:00,41
 LT212,Booking_Accepted,Fri,9:30,11:30,41
 LT301a,Booking_Accepted,Tue,10:00,12:00,41
 LT303,Lecture,Wed,10:30,16:30,"30-32,  35,  38-41"
+LT304,Booking_Accepted,Tue,12:00,17:00,41
+LT307,Booking_Accepted,Wed,14:00,15:00,41
 LT307,Booking_Accepted,Wed,16:30,17:00,41
 LT309,External,Mon,8:30,14:00,41
 LT309,Booking_Accepted,Tue,9:00,17:00,41
@@ -436,6 +443,7 @@ LT310,External,Wed,19:00,21:00,"23,  25,  28,  30,  32,  34,  36,  38,  41,  43,
 LT311,External,Mon,8:30,13:30,41
 LT311,Booking_Accepted,Wed,10:00,17:00,41
 LT311,External,Fri,8:30,13:30,41
+LT313,Booking_Accepted,Thu,10:00,15:00,41
 LT313,External,Fri,8:30,13:30,41
 LT404,Booking_Accepted,Fri,9:00,17:00,41
 LT405,Booking_Accepted,Fri,9:00,17:00,41
@@ -444,6 +452,7 @@ LT410,Booking_Accepted,Tue,9:00,10:30,41
 LT410,Booking_Accepted,Thu,9:00,12:30,41
 LT415,Booking_Accepted,Mon,10:00,17:00,41
 LT415,Booking_Accepted,Tue,11:00,12:00,41
+LT416,Booking_Accepted,Tue,10:00,17:00,41
 LT501,Booking_Accepted,Fri,9:30,12:00,41
 LT503,Workshop,Tue,10:00,13:00,"24-25,  27,  29-35,  38-42"
 LT503,Workshop,Tue,14:00,17:00,"24,  27,  29-35,  38-42"
@@ -726,11 +735,14 @@ SW107,Ad-Hoc,Wed,8:00,17:00,41
 SW107,Booking_Accepted,Thu,9:00,17:00,41
 SW108,Booking_Accepted,Mon,12:00,13:00,41
 SW108,Booking_Accepted,Tue,11:00,12:00,41
+SW108,Booking_Accepted,Wed,11:00,13:00,41
 SW108,Booking_Accepted,Thu,10:00,12:00,41
 SW108,Booking_Accepted,Thu,13:00,17:00,41
 SW109,Booking_Accepted,Tue,10:30,12:00,41
 SW109,Booking_Accepted,Tue,12:00,14:00,41
+SW109,Booking_Accepted,Thu,10:00,13:00,41
 SW109,Booking_Accepted,Thu,13:00,17:00,41
+SW109,Booking_Accepted,Fri,15:00,16:00,41
 SW203,Sbs Ad-Hoc,Mon,9:00,17:00,"39,  41-42"
 SW203,Sbs Ad-Hoc,Tue,9:00,17:00,"39,  41-42"
 SW203,Sbs Ad-Hoc,Wed,9:00,17:00,"39,  41-42"
@@ -900,10 +912,11 @@ TL557,Booking_Accepted,Wed,11:00,12:00,41
 TL557,Booking_Accepted,Wed,12:00,13:00,41
 TL557,Booking_Accepted,Wed,14:00,15:00,41
 TL557,Booking_Accepted,Thu,11:00,12:00,41
+TL557,Booking_Accepted,Thu,14:30,17:00,41
 TL557,Booking_Accepted,Fri,18:00,22:00,40-41
 TL560,Booking_Accepted,Mon,10:00,12:00,41
 TL560,Lecture,Mon,14:00,17:00,41
-TL560,Booking_Accepted,Tue,10:00,12:00,41
+TL560,Booking_Accepted,Tue,10:00,12:30,41
 TL560,Booking_Accepted,Wed,14:00,15:30,41
 TL560,Booking_Accepted,Thu,10:30,12:00,41
 TL560,Booking_Accepted,Thu,13:30,16:00,41
