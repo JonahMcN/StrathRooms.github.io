@@ -218,13 +218,11 @@ GH617,Tutorial,Fri,14:00,16:00,41-43
 GH621,Ad-Hoc,Tue,11:30,12:30,40-41
 GH626,Lecture,Mon,14:00,17:00,41
 GH626,Lecture,Tue,14:00,17:00,41
-GH626,Lecture,Wed,14:00,17:00,41
-GH626,Lecture,Thu,14:00,17:00,41
 GH626,Lecture,Fri,12:00,14:00,41
-GH626,Lecture,Fri,14:00,17:00,41
 GH630,Booking_Accepted,Wed,11:30,12:30,41
 GH630,Booking_Accepted,Wed,15:00,17:00,41
 GH630,Booking_Accepted,Fri,10:30,12:30,41
+GH634,Booking_Accepted,Wed,9:30,12:00,41
 GH634,Computer Lab,Fri,9:00,17:00,41
 GH640,Booking_Accepted,Wed,11:00,14:00,41
 GH640,Booking_Accepted,Thu,10:30,14:00,41
@@ -433,6 +431,7 @@ LT211,Booking_Accepted,Tue,12:00,14:00,41
 LT211,Booking_Accepted,Wed,9:30,11:30,41
 LT211,External,Thu,8:30,16:00,41
 LT211,Booking_Accepted,Fri,10:00,12:00,41
+LT212,External,Thu,9:00,13:00,41
 LT212,Booking_Accepted,Fri,9:30,11:30,41
 LT301a,Booking_Accepted,Tue,10:00,12:00,41
 LT303,Lecture,Wed,10:30,16:30,"30-32,  35,  38-41"
@@ -445,11 +444,12 @@ LT309,Booking_Accepted,Wed,9:30,17:00,41
 LT310,Booking_Accepted,Mon,9:00,13:30,41
 LT310,Booking_Accepted,Wed,10:00,17:00,41
 LT310,External,Wed,19:00,21:00,"23,  25,  28,  30,  32,  34,  36,  38,  41,  43,  45,  47"
+LT310,Booking_Accepted,Thu,11:30,15:00,41
 LT311,External,Mon,8:30,13:30,41
 LT311,Booking_Accepted,Wed,10:00,17:00,41
 LT311,External,Fri,8:30,13:30,41
 LT313,Booking_Accepted,Wed,12:00,13:00,41
-LT313,Booking_Accepted,Thu,11:00,15:00,41
+LT313,Booking_Accepted,Thu,11:00,16:00,41
 LT313,External,Fri,8:30,13:30,41
 LT404,Booking_Accepted,Fri,9:00,17:00,41
 LT405,Booking_Accepted,Fri,9:00,17:00,41
@@ -550,6 +550,9 @@ RC426,Roll Forward,Thu,8:00,22:00,41
 RC426,Roll Forward,Fri,8:00,22:00,41
 RC434a,Ad-Hoc,Mon,9:00,12:00,41
 RC434a,Ad-Hoc,Tue,9:00,10:30,41
+RC434a,Lecture,Wed,14:00,17:00,41
+RC434a,Lecture,Thu,14:00,17:00,41
+RC434a,Lecture,Fri,14:00,17:00,41
 RC434b,Ad-Hoc,Mon,9:00,12:00,41
 RC434b,Booking_Accepted,Tue,9:00,10:30,41
 RC440,Classtest,Tue,9:00,11:30,41
@@ -724,6 +727,7 @@ SW104,Ad-Hoc,Tue,8:00,17:00,41
 SW104,Ad-Hoc,Wed,8:00,17:00,41
 SW104,Ad-Hoc,Tue,8:00,17:00,41
 SW104,Ad-Hoc,Wed,8:00,17:00,41
+SW104,Booking_Accepted,Thu,11:00,14:00,41
 SW104,Booking_Accepted,Thu,15:00,16:00,41
 SW104,Booking_Accepted,Fri,10:00,11:30,41
 SW105,Lecture,Mon,10:00,12:00,41
@@ -922,7 +926,7 @@ TL557,Booking_Accepted,Tue,11:00,12:00,41
 TL557,Booking_Accepted,Wed,11:00,12:00,41
 TL557,Booking_Accepted,Wed,12:00,13:00,41
 TL557,Booking_Accepted,Wed,14:00,15:00,41
-TL557,Booking_Accepted,Thu,11:00,12:00,41
+TL557,Booking_Accepted,Wed,15:00,16:00,41
 TL557,Booking_Accepted,Thu,14:30,17:00,41
 TL557,Booking_Accepted,Fri,18:00,22:00,40-41
 TL560,Booking_Accepted,Mon,10:00,12:00,41
