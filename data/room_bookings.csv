@@ -112,6 +112,7 @@ CL202,Booking_Accepted,Wed,9:30,12:30,42
 CL202,Booking_Accepted,Thu,9:00,17:00,42
 CL203,Booking_Accepted,Tue,9:00,16:30,42
 CL203,Booking_Accepted,Wed,14:30,16:00,42
+CL203,Booking_Accepted,Thu,8:30,12:00,42
 CL204,Booking_Accepted,Mon,11:00,12:00,42
 CL204,Booking_Accepted,Mon,14:30,17:00,42
 CL204,Booking_Accepted,Tue,9:00,16:30,42
@@ -385,8 +386,10 @@ JW105,Laboratory,Fri,11:30,13:00,42
 JW105,Laboratory,Fri,14:00,15:30,42
 JW125,Laboratory,Fri,9:00,17:00,38-42
 LH211a,Booking_Accepted,Wed,10:00,12:00,42
+LH211a,Booking_Accepted,Thu,11:00,12:30,42
 LH211a,Booking_Accepted,Thu,13:00,14:00,42
 LH211b,Booking_Accepted,Mon,11:00,12:00,42
+LH211b,Booking_Accepted,Thu,11:00,12:30,42
 LH213b,Seminar,Tue,10:00,13:00,38-45
 LH217,Booking_Accepted,Mon,9:30,14:30,42
 LH217,Tutorial,Tue,17:00,20:00,"38-42,  45"
@@ -399,6 +402,7 @@ LH226b,Booking_Accepted,Wed,14:00,15:00,42
 LH226b,Booking_Accepted,Thu,9:00,15:00,42
 LH226b,Booking_Accepted,Fri,9:00,14:00,42
 LH227a,Booking_Accepted,Thu,9:00,17:00,42
+LH227b,Booking_Accepted,Tue,10:00,14:00,42
 LH227b,Booking_Accepted,Thu,9:00,17:00,42
 LH228,Seminar,Mon,9:00,11:00,42
 LH228,Booking_Accepted,Wed,14:00,16:00,42
@@ -426,11 +430,14 @@ LT408,Presentation,Mon,10:00,12:00,42
 LT408,Presentation,Mon,14:00,16:00,42
 LT408,Workshop,Thu,14:00,17:00,42
 LT409,Tutorial,Fri,9:00,12:30,38-49
+LT410,Booking_Accepted,Tue,9:00,12:00,42
 LT415,Booking_Accepted,Tue,11:00,12:00,42
 LT415,Workshop,Thu,10:00,13:00,42
 LT415,Workshop,Thu,14:00,17:00,42
 LT416,Workshop,Thu,10:00,13:00,42
 LT417,Workshop,Thu,10:00,13:00,42
+LT418,Booking_Accepted,Tue,10:00,16:00,42
+LT419,Booking_Accepted,Tue,10:00,16:00,42
 LT420,Lecture,Thu,10:00,13:00,"40,  42"
 LT420,Lecture,Thu,14:00,17:00,"40,  42"
 LT503,Workshop,Tue,10:00,13:00,"24-25,  27,  29-35,  38-42"
@@ -462,9 +469,13 @@ LT508,Lecture,Wed,10:00,13:00,"24-35,  38-42"
 LT508,Lecture,Wed,14:00,17:00,"24-35,  38-42"
 LT508,Lecture,Thu,10:00,13:00,"24-35,  38-47"
 LT508,Lecture,Thu,14:00,17:00,"24-35,  38-39,  42-43,  46-47"
+LT511,Booking_Accepted,Tue,10:00,16:00,42
+LT512,Booking_Accepted,Tue,10:00,16:00,42
+LT514,Booking_Accepted,Tue,10:00,16:00,42
 LT514,Workshop,Thu,10:00,13:00,"24,  27-35,  38-47"
 LT515,Workshop,Tue,10:00,13:00,"24-25,  27,  29-35,  38-42"
 LT515,Workshop,Thu,10:00,13:00,"24,  27-35,  38-47"
+LT516,Booking_Accepted,Tue,10:00,16:00,42
 LT516,Booking_Accepted,Wed,10:30,11:00,42
 LT516,Workshop,Thu,10:00,13:00,"24,  27-35,  38-47"
 LT619,Roll Forward,Mon,9:00,16:00,"41-42,  44-45"
@@ -492,6 +503,7 @@ LT619,Roll Forward,Tue,9:00,16:00,"41-42,  44-45"
 LT619,Roll Forward,Wed,9:00,16:00,"41-42,  44-45"
 LT619,Roll Forward,Thu,9:00,16:00,"41-42,  44-45"
 LT619,Roll Forward,Fri,9:00,16:00,"41-42,  44-45"
+LT620,Booking_Accepted,Wed,9:00,13:00,42
 LT711,Booking_Accepted,Wed,14:00,15:00,42
 LT711,Tutorial,Fri,9:00,17:00,"39,  42"
 LT714,Booking_Accepted,Wed,12:00,13:00,41-43
@@ -692,8 +704,10 @@ RC667,External,Tue,19:00,21:30,"23-35,  38-47"
 RC667,Booking_Accepted,Thu,9:00,12:30,42
 RC667,Ad-Hoc,Thu,17:00,20:00,"19-20,  38-42"
 RC669,Booking_Accepted,Mon,10:00,11:30,42
+RC669,Booking_Accepted,Tue,11:00,12:30,42
 RC669,Ad-Hoc,Tue,16:30,19:30,"1-7,  19-20,  23,  36-52"
 RC669,Booking_Accepted,Wed,19:30,22:00,42
+SW104,Booking_Accepted,Mon,10:00,11:30,42
 SW104,Booking_Accepted,Fri,9:00,14:00,42
 SW105,Booking_Accepted,Mon,10:30,14:30,42
 SW105,Booking_Accepted,Wed,14:00,15:30,42
@@ -704,6 +718,7 @@ SW107,Booking_Accepted,Fri,9:00,14:00,42
 SW108,Booking_Accepted,Wed,12:30,16:00,42
 SW108,Booking_Accepted,Fri,9:00,14:00,42
 SW109,Booking_Accepted,Wed,10:00,12:00,42
+SW109,Booking_Accepted,Wed,13:00,14:00,42
 SW109,Booking_Accepted,Thu,12:30,14:30,42
 SW109,Estates,Fri,8:00,22:00,42
 SW203,Sbs Ad-Hoc,Mon,9:00,17:00,"39,  41-42"
@@ -832,7 +847,10 @@ TL455,Booking_Accepted,Wed,15:00,16:30,42
 TL455,Lecture,Fri,10:00,13:00,40-42
 TL455,Ad-Hoc,Fri,15:30,17:00,42
 TL551b,Booking_Accepted,Mon,10:00,11:30,42
+TL551b,Booking_Accepted,Mon,14:00,15:00,42
 TL551b,Booking_Accepted,Mon,15:00,16:00,42
+TL551b,Booking_Accepted,Mon,16:00,17:00,42
+TL551b,Booking_Accepted,Tue,12:00,13:00,42
 TL551b,Ad-Hoc,Wed,8:00,22:00,42
 TL551b,Ad-Hoc,Thu,8:00,22:00,42
 TL551b,Ad-Hoc,Fri,8:00,22:00,42
@@ -882,6 +900,7 @@ TL556,Ad-Hoc,Fri,8:00,22:00,42
 TL556,Ad-Hoc,Sat,8:00,22:00,42
 TL556,Ad-Hoc,Sun,8:00,22:00,42
 TL557,Booking_Accepted,Tue,11:00,12:00,42
+TL557,Booking_Accepted,Tue,12:00,14:00,42
 TL557,Ad-Hoc,Wed,8:00,22:00,42
 TL557,Ad-Hoc,Thu,8:00,22:00,42
 TL557,Ad-Hoc,Fri,8:00,22:00,42
@@ -962,6 +981,8 @@ TL652,Booking_Accepted,Tue,9:30,12:00,40-42
 TL652,Lecture,Tue,14:00,15:00,39-44
 TL652,Seminar,Tue,15:00,16:00,39-44
 TL652,Booking_Accepted,Wed,10:00,12:00,41-42
+TL652,Booking_Accepted,Thu,11:00,12:00,42
+TL652,Booking_Accepted,Fri,11:00,12:00,42
 TL652,Booking_Accepted,Fri,18:00,22:00,40-42
 TL655,Conference Booking,Tue,10:30,17:00,42
 TL655,Booking_Accepted,Wed,11:00,14:00,42
