@@ -1,6 +1,5 @@
 Room,Type,Day,Start,End,Weeks
 AB101,Booking_Accepted,Mon,14:00,15:00,42
-AB101,Booking_Accepted,Fri,16:00,17:00,42-45
 BH101 / Barony Main Hall,Roll Forward,Mon,8:00,22:00,"39,  42"
 BH101 / Barony Main Hall,Roll Forward,Tue,8:00,22:00,"39,  42"
 BH101 / Barony Main Hall,Roll Forward,Wed,8:00,22:00,"39,  42"
@@ -104,7 +103,6 @@ CL102,Roll Forward,Fri,8:00,22:00,"39,  42"
 CL201,Roll Forward,Mon,14:00,16:00,42
 CL201,Booking_Accepted,Tue,9:00,17:00,42
 CL201,Booking_Accepted,Thu,9:00,12:30,42
-CL201,Booking_Accepted,Thu,13:30,16:00,42
 CL202,Booking_Accepted,Mon,9:00,17:00,42
 CL202,Booking_Accepted,Tue,12:30,14:30,42
 CL202,Booking_Accepted,Tue,15:00,17:00,42
@@ -126,6 +124,7 @@ CW408,Seminar,Wed,9:30,11:30,42
 CW408,Booking_Accepted,Wed,12:00,14:00,42
 CW408,Booking_Accepted,Wed,14:00,17:00,42
 CW408,Lecture,Thu,10:00,11:00,42
+CW408,Booking_Accepted,Thu,13:30,16:00,42
 CW408,Booking_Accepted,Fri,9:00,16:30,42
 CW602,Roll Forward,Mon,8:00,22:00,"39,  42"
 CW602,Roll Forward,Tue,8:00,22:00,"39,  42"
@@ -224,9 +223,11 @@ GH621,Booking_Accepted,Wed,10:00,14:00,42
 GH621,Booking_Accepted,Wed,14:00,16:00,42
 GH626,Presentation,Mon,13:00,16:00,42
 GH630,Booking_Accepted,Tue,10:30,14:00,42
+GH630,Booking_Accepted,Thu,10:00,12:00,42
 GH640,Booking_Accepted,Wed,10:30,14:00,42
 GH640,Lecture,Wed,14:00,17:00,42-43
 GH640,Tutorial,Fri,13:30,17:00,"24-35,  38-49"
+GH641,Booking_Accepted,Fri,12:00,13:00,42
 GH643,Seminar,Mon,9:00,11:00,42
 GH643,Lecture,Tue,9:00,11:00,42-46
 GH643,Seminar,Wed,10:00,13:00,41-48
@@ -394,6 +395,7 @@ LH217,Booking_Accepted,Mon,9:30,14:30,42
 LH217,Tutorial,Tue,17:00,20:00,"38-42,  45"
 LH217,Booking_Accepted,Fri,9:00,11:00,42
 LH217,Lecture,Fri,15:00,17:00,42
+LH218,Booking_Accepted,Fri,14:00,17:00,42
 LH226a,Booking_Accepted,Wed,9:30,12:30,42
 LH226a,Booking_Accepted,Thu,9:00,15:00,42
 LH226a,Booking_Accepted,Fri,9:00,14:00,42
@@ -546,6 +548,7 @@ RC426,Roll Forward,Fri,8:00,22:00,"39,  42"
 RC440,Lecture,Mon,15:00,17:00,"42,  45-47"
 RC440,Roll Forward,Tue,18:30,19:00,"15-20,  23-47"
 RC440,Booking_Accepted,Wed,17:30,21:30,42
+RC440,Booking_Accepted,Thu,15:00,16:00,42
 RC440,Booking_Accepted,Thu,17:00,22:00,42
 RC440,Workshop,Fri,14:00,16:00,"42,  46"
 RC447,Roll Forward,Mon,8:00,22:00,"39,  42"
@@ -675,6 +678,7 @@ RC530,Ad-Hoc,Wed,10:00,11:00,42
 RC538,Booking_Accepted,Mon,8:30,16:30,42
 RC538,Booking_Accepted,Tue,8:30,16:30,42
 RC538,Booking_Accepted,Thu,14:00,15:00,42
+RC538,Booking_Accepted,Fri,9:00,10:00,42
 RC540,Ad-Hoc,Mon,9:30,12:30,42
 RC540,Booking_Accepted,Mon,13:00,15:00,42
 RC540,Lecture,Wed,10:00,13:00,42
@@ -724,6 +728,7 @@ SW105,Booking_Accepted,Wed,14:00,15:30,42
 SW105,Booking_Accepted,Thu,9:00,16:30,42
 SW105,Lecture,Fri,10:00,12:00,42
 SW108,Booking_Accepted,Wed,12:30,16:00,42
+SW108,Booking_Accepted,Thu,14:00,16:00,42
 SW109,Booking_Accepted,Wed,10:00,12:00,42
 SW109,Booking_Accepted,Wed,13:00,14:00,42
 SW109,Booking_Accepted,Thu,12:30,14:30,42
@@ -993,6 +998,7 @@ TL652,Seminar,Tue,15:00,16:00,39-44
 TL652,Booking_Accepted,Wed,10:00,12:00,41-42
 TL652,Booking_Accepted,Thu,11:00,12:00,42
 TL652,Booking_Accepted,Thu,14:00,15:00,42
+TL652,Booking_Accepted,Thu,15:00,16:00,42
 TL652,Booking_Accepted,Fri,11:00,12:00,42
 TL652,Booking_Accepted,Fri,18:00,22:00,40-42
 TL655,Conference Booking,Tue,10:30,17:00,42
