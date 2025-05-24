@@ -410,6 +410,7 @@ LH228,Booking_Accepted,Wed,13:00,14:00,42
 LH228,Booking_Accepted,Wed,14:00,16:00,42
 LH228,Seminar,Thu,14:00,17:00,42-49
 LH229a,Booking_Accepted,Thu,14:00,16:30,42
+LH229a,Booking_Accepted,Fri,15:00,17:00,42
 LH229b,Booking_Accepted,Thu,14:00,16:30,42
 LT209,Booking_Accepted,Wed,10:30,14:00,42
 LT211,Booking_Accepted,Mon,10:00,15:00,42
