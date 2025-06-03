@@ -25,16 +25,22 @@ CL202,Booking_Accepted,Wed,15:00,17:00,44
 CL202,Roll Forward,Thu,10:00,14:00,"5,  14,  18,  23,  27,  31,  44,  48"
 CL202,Booking_Accepted,Thu,14:00,15:00,44
 CL203,Booking_Accepted,Mon,9:00,15:00,44
+CL203,Booking_Requested,Tue,16:00,17:00,44
 CL204,Booking_Accepted,Tue,13:30,16:00,44
 CL204,Booking_Accepted,Thu,9:00,12:00,44
 CL205,Booking_Accepted,Tue,14:00,16:00,44
 CL205,Booking_Accepted,Thu,10:00,12:00,44
 CU522,Booking_Accepted,Tue,14:00,16:00,44
 CW404a,Booking_Accepted,Tue,10:30,11:30,44
+CW404a,Booking_Accepted,Tue,15:30,17:00,44
 CW404a,Booking_Accepted,Wed,10:00,12:00,44
+CW404a,Booking_Accepted,Wed,15:00,17:00,44
+CW404a,Booking_Accepted,Thu,11:00,12:00,44
 CW404b,Lecture,Mon,9:00,12:00,44-45
 CW404b,Booking_Accepted,Tue,14:00,15:00,44
+CW404b,Booking_Accepted,Tue,15:30,17:00,44
 CW404b,Lecture,Wed,10:00,12:00,43-45
+CW404b,Booking_Accepted,Wed,15:00,17:00,44
 CW404b,Lecture,Thu,9:00,12:00,44-45
 CW404b,Lecture,Fri,10:00,13:00,43-45
 CW406a,Lecture,Mon,14:00,17:00,44-45
@@ -42,20 +48,32 @@ CW406a,Seminar,Tue,9:30,11:30,44
 CW406a,Seminar,Thu,9:30,11:30,44
 CW406a,Lecture,Tue,14:00,17:00,43-45
 CW406a,Workshop,Wed,10:00,15:00,44
+CW406a,Booking_Accepted,Wed,15:00,17:00,44
 CW406a,Seminar,Tue,9:30,11:30,44
 CW406a,Seminar,Thu,9:30,11:30,44
 CW406b,Booking_Accepted,Mon,9:00,17:00,44
+CW406b,Booking_Accepted,Tue,15:30,17:00,44
+CW406b,Booking_Accepted,Wed,15:00,17:00,44
+CW406b,Booking_Accepted,Thu,11:00,12:00,44
 CW406b,Booking_Accepted,Fri,9:00,17:00,44
 CW408,Estates,Mon,8:00,22:00,44
 CW408,Booking_Accepted,Wed,13:30,16:00,44
+CW408,Booking_Accepted,Thu,11:00,12:00,44
 CW408,Lecture,Thu,13:00,14:00,"44-46,  48"
 CW506a,Booking_Accepted,Tue,10:00,13:00,44
 CW506a,Booking_Accepted,Tue,14:00,16:00,44
 CW506a,Booking_Accepted,Wed,12:30,15:30,44
+CW506a,Booking_Accepted,Thu,11:00,12:00,44
 CW506b,Booking_Accepted,Mon,9:00,14:30,44
 CW506b,Lecture,Tue,9:00,17:00,44
 CW506b,Lecture,Wed,9:00,17:00,44
 CW506b,Lecture,Thu,9:00,17:00,44
+CW507a,Booking_Accepted,Tue,15:30,17:00,44
+CW507a,Booking_Accepted,Wed,15:00,17:00,44
+CW507a,Booking_Accepted,Thu,11:00,12:00,44
+CW507b,Booking_Accepted,Tue,15:30,17:00,44
+CW507b,Booking_Accepted,Wed,15:00,17:00,44
+CW507b,Booking_Accepted,Thu,11:00,12:00,44
 CW602,Lecture,Mon,9:00,17:00,44
 CW602,Lecture,Tue,9:00,17:00,44
 CW602,Lecture,Wed,9:00,17:00,44
@@ -71,6 +89,7 @@ GH330,Cll Ad-Hoc,Thu,10:00,12:00,"37-38,  40-45"
 GH330,Cll Ad-Hoc,Thu,12:00,14:30,37-44
 GH509,Booking_Accepted,Mon,9:00,17:00,44
 GH510,Booking_Accepted,Tue,10:30,14:00,44
+GH510,Booking_Accepted,Tue,14:00,15:00,44
 GH510,Booking_Accepted,Wed,10:00,12:00,"38,  41,  44,  47"
 GH510,Booking_Accepted,Wed,13:30,15:30,44
 GH510,Booking_Accepted,Thu,10:30,14:00,44
@@ -153,6 +172,7 @@ GH902,Ad-Hoc,Wed,18:00,22:00,44-52
 GH902,Booking_Accepted,Fri,16:00,22:00,44
 LH211a,Booking_Accepted,Tue,10:00,12:00,44-48
 LH211a,Booking_Accepted,Thu,13:00,15:30,44
+LH213a,Booking_Accepted,Tue,10:00,12:00,44
 LH213b,Seminar,Tue,10:00,13:00,38-45
 LH217,Booking_Accepted,Tue,9:30,11:30,44
 LH226a,Booking_Accepted,Mon,9:00,16:00,44
@@ -164,8 +184,11 @@ LH226b,Booking_Accepted,Tue,9:30,17:00,44
 LH226b,Booking_Accepted,Thu,9:30,14:30,44
 LH226b,Booking_Accepted,Fri,9:00,16:00,44
 LH227b,Booking_Accepted,Tue,10:00,16:00,44
+LH227b,Booking_Accepted,Wed,9:00,12:30,44
 LH228,Booking_Accepted,Mon,14:00,17:00,44
+LH228,Booking_Accepted,Tue,10:00,13:00,44
 LH228,Seminar,Thu,14:00,16:00,43-48
+LT207,Booking_Accepted,Thu,16:00,17:00,44
 LT209,Booking_Accepted,Wed,8:00,17:00,44
 LT209,Booking_Accepted,Thu,8:00,17:00,44
 LT209,Booking_Accepted,Fri,8:00,13:00,44
@@ -182,6 +205,7 @@ LT212,Booking_Accepted,Fri,8:00,13:00,44
 LT311,Booking_Accepted,Mon,10:30,12:30,44
 LT311,Booking_Accepted,Thu,10:00,12:00,44
 LT311,Booking_Accepted,Thu,15:00,17:00,44
+LT313,Booking_Accepted,Tue,11:00,12:00,44
 LT409,Tutorial,Fri,9:00,12:30,38-49
 LT413,Ad-Hoc,Mon,8:00,17:30,44
 LT413,Ad-Hoc,Tue,8:00,17:30,44
@@ -248,15 +272,23 @@ RC471 / Assembly Hall,Conference Booking,Wed,8:00,22:00,44
 RC471 / Assembly Hall,Booking_Accepted,Thu,8:00,15:30,44
 RC471 / Assembly Hall,Conference Booking,Fri,8:00,18:00,44
 RC501,Booking_Accepted,Tue,12:00,13:00,44
+RC501,Booking_Accepted,Wed,15:00,17:00,44
 RC501,Booking_Accepted,Thu,17:00,20:00,44
+RC503,Booking_Accepted,Wed,15:00,17:00,44
 RC512,Booking_Accepted,Mon,9:00,17:00,44
+RC512,Booking_Accepted,Wed,15:00,17:00,44
+RC513,Booking_Accepted,Wed,15:00,17:00,44
 RC538,Booking_Accepted,Thu,10:00,11:00,44
+RC540,Booking_Accepted,Thu,10:00,12:00,44
+RC546,Booking_Accepted,Thu,10:00,12:00,44
+RC557,Booking_Accepted,Thu,10:00,12:00,44
 RC667,External,Tue,19:00,21:30,"23-35,  38-47"
 RC669,Ad-Hoc,Tue,16:30,19:30,"1-7,  19-20,  23,  36-52"
 RC669,Booking_Accepted,Wed,19:00,22:00,44
 SW104,Conference Booking,Tue,12:00,13:30,44
 SW104,Booking_Accepted,Tue,15:00,17:00,44
 SW104,Booking_Accepted,Wed,8:00,16:00,44
+SW104,Booking_Accepted,Thu,11:00,12:30,44
 SW105,Booking_Accepted,Mon,15:00,17:00,44
 SW105,Booking_Accepted,Tue,9:00,17:00,44
 SW105,Booking_Accepted,Wed,8:00,16:00,44
@@ -274,12 +306,15 @@ TG310,Booking_Accepted,Mon,9:00,10:00,44-47
 TG310,Booking_Accepted,Tue,9:00,17:00,44
 TG310,Booking_Accepted,Wed,9:00,17:00,44
 TG312,Booking_Accepted,Wed,15:00,17:00,44
+TG312,Booking_Accepted,Thu,15:00,17:00,44
 TG314,Booking_Accepted,Thu,12:00,13:00,38-45
 TL324,Booking_Accepted,Mon,10:00,16:00,44
 TL324,Booking_Accepted,Tue,10:00,16:00,44
 TL324,Booking_Accepted,Wed,9:00,17:00,44
 TL324,Booking_Accepted,Thu,9:00,17:00,44
 TL324,Ad-Hoc,Fri,8:00,22:00,44
+TL328,Booking_Accepted,Mon,10:00,11:00,44
+TL328,Booking_Accepted,Mon,13:00,16:00,44
 TL328,Booking_Accepted,Tue,9:00,14:30,44
 TL328,Booking_Accepted,Wed,10:00,13:00,44
 TL328,Booking_Accepted,Wed,13:00,14:30,44
@@ -550,6 +585,7 @@ TL565,Ad-Hoc,Thu,8:00,22:00,44
 TL565,Ad-Hoc,Fri,8:00,22:00,44
 TL565,Ad-Hoc,Sat,8:00,22:00,44
 TL565,Ad-Hoc,Sun,8:00,22:00,44
+TL651,Booking_Accepted,Mon,10:00,11:00,44
 TL651,Booking_Accepted,Mon,14:00,16:00,44
 TL651,Booking_Accepted,Tue,12:00,13:00,44
 TL651,Booking_Accepted,Tue,15:00,16:00,44
