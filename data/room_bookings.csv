@@ -1,5 +1,6 @@
 Room,Type,Day,Start,End,Weeks
 AB101,Booking_Accepted,Tue,9:00,17:00,44
+AB101,Booking_Accepted,Wed,9:00,17:00,44
 BH101 / Barony Main Hall,Conference Booking,Mon,8:00,22:00,44
 BH101 / Barony Main Hall,Conference Booking,Tue,8:00,22:00,44
 BH101 / Barony Main Hall,Conference Booking,Wed,8:00,22:00,44
@@ -27,6 +28,7 @@ CL202,Booking_Accepted,Thu,14:00,15:00,44
 CL203,Booking_Accepted,Mon,9:00,15:00,44
 CL203,Booking_Accepted,Tue,16:00,17:00,44
 CL204,Booking_Accepted,Tue,13:30,16:00,44
+CL204,Booking_Accepted,Wed,12:30,16:30,44
 CL204,Booking_Accepted,Thu,9:00,12:00,44
 CL205,Booking_Accepted,Tue,14:00,16:00,44
 CL205,Booking_Accepted,Thu,10:00,12:00,44
@@ -34,6 +36,7 @@ CU522,Booking_Accepted,Tue,14:00,16:00,44
 CW404a,Booking_Accepted,Tue,10:30,11:30,44
 CW404a,Booking_Accepted,Tue,15:30,17:00,44
 CW404a,Booking_Accepted,Wed,10:00,12:00,44
+CW404a,Booking_Accepted,Wed,14:00,15:00,44
 CW404a,Booking_Accepted,Wed,15:00,17:00,44
 CW404a,Booking_Accepted,Thu,11:00,12:00,44
 CW404b,Lecture,Mon,9:00,12:00,44-45
@@ -78,3 +81,565 @@ CW602,Lecture,Mon,9:00,17:00,44
 CW602,Lecture,Tue,9:00,17:00,44
 CW602,Lecture,Wed,9:00,17:00,44
 CW602,Booking_Accepted,Fri,8:00,17:00,44
+GH322,Cll Ad-Hoc,Thu,9:30,12:00,37-46
+GH327,Cll Ad-Hoc,Tue,18:00,20:30,"4-13,  15-26,  28-38,  40-47"
+GH327,Cll Ad-Hoc,Wed,10:00,12:30,"5-14,  16-26,  28-38,  41-47"
+GH327,Cll Ad-Hoc,Thu,15:30,21:00,"35-39,  41,  43-46,  48-49,  52"
+GH327,Cll Ad-Hoc,Fri,10:00,12:30,"4-12,  14-26,  28-36,  38-46"
+GH330,Cll Ad-Hoc,Tue,11:00,13:00,"39-42,  44-45"
+GH330,Cll Ad-Hoc,Wed,10:00,16:00,"23-28,  30-35,  37-49"
+GH330,Cll Ad-Hoc,Thu,10:00,12:00,"37-38,  40-45"
+GH330,Cll Ad-Hoc,Thu,12:00,14:30,37-44
+GH509,Booking_Accepted,Mon,9:00,17:00,44
+GH510,Booking_Accepted,Tue,10:30,14:00,44
+GH510,Booking_Accepted,Tue,14:00,15:00,44
+GH510,Booking_Accepted,Wed,10:00,12:00,"38,  41,  44,  47"
+GH510,Booking_Accepted,Wed,13:30,15:30,44
+GH510,Booking_Accepted,Thu,10:30,14:00,44
+GH510,Booking_Accepted,Thu,14:00,16:00,41-47
+GH511,Booking_Accepted,Tue,10:30,14:00,44
+GH511,Booking_Accepted,Thu,11:30,17:00,44
+GH512,Booking_Accepted,Tue,10:30,14:00,44
+GH512,Tutorial,Wed,17:00,20:00,42-48
+GH512,Booking_Accepted,Thu,10:30,14:00,44
+GH513,Booking_Accepted,Thu,12:00,15:00,40-52
+GH514,Booking_Accepted,Thu,12:00,17:00,44
+GH515,Booking_Accepted,Thu,8:00,11:00,44
+GH515,Booking_Accepted,Thu,11:00,17:00,44
+GH515,Booking_Accepted,Thu,17:00,20:00,44
+GH542,Booking_Accepted,Wed,15:30,17:00,43-48
+GH552,Lecture,Tue,10:00,13:00,"42,  44"
+GH614,Booking_Accepted,Wed,13:00,16:00,44
+GH614,Booking_Accepted,Thu,10:30,14:00,44
+GH617,Lecture,Wed,11:00,13:00,44
+GH617,Ad-Hoc,Thu,18:00,19:30,"9-20,  23-47"
+GH630,Booking_Accepted,Tue,10:00,12:00,44
+GH630,Booking_Accepted,Tue,14:00,15:00,44
+GH630,Booking_Accepted,Thu,11:00,12:00,44
+GH630,Booking_Accepted,Thu,15:00,16:00,44
+GH637,Booking_Accepted,Wed,12:00,14:00,44
+GH640,Tutorial,Fri,13:30,17:00,"24-35,  38-49"
+GH641,Booking_Accepted,Tue,11:00,12:00,44
+GH643,Lecture,Tue,9:00,11:00,42-46
+GH643,Seminar,Wed,10:00,13:00,41-48
+GH643,Lecture,Thu,9:00,11:00,42-46
+GH646,Booking_Accepted,Wed,10:00,11:00,44
+GH701,Ad-Hoc,Mon,17:00,20:00,"2-8,  10-18,  23-37,  44-50"
+GH701,Booking_Accepted,Tue,12:30,14:30,44
+GH701,Ad-Hoc,Tue,17:00,22:00,"11-18,  23-37,  43-47"
+GH709,Booking_Accepted,Tue,12:00,15:00,40-52
+GH709,Booking_Accepted,Thu,15:30,17:00,27-52
+GH713,Ad-Hoc,Mon,17:00,22:00,"23-37,  39,  41-42,  44-48"
+GH713,Tutorial,Fri,13:30,17:00,"23-35,  38-49"
+GH713,Booking_Accepted,Fri,17:00,22:00,44
+GH714,Ad-Hoc,Mon,17:00,22:00,"23-37,  39,  41-42,  44-48"
+GH714,Ad-Hoc,Tue,17:00,22:00,"11-20,  23-37,  39-47"
+GH714,Seminar,Thu,10:00,13:00,"38-41,  43-46"
+GH737,Cll Ad-Hoc,Tue,9:00,17:00,43-45
+GH737a,Ad-Hoc,Mon,8:00,11:00,"31,  36,  41,  44,  49"
+GH737a,Booking_Accepted,Tue,14:00,16:00,44
+GH737a,Booking_Accepted,Wed,15:00,17:00,44
+GH737a,Booking_Accepted,Thu,13:00,14:00,44
+GH738,Project,Wed,10:00,12:00,"39-40,  43-44,  46-47,  49,  51"
+GH738,Tutorial,Fri,9:00,12:30,38-49
+GH739,Cll Ad-Hoc,Tue,10:00,12:00,"39-41,  43-47"
+GH739,Cll Ad-Hoc,Tue,13:00,15:00,43-46
+GH740,Cll Ad-Hoc,Mon,9:00,17:00,44-45
+GH740,Cll Ad-Hoc,Tue,9:00,17:00,44-45
+GH740,Cll Ad-Hoc,Wed,9:00,17:00,44-45
+GH740,Cll Ad-Hoc,Thu,9:00,17:00,44-45
+GH740,Cll Ad-Hoc,Fri,9:00,17:00,44
+GH742,Cll Ad-Hoc,Mon,9:00,17:00,44-45
+GH742,Cll Ad-Hoc,Tue,9:00,17:00,44-45
+GH742,Cll Ad-Hoc,Wed,9:00,17:00,44-45
+GH742,Cll Ad-Hoc,Thu,9:00,17:00,44-45
+GH742,Cll Ad-Hoc,Fri,9:00,17:00,44
+GH744,Cll Ad-Hoc,Mon,9:30,12:00,"37,  39,  41-42,  44-49"
+GH744,Cll Ad-Hoc,Mon,12:00,14:00,"37,  39,  41-42,  44-49"
+GH744,Cll Ad-Hoc,Wed,12:00,14:00,"26-36,  38-47"
+GH744,Cll Ad-Hoc,Wed,14:00,16:30,37-52
+GH748,Cll Ad-Hoc,Tue,12:00,14:30,37-44
+GH748,Cll Ad-Hoc,Thu,12:00,14:00,37-46
+GH748,Cll Ad-Hoc,Fri,10:00,12:00,"10-19,  26-32,  38-46"
+GH752,Cll Ad-Hoc,Mon,12:00,14:00,"37,  39,  41-42,  44-45"
+GH752,Cll Ad-Hoc,Mon,14:30,16:30,"37,  39,  41-42,  44-45"
+GH752,Cll Ad-Hoc,Tue,11:30,13:00,44
+GH752,Cll Ad-Hoc,Tue,14:30,16:30,44-45
+GH752,Cll Ad-Hoc,Fri,12:30,14:30,"39,  41,  44,  46"
+GH753,Cll Ad-Hoc,Tue,10:00,12:00,39-46
+GH753,Cll Ad-Hoc,Tue,13:00,15:00,39-46
+GH753,Cll Ad-Hoc,Wed,12:00,14:00,37-44
+GH753,Cll Ad-Hoc,Thu,10:00,12:00,38-45
+GH863,Lecture,Tue,11:00,13:00,42-46
+GH863,Lecture,Tue,15:00,17:00,43-47
+GH863,Lecture,Thu,11:00,13:00,42-46
+GH863,Lecture,Thu,15:00,17:00,"42,  44-45,  50-51"
+GH863,Lecture,Fri,11:00,13:00,42-47
+GH881,Tutorial,Fri,9:00,12:30,"24-34,  38-49"
+GH881,Computer Lab,Fri,13:30,17:00,38-49
+GH898,Booking_Accepted,Fri,9:00,13:00,44
+GH902,Ad-Hoc,Mon,16:00,22:00,"6-20,  23-37,  39,  41-42,  44-50"
+GH902,Ad-Hoc,Tue,16:00,22:00,"6-15,  17-20,  23-50"
+GH902,Ad-Hoc,Wed,18:00,22:00,44-52
+GH902,Booking_Accepted,Fri,16:00,22:00,44
+LH211a,Booking_Accepted,Tue,10:00,12:00,44-48
+LH211a,Booking_Accepted,Thu,13:00,15:30,44
+LH213a,Booking_Accepted,Tue,10:00,12:00,44
+LH213b,Seminar,Tue,10:00,13:00,38-45
+LH217,Booking_Accepted,Tue,9:30,11:30,44
+LH226a,Booking_Accepted,Mon,9:00,16:00,44
+LH226a,Booking_Accepted,Tue,9:30,17:00,44
+LH226a,Booking_Accepted,Thu,9:30,14:30,44
+LH226a,Booking_Accepted,Fri,9:00,16:00,44
+LH226b,Booking_Accepted,Mon,9:00,16:00,44
+LH226b,Booking_Accepted,Tue,9:30,17:00,44
+LH226b,Booking_Accepted,Thu,9:30,14:30,44
+LH226b,Booking_Accepted,Fri,9:00,16:00,44
+LH227a,Booking_Accepted,Tue,10:00,11:00,44
+LH227b,Booking_Accepted,Tue,10:00,16:00,44
+LH227b,Booking_Accepted,Wed,9:00,12:30,44
+LH228,Booking_Accepted,Mon,14:00,17:00,44
+LH228,Booking_Accepted,Tue,10:00,13:00,44
+LH228,Seminar,Thu,14:00,16:00,43-48
+LT207,Booking_Accepted,Thu,16:00,17:00,44
+LT208,Booking_Accepted,Tue,13:30,15:00,44
+LT209,Booking_Accepted,Wed,8:00,17:00,44
+LT209,Booking_Accepted,Thu,8:00,17:00,44
+LT209,Booking_Accepted,Fri,8:00,13:00,44
+LT210,Booking_Accepted,Wed,8:00,17:00,44
+LT210,Booking_Accepted,Thu,8:00,17:00,44
+LT210,Booking_Accepted,Fri,8:00,13:00,44
+LT211,Booking_Accepted,Tue,12:00,14:00,44
+LT211,Booking_Accepted,Wed,8:00,17:00,44
+LT211,Booking_Accepted,Thu,8:00,17:00,44
+LT211,Booking_Accepted,Fri,8:00,13:00,44
+LT212,Booking_Accepted,Wed,8:00,17:00,44
+LT212,Booking_Accepted,Thu,8:00,17:00,44
+LT212,Booking_Accepted,Fri,8:00,13:00,44
+LT311,Booking_Accepted,Mon,10:30,12:30,44
+LT311,Booking_Accepted,Thu,10:00,12:00,44
+LT311,Booking_Accepted,Thu,15:00,17:00,44
+LT313,Booking_Accepted,Tue,11:00,12:00,44
+LT409,Tutorial,Fri,9:00,12:30,38-49
+LT413,Ad-Hoc,Mon,8:00,17:30,44
+LT413,Ad-Hoc,Tue,8:00,17:30,44
+LT413,Ad-Hoc,Wed,8:00,17:30,44
+LT413,Ad-Hoc,Mon,8:00,17:30,44
+LT413,Ad-Hoc,Tue,8:00,17:30,44
+LT413,Ad-Hoc,Wed,8:00,17:30,44
+LT413,Ad-Hoc,Mon,8:00,17:30,44
+LT413,Ad-Hoc,Tue,8:00,17:30,44
+LT413,Ad-Hoc,Wed,8:00,17:30,44
+LT415,Ad-Hoc,Mon,8:00,17:30,44
+LT415,Ad-Hoc,Tue,8:00,17:30,44
+LT415,Ad-Hoc,Wed,8:00,17:30,44
+LT415,Ad-Hoc,Mon,8:00,17:30,44
+LT415,Ad-Hoc,Tue,8:00,17:30,44
+LT415,Ad-Hoc,Wed,8:00,17:30,44
+LT415,Ad-Hoc,Mon,8:00,17:30,44
+LT415,Ad-Hoc,Tue,8:00,17:30,44
+LT415,Ad-Hoc,Wed,8:00,17:30,44
+LT419,Booking_Accepted,Wed,11:00,13:00,44
+LT508,Lecture,Thu,10:00,13:00,"24-35,  38-47"
+LT514,Workshop,Thu,10:00,13:00,"24,  27-35,  38-47"
+LT515,Workshop,Thu,10:00,13:00,"24,  27-35,  38-47"
+LT516,Workshop,Thu,10:00,13:00,"24,  27-35,  38-47"
+LT619,Roll Forward,Mon,9:00,16:00,"41-42,  44-45"
+LT619,Roll Forward,Tue,9:00,16:00,"41-42,  44-45"
+LT619,Roll Forward,Wed,9:00,16:00,"41-42,  44-45"
+LT619,Roll Forward,Thu,9:00,16:00,"41-42,  44-45"
+LT619,Roll Forward,Fri,9:00,16:00,"41-42,  44-45"
+LT619,Roll Forward,Mon,9:00,16:00,"41-42,  44-45"
+LT619,Roll Forward,Tue,9:00,16:00,"41-42,  44-45"
+LT619,Roll Forward,Wed,9:00,16:00,"41-42,  44-45"
+LT619,Roll Forward,Thu,9:00,16:00,"41-42,  44-45"
+LT619,Roll Forward,Fri,9:00,16:00,"41-42,  44-45"
+LT619,Roll Forward,Mon,9:00,16:00,"41-42,  44-45"
+LT619,Roll Forward,Tue,9:00,16:00,"41-42,  44-45"
+LT619,Roll Forward,Wed,9:00,16:00,"41-42,  44-45"
+LT619,Roll Forward,Thu,9:00,16:00,"41-42,  44-45"
+LT619,Roll Forward,Fri,9:00,16:00,"41-42,  44-45"
+LT619,Roll Forward,Mon,9:00,16:00,"41-42,  44-45"
+LT619,Roll Forward,Tue,9:00,16:00,"41-42,  44-45"
+LT619,Roll Forward,Wed,9:00,16:00,"41-42,  44-45"
+LT619,Roll Forward,Thu,9:00,16:00,"41-42,  44-45"
+LT619,Roll Forward,Fri,9:00,16:00,"41-42,  44-45"
+LT619,Roll Forward,Mon,9:00,16:00,"41-42,  44-45"
+LT619,Roll Forward,Tue,9:00,16:00,"41-42,  44-45"
+LT619,Roll Forward,Wed,9:00,16:00,"41-42,  44-45"
+LT619,Roll Forward,Thu,9:00,16:00,"41-42,  44-45"
+LT619,Roll Forward,Fri,9:00,16:00,"41-42,  44-45"
+LT718,Lecture,Thu,14:00,17:00,44
+LT719,Lecture,Thu,14:00,17:00,44
+RC345,Booking_Accepted,Tue,10:00,12:00,44
+RC345,Booking_Accepted,Tue,13:00,17:00,44
+RC426,Booking_Accepted,Mon,17:00,20:00,44
+RC426,Booking_Accepted,Wed,17:00,21:30,44
+RC426,Booking_Accepted,Thu,9:00,16:00,44
+RC426,Lecture,Fri,10:00,13:00,44
+RC440,Roll Forward,Tue,18:30,19:00,"15-20,  23-47"
+RC447,Booking_Accepted,Mon,17:00,20:00,44
+RC447,Booking_Accepted,Tue,13:30,17:00,44
+RC471 / Assembly Hall,Roll Forward,Mon,18:30,21:00,"8,  10-18,  24-37,  44-48"
+RC471 / Assembly Hall,Estates,Tue,8:00,18:00,44
+RC471 / Assembly Hall,Roll Forward,Tue,19:00,22:00,"23-37,  43-47"
+RC471 / Assembly Hall,Conference Booking,Wed,8:00,22:00,44
+RC471 / Assembly Hall,Booking_Accepted,Thu,8:00,15:30,44
+RC471 / Assembly Hall,Conference Booking,Fri,8:00,18:00,44
+RC501,Booking_Accepted,Tue,12:00,13:00,44
+RC501,Booking_Accepted,Wed,15:00,17:00,44
+RC501,Booking_Accepted,Thu,17:00,20:00,44
+RC503,Booking_Accepted,Wed,15:00,17:00,44
+RC512,Booking_Accepted,Mon,9:00,17:00,44
+RC512,Booking_Accepted,Wed,15:00,17:00,44
+RC513,Booking_Accepted,Wed,15:00,17:00,44
+RC538,Booking_Accepted,Thu,10:00,11:00,44
+RC546,Booking_Accepted,Thu,10:00,12:00,44
+RC557,Booking_Accepted,Thu,10:00,12:00,44
+RC641,Booking_Accepted,Thu,10:00,12:00,44
+RC667,External,Tue,19:00,21:30,"23-35,  38-47"
+RC669,Ad-Hoc,Tue,16:30,19:30,"1-7,  19-20,  23,  36-52"
+RC669,Booking_Accepted,Wed,19:00,22:00,44
+SW104,Conference Booking,Tue,12:00,13:30,44
+SW104,Booking_Accepted,Tue,15:00,17:00,44
+SW104,Booking_Accepted,Wed,8:00,16:00,44
+SW104,Booking_Accepted,Thu,11:00,12:30,44
+SW105,Booking_Accepted,Mon,15:00,17:00,44
+SW105,Booking_Accepted,Tue,9:00,17:00,44
+SW105,Booking_Accepted,Wed,8:00,16:00,44
+SW106,Booking_Accepted,Tue,10:30,16:00,44
+SW106,Booking_Accepted,Wed,8:00,16:00,44
+SW106,Booking_Accepted,Fri,10:00,14:00,44
+SW107,Booking_Accepted,Tue,9:30,14:30,44
+SW107,Booking_Accepted,Wed,8:00,16:00,44
+SW108,Lecture,Tue,11:00,14:00,44
+SW108,Booking_Accepted,Wed,8:00,16:00,44
+SW109,Booking_Accepted,Tue,9:00,17:00,44
+SW109,Booking_Accepted,Wed,8:00,11:00,44
+SW109,Booking_Accepted,Wed,13:00,16:00,44
+TG310,Booking_Accepted,Mon,9:00,10:00,44-47
+TG310,Booking_Accepted,Tue,9:00,17:00,44
+TG310,Booking_Accepted,Wed,9:00,17:00,44
+TG312,Booking_Accepted,Wed,15:00,17:00,44
+TG312,Booking_Accepted,Thu,10:30,12:30,44
+TG312,Booking_Accepted,Thu,15:00,17:00,44
+TG314,Booking_Accepted,Thu,12:00,13:00,38-45
+TL324,Booking_Accepted,Mon,10:00,16:00,44
+TL324,Booking_Accepted,Tue,10:00,16:00,44
+TL324,Booking_Accepted,Wed,9:00,17:00,44
+TL324,Booking_Accepted,Thu,9:00,17:00,44
+TL324,Ad-Hoc,Fri,8:00,22:00,44
+TL328,Booking_Accepted,Mon,10:00,11:00,44
+TL328,Booking_Accepted,Mon,13:00,16:00,44
+TL328,Booking_Accepted,Tue,9:00,14:30,44
+TL328,Booking_Accepted,Wed,10:00,13:00,44
+TL328,Booking_Accepted,Wed,13:00,14:30,44
+TL328,Booking_Accepted,Thu,9:00,17:00,44
+TL328,Ad-Hoc,Fri,8:00,22:00,44
+TL329,Booking_Accepted,Mon,9:00,10:00,44
+TL329,Booking_Accepted,Mon,10:00,13:30,44
+TL329,Booking_Accepted,Tue,9:00,12:30,44
+TL329,Booking_Accepted,Wed,9:00,17:00,44
+TL329,Booking_Accepted,Thu,10:00,13:00,44
+TL329,Ad-Hoc,Fri,8:00,22:00,44
+TL330,Ad-Hoc,Thu,13:00,22:00,44
+TL330,Ad-Hoc,Fri,8:00,22:00,44
+TL330,Ad-Hoc,Sat,8:00,22:00,44
+TL330,Ad-Hoc,Sun,8:00,22:00,44
+TL423,Booking_Accepted,Tue,9:30,11:00,44
+TL423,Booking_Accepted,Tue,14:00,16:30,44
+TL423,Booking_Accepted,Wed,8:00,10:30,44
+TL423,Booking_Accepted,Wed,10:30,11:30,44
+TL423,Booking_Accepted,Wed,11:30,17:00,44
+TL423,Booking_Accepted,Thu,9:30,11:00,44
+TL423,Roll Forward,Thu,18:30,21:30,40-48
+TL423,Booking_Accepted,Fri,13:30,15:00,44
+TL423,Booking_Accepted,Fri,17:00,18:30,44
+TL455,Booking_Accepted,Tue,14:00,15:00,44
+TL455,Booking_Accepted,Wed,14:30,16:30,44
+TL551b,Ad-Hoc,Mon,8:00,22:00,44
+TL551b,Ad-Hoc,Tue,8:00,22:00,44
+TL551b,Ad-Hoc,Wed,8:00,22:00,44
+TL551b,Ad-Hoc,Thu,8:00,22:00,44
+TL551b,Ad-Hoc,Fri,8:00,22:00,44
+TL551b,Ad-Hoc,Sat,8:00,22:00,44
+TL551b,Ad-Hoc,Sun,8:00,22:00,44
+TL551b,Ad-Hoc,Mon,8:00,22:00,44
+TL551b,Ad-Hoc,Tue,8:00,22:00,44
+TL551b,Ad-Hoc,Wed,8:00,22:00,44
+TL551b,Ad-Hoc,Thu,8:00,22:00,44
+TL551b,Ad-Hoc,Fri,8:00,22:00,44
+TL551b,Ad-Hoc,Sat,8:00,22:00,44
+TL551b,Ad-Hoc,Sun,8:00,22:00,44
+TL551b,Ad-Hoc,Mon,8:00,22:00,44
+TL551b,Ad-Hoc,Tue,8:00,22:00,44
+TL551b,Ad-Hoc,Wed,8:00,22:00,44
+TL551b,Ad-Hoc,Thu,8:00,22:00,44
+TL551b,Ad-Hoc,Fri,8:00,22:00,44
+TL551b,Ad-Hoc,Sat,8:00,22:00,44
+TL551b,Ad-Hoc,Sun,8:00,22:00,44
+TL551b,Ad-Hoc,Mon,8:00,22:00,44
+TL551b,Ad-Hoc,Tue,8:00,22:00,44
+TL551b,Ad-Hoc,Wed,8:00,22:00,44
+TL551b,Ad-Hoc,Thu,8:00,22:00,44
+TL551b,Ad-Hoc,Fri,8:00,22:00,44
+TL551b,Ad-Hoc,Sat,8:00,22:00,44
+TL551b,Ad-Hoc,Sun,8:00,22:00,44
+TL551b,Ad-Hoc,Mon,8:00,22:00,44
+TL551b,Ad-Hoc,Tue,8:00,22:00,44
+TL551b,Ad-Hoc,Wed,8:00,22:00,44
+TL551b,Ad-Hoc,Thu,8:00,22:00,44
+TL551b,Ad-Hoc,Fri,8:00,22:00,44
+TL551b,Ad-Hoc,Sat,8:00,22:00,44
+TL551b,Ad-Hoc,Sun,8:00,22:00,44
+TL553,Ad-Hoc,Mon,8:00,22:00,44
+TL553,Ad-Hoc,Tue,8:00,22:00,44
+TL553,Ad-Hoc,Wed,8:00,22:00,44
+TL553,Ad-Hoc,Thu,8:00,22:00,44
+TL553,Ad-Hoc,Fri,8:00,22:00,44
+TL553,Ad-Hoc,Sat,8:00,22:00,44
+TL553,Ad-Hoc,Sun,8:00,22:00,44
+TL553,Ad-Hoc,Mon,8:00,22:00,44
+TL553,Ad-Hoc,Tue,8:00,22:00,44
+TL553,Ad-Hoc,Wed,8:00,22:00,44
+TL553,Ad-Hoc,Thu,8:00,22:00,44
+TL553,Ad-Hoc,Fri,8:00,22:00,44
+TL553,Ad-Hoc,Sat,8:00,22:00,44
+TL553,Ad-Hoc,Sun,8:00,22:00,44
+TL553,Ad-Hoc,Mon,8:00,22:00,44
+TL553,Ad-Hoc,Tue,8:00,22:00,44
+TL553,Ad-Hoc,Wed,8:00,22:00,44
+TL553,Ad-Hoc,Thu,8:00,22:00,44
+TL553,Ad-Hoc,Fri,8:00,22:00,44
+TL553,Ad-Hoc,Sat,8:00,22:00,44
+TL553,Ad-Hoc,Sun,8:00,22:00,44
+TL553,Ad-Hoc,Mon,8:00,22:00,44
+TL553,Ad-Hoc,Tue,8:00,22:00,44
+TL553,Ad-Hoc,Wed,8:00,22:00,44
+TL553,Ad-Hoc,Thu,8:00,22:00,44
+TL553,Ad-Hoc,Fri,8:00,22:00,44
+TL553,Ad-Hoc,Sat,8:00,22:00,44
+TL553,Ad-Hoc,Sun,8:00,22:00,44
+TL553,Ad-Hoc,Mon,8:00,22:00,44
+TL553,Ad-Hoc,Tue,8:00,22:00,44
+TL553,Ad-Hoc,Wed,8:00,22:00,44
+TL553,Ad-Hoc,Thu,8:00,22:00,44
+TL553,Ad-Hoc,Fri,8:00,22:00,44
+TL553,Ad-Hoc,Sat,8:00,22:00,44
+TL553,Ad-Hoc,Sun,8:00,22:00,44
+TL556,Ad-Hoc,Mon,8:00,22:00,44
+TL556,Ad-Hoc,Tue,8:00,22:00,44
+TL556,Ad-Hoc,Wed,8:00,22:00,44
+TL556,Ad-Hoc,Thu,8:00,22:00,44
+TL556,Ad-Hoc,Fri,8:00,22:00,44
+TL556,Ad-Hoc,Sat,8:00,22:00,44
+TL556,Ad-Hoc,Sun,8:00,22:00,44
+TL556,Ad-Hoc,Mon,8:00,22:00,44
+TL556,Ad-Hoc,Tue,8:00,22:00,44
+TL556,Ad-Hoc,Wed,8:00,22:00,44
+TL556,Ad-Hoc,Thu,8:00,22:00,44
+TL556,Ad-Hoc,Fri,8:00,22:00,44
+TL556,Ad-Hoc,Sat,8:00,22:00,44
+TL556,Ad-Hoc,Sun,8:00,22:00,44
+TL556,Ad-Hoc,Mon,8:00,22:00,44
+TL556,Ad-Hoc,Tue,8:00,22:00,44
+TL556,Ad-Hoc,Wed,8:00,22:00,44
+TL556,Ad-Hoc,Thu,8:00,22:00,44
+TL556,Ad-Hoc,Fri,8:00,22:00,44
+TL556,Ad-Hoc,Sat,8:00,22:00,44
+TL556,Ad-Hoc,Sun,8:00,22:00,44
+TL556,Ad-Hoc,Mon,8:00,22:00,44
+TL556,Ad-Hoc,Tue,8:00,22:00,44
+TL556,Ad-Hoc,Wed,8:00,22:00,44
+TL556,Ad-Hoc,Thu,8:00,22:00,44
+TL556,Ad-Hoc,Fri,8:00,22:00,44
+TL556,Ad-Hoc,Sat,8:00,22:00,44
+TL556,Ad-Hoc,Sun,8:00,22:00,44
+TL556,Ad-Hoc,Mon,8:00,22:00,44
+TL556,Ad-Hoc,Tue,8:00,22:00,44
+TL556,Ad-Hoc,Wed,8:00,22:00,44
+TL556,Ad-Hoc,Thu,8:00,22:00,44
+TL556,Ad-Hoc,Fri,8:00,22:00,44
+TL556,Ad-Hoc,Sat,8:00,22:00,44
+TL556,Ad-Hoc,Sun,8:00,22:00,44
+TL557,Ad-Hoc,Mon,8:00,22:00,44
+TL557,Ad-Hoc,Tue,8:00,22:00,44
+TL557,Ad-Hoc,Wed,8:00,22:00,44
+TL557,Ad-Hoc,Thu,8:00,22:00,44
+TL557,Ad-Hoc,Fri,8:00,22:00,44
+TL557,Ad-Hoc,Sat,8:00,22:00,44
+TL557,Ad-Hoc,Sun,8:00,22:00,44
+TL557,Ad-Hoc,Mon,8:00,22:00,44
+TL557,Ad-Hoc,Tue,8:00,22:00,44
+TL557,Ad-Hoc,Wed,8:00,22:00,44
+TL557,Ad-Hoc,Thu,8:00,22:00,44
+TL557,Ad-Hoc,Fri,8:00,22:00,44
+TL557,Ad-Hoc,Sat,8:00,22:00,44
+TL557,Ad-Hoc,Sun,8:00,22:00,44
+TL557,Ad-Hoc,Mon,8:00,22:00,44
+TL557,Ad-Hoc,Tue,8:00,22:00,44
+TL557,Ad-Hoc,Wed,8:00,22:00,44
+TL557,Ad-Hoc,Thu,8:00,22:00,44
+TL557,Ad-Hoc,Fri,8:00,22:00,44
+TL557,Ad-Hoc,Sat,8:00,22:00,44
+TL557,Ad-Hoc,Sun,8:00,22:00,44
+TL557,Ad-Hoc,Mon,8:00,22:00,44
+TL557,Ad-Hoc,Tue,8:00,22:00,44
+TL557,Ad-Hoc,Wed,8:00,22:00,44
+TL557,Ad-Hoc,Thu,8:00,22:00,44
+TL557,Ad-Hoc,Fri,8:00,22:00,44
+TL557,Ad-Hoc,Sat,8:00,22:00,44
+TL557,Ad-Hoc,Sun,8:00,22:00,44
+TL557,Ad-Hoc,Mon,8:00,22:00,44
+TL557,Ad-Hoc,Tue,8:00,22:00,44
+TL557,Ad-Hoc,Wed,8:00,22:00,44
+TL557,Ad-Hoc,Thu,8:00,22:00,44
+TL557,Ad-Hoc,Fri,8:00,22:00,44
+TL557,Ad-Hoc,Sat,8:00,22:00,44
+TL557,Ad-Hoc,Sun,8:00,22:00,44
+TL560,Ad-Hoc,Mon,8:00,22:00,44
+TL560,Ad-Hoc,Tue,8:00,22:00,44
+TL560,Ad-Hoc,Wed,8:00,22:00,44
+TL560,Ad-Hoc,Thu,8:00,22:00,44
+TL560,Ad-Hoc,Fri,8:00,22:00,44
+TL560,Ad-Hoc,Sat,8:00,22:00,44
+TL560,Ad-Hoc,Sun,8:00,22:00,44
+TL560,Ad-Hoc,Mon,8:00,22:00,44
+TL560,Ad-Hoc,Tue,8:00,22:00,44
+TL560,Ad-Hoc,Wed,8:00,22:00,44
+TL560,Ad-Hoc,Thu,8:00,22:00,44
+TL560,Ad-Hoc,Fri,8:00,22:00,44
+TL560,Ad-Hoc,Sat,8:00,22:00,44
+TL560,Ad-Hoc,Sun,8:00,22:00,44
+TL560,Ad-Hoc,Mon,8:00,22:00,44
+TL560,Ad-Hoc,Tue,8:00,22:00,44
+TL560,Ad-Hoc,Wed,8:00,22:00,44
+TL560,Ad-Hoc,Thu,8:00,22:00,44
+TL560,Ad-Hoc,Fri,8:00,22:00,44
+TL560,Ad-Hoc,Sat,8:00,22:00,44
+TL560,Ad-Hoc,Sun,8:00,22:00,44
+TL560,Ad-Hoc,Mon,8:00,22:00,44
+TL560,Ad-Hoc,Tue,8:00,22:00,44
+TL560,Ad-Hoc,Wed,8:00,22:00,44
+TL560,Ad-Hoc,Thu,8:00,22:00,44
+TL560,Ad-Hoc,Fri,8:00,22:00,44
+TL560,Ad-Hoc,Sat,8:00,22:00,44
+TL560,Ad-Hoc,Sun,8:00,22:00,44
+TL560,Ad-Hoc,Mon,8:00,22:00,44
+TL560,Ad-Hoc,Tue,8:00,22:00,44
+TL560,Ad-Hoc,Wed,8:00,22:00,44
+TL560,Ad-Hoc,Thu,8:00,22:00,44
+TL560,Ad-Hoc,Fri,8:00,22:00,44
+TL560,Ad-Hoc,Sat,8:00,22:00,44
+TL560,Ad-Hoc,Sun,8:00,22:00,44
+TL563,Ad-Hoc,Mon,8:00,22:00,44
+TL563,Ad-Hoc,Tue,8:00,22:00,44
+TL563,Ad-Hoc,Wed,8:00,22:00,44
+TL563,Ad-Hoc,Thu,8:00,22:00,44
+TL563,Ad-Hoc,Fri,8:00,22:00,44
+TL563,Ad-Hoc,Sat,8:00,22:00,44
+TL563,Ad-Hoc,Sun,8:00,22:00,44
+TL563,Ad-Hoc,Mon,8:00,22:00,44
+TL563,Ad-Hoc,Tue,8:00,22:00,44
+TL563,Ad-Hoc,Wed,8:00,22:00,44
+TL563,Ad-Hoc,Thu,8:00,22:00,44
+TL563,Ad-Hoc,Fri,8:00,22:00,44
+TL563,Ad-Hoc,Sat,8:00,22:00,44
+TL563,Ad-Hoc,Sun,8:00,22:00,44
+TL563,Ad-Hoc,Mon,8:00,22:00,44
+TL563,Ad-Hoc,Tue,8:00,22:00,44
+TL563,Ad-Hoc,Wed,8:00,22:00,44
+TL563,Ad-Hoc,Thu,8:00,22:00,44
+TL563,Ad-Hoc,Fri,8:00,22:00,44
+TL563,Ad-Hoc,Sat,8:00,22:00,44
+TL563,Ad-Hoc,Sun,8:00,22:00,44
+TL563,Ad-Hoc,Mon,8:00,22:00,44
+TL563,Ad-Hoc,Tue,8:00,22:00,44
+TL563,Ad-Hoc,Wed,8:00,22:00,44
+TL563,Ad-Hoc,Thu,8:00,22:00,44
+TL563,Ad-Hoc,Fri,8:00,22:00,44
+TL563,Ad-Hoc,Sat,8:00,22:00,44
+TL563,Ad-Hoc,Sun,8:00,22:00,44
+TL563,Ad-Hoc,Mon,8:00,22:00,44
+TL563,Ad-Hoc,Tue,8:00,22:00,44
+TL563,Ad-Hoc,Wed,8:00,22:00,44
+TL563,Ad-Hoc,Thu,8:00,22:00,44
+TL563,Ad-Hoc,Fri,8:00,22:00,44
+TL563,Ad-Hoc,Sat,8:00,22:00,44
+TL563,Ad-Hoc,Sun,8:00,22:00,44
+TL565,Ad-Hoc,Mon,8:00,22:00,44
+TL565,Ad-Hoc,Tue,8:00,22:00,44
+TL565,Ad-Hoc,Wed,8:00,22:00,44
+TL565,Ad-Hoc,Thu,8:00,22:00,44
+TL565,Ad-Hoc,Fri,8:00,22:00,44
+TL565,Ad-Hoc,Sat,8:00,22:00,44
+TL565,Ad-Hoc,Sun,8:00,22:00,44
+TL565,Ad-Hoc,Mon,8:00,22:00,44
+TL565,Ad-Hoc,Tue,8:00,22:00,44
+TL565,Ad-Hoc,Wed,8:00,22:00,44
+TL565,Ad-Hoc,Thu,8:00,22:00,44
+TL565,Ad-Hoc,Fri,8:00,22:00,44
+TL565,Ad-Hoc,Sat,8:00,22:00,44
+TL565,Ad-Hoc,Sun,8:00,22:00,44
+TL565,Ad-Hoc,Mon,8:00,22:00,44
+TL565,Ad-Hoc,Tue,8:00,22:00,44
+TL565,Ad-Hoc,Wed,8:00,22:00,44
+TL565,Ad-Hoc,Thu,8:00,22:00,44
+TL565,Ad-Hoc,Fri,8:00,22:00,44
+TL565,Ad-Hoc,Sat,8:00,22:00,44
+TL565,Ad-Hoc,Sun,8:00,22:00,44
+TL565,Ad-Hoc,Mon,8:00,22:00,44
+TL565,Ad-Hoc,Tue,8:00,22:00,44
+TL565,Ad-Hoc,Wed,8:00,22:00,44
+TL565,Ad-Hoc,Thu,8:00,22:00,44
+TL565,Ad-Hoc,Fri,8:00,22:00,44
+TL565,Ad-Hoc,Sat,8:00,22:00,44
+TL565,Ad-Hoc,Sun,8:00,22:00,44
+TL565,Ad-Hoc,Mon,8:00,22:00,44
+TL565,Ad-Hoc,Tue,8:00,22:00,44
+TL565,Ad-Hoc,Wed,8:00,22:00,44
+TL565,Ad-Hoc,Thu,8:00,22:00,44
+TL565,Ad-Hoc,Fri,8:00,22:00,44
+TL565,Ad-Hoc,Sat,8:00,22:00,44
+TL565,Ad-Hoc,Sun,8:00,22:00,44
+TL651,Booking_Accepted,Mon,10:00,11:00,44
+TL651,Booking_Accepted,Mon,14:00,16:00,44
+TL651,Booking_Accepted,Tue,12:00,13:00,44
+TL651,Booking_Accepted,Tue,15:00,16:00,44
+TL651,Booking_Accepted,Wed,9:00,17:00,44
+TL651,Lecture,Thu,10:00,13:00,40-46
+TL651,Lecture,Thu,13:00,14:00,41-46
+TL651,Tutorial,Thu,14:00,16:00,41-46
+TL651,Booking_Accepted,Fri,10:00,16:00,44
+TL651,Ad-Hoc,Fri,17:00,20:00,"19,  44"
+TL652,Booking_Accepted,Tue,10:00,11:00,"44,  48"
+TL652,Booking_Accepted,Tue,11:00,12:00,44
+TL652,Lecture,Tue,14:00,15:00,39-44
+TL652,Seminar,Tue,15:00,16:00,39-44
+TL652,Booking_Accepted,Wed,11:00,12:00,44
+TL652,Booking_Accepted,Wed,13:00,14:00,44
+TL652,Booking_Accepted,Thu,11:00,12:00,44
+TL652,Booking_Accepted,Thu,12:00,13:00,44
+TL652,Booking_Accepted,Thu,14:00,15:00,44
+TL652,Booking_Accepted,Thu,15:00,16:00,44
+TL652,Booking_Accepted,Fri,10:00,13:00,44
+TL652,Tutorial,Fri,14:00,16:00,44-46
+TL655,Booking_Accepted,Mon,17:00,20:00,44
+TL655,Ad-Hoc,Wed,9:00,17:00,44
+TL655,Booking_Accepted,Thu,14:00,15:00,44
+TL657,Ad-Hoc,Wed,9:00,17:00,44
+TL657,Booking_Accepted,Thu,15:00,16:30,44
+TL657,Booking_Accepted,Fri,15:00,16:00,44
+TL660,Booking_Accepted,Mon,9:00,17:00,44
+TL660,Booking_Accepted,Tue,9:00,17:00,44
+TL660,Booking_Accepted,Wed,9:00,13:30,44
+TL660,Booking_Accepted,Wed,13:30,14:30,44
+TL660,Booking_Accepted,Thu,9:00,10:00,42-44
+TL660,Booking_Accepted,Thu,13:00,14:00,44
+TL660,Lecture,Thu,14:00,15:00,39-44
+TL660,Seminar,Thu,15:00,16:00,39-44
+TL660,Tutorial,Fri,13:30,17:00,38-49
+TL662,Booking_Accepted,Mon,8:30,11:00,44
+TL662,Booking_Accepted,Wed,17:30,20:30,44
+TL662,Booking_Accepted,Fri,8:00,17:00,44
+WC202,Biomedical Ad-Hoc,Mon,10:00,14:00,44
