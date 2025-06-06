@@ -91,6 +91,7 @@ GH330,Cll Ad-Hoc,Wed,10:00,16:00,"23-28,  30-35,  37-49"
 GH330,Cll Ad-Hoc,Thu,10:00,12:00,"37-38,  40-45"
 GH330,Cll Ad-Hoc,Thu,12:00,14:30,37-44
 GH509,Booking_Accepted,Mon,9:00,17:00,44
+GH509,Booking_Accepted,Thu,15:00,17:00,44
 GH510,Booking_Accepted,Tue,10:30,14:00,44
 GH510,Booking_Accepted,Tue,14:00,15:00,44
 GH510,Booking_Accepted,Wed,10:00,12:00,"38,  41,  44,  47"
@@ -323,6 +324,7 @@ TG310,Booking_Accepted,Wed,9:00,17:00,44
 TG312,Booking_Accepted,Wed,15:00,17:00,44
 TG312,Booking_Accepted,Thu,10:30,12:30,44
 TG312,Booking_Accepted,Thu,15:00,17:00,44
+TG312,Booking_Accepted,Fri,10:30,11:30,44
 TG314,Booking_Accepted,Thu,12:00,13:00,38-45
 TL324,Booking_Accepted,Mon,10:00,16:00,44
 TL324,Booking_Accepted,Tue,10:00,16:00,44
@@ -626,6 +628,7 @@ TL652,Booking_Accepted,Fri,10:00,13:00,44
 TL652,Tutorial,Fri,14:00,16:00,44-46
 TL655,Booking_Accepted,Mon,17:00,20:00,44
 TL655,Ad-Hoc,Wed,9:00,17:00,44
+TL655,Booking_Accepted,Thu,10:30,12:00,44
 TL655,Booking_Accepted,Thu,14:00,15:00,44
 TL657,Ad-Hoc,Wed,9:00,17:00,44
 TL657,Booking_Accepted,Thu,15:00,16:30,44
@@ -641,5 +644,6 @@ TL660,Seminar,Thu,15:00,16:00,39-44
 TL660,Tutorial,Fri,13:30,17:00,38-49
 TL662,Booking_Accepted,Mon,8:30,11:00,44
 TL662,Booking_Accepted,Wed,17:30,20:30,44
+TL662,Booking_Accepted,Thu,12:00,17:00,44
 TL662,Booking_Accepted,Fri,8:00,17:00,44
 WC202,Biomedical Ad-Hoc,Mon,10:00,14:00,44
