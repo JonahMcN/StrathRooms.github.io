@@ -160,6 +160,7 @@ GH714,Ad-Hoc,Tue,17:00,22:00,"11-20,  23-37,  39-47"
 GH714,Seminar,Thu,10:00,13:00,"38-41,  43-45"
 GH729,Booking_Accepted,Wed,9:00,11:00,45
 GH729,Booking_Accepted,Thu,14:30,15:30,45
+GH729,Booking_Accepted,Fri,14:00,15:00,45
 GH737,Cll Ad-Hoc,Tue,9:00,17:00,43-45
 GH737a,Booking_Accepted,Tue,10:00,11:00,45
 GH737a,Booking_Accepted,Tue,15:00,16:00,45
@@ -389,6 +390,7 @@ RC440,Lecture,Mon,15:00,17:00,"42,  45-47"
 RC440,Roll Forward,Tue,18:30,19:00,"15-20,  23-47"
 RC440,Booking_Accepted,Wed,12:30,13:30,45
 RC440,Booking_Accepted,Thu,14:00,16:00,45
+RC440,Booking_Accepted,Fri,10:00,12:00,45
 RC440,Booking_Accepted,Fri,14:00,17:00,45
 RC447,Booking_Accepted,Fri,9:30,17:00,45
 RC471 / Assembly Hall,Booking_Accepted,Mon,8:00,17:00,45
@@ -403,7 +405,7 @@ RC471 / Assembly Hall,Booking_Accepted,Fri,8:00,17:00,45
 RC501,Booking_Accepted,Tue,9:30,11:30,45
 RC501,Booking_Accepted,Thu,9:00,11:00,45
 RC503,Booking_Accepted,Tue,14:00,16:00,45
-RC513,Workshop,Fri,12:30,13:30,45
+RC513,Workshop,Fri,12:00,14:30,45
 RC538,Booking_Accepted,Thu,10:00,11:00,45
 RC540,Booking_Accepted,Mon,9:00,17:00,45
 RC540,Booking_Accepted,Tue,9:00,17:00,45
