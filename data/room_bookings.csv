@@ -27,6 +27,7 @@ CL202,Booking_Accepted,Wed,13:30,15:30,46
 CL203,Booking_Accepted,Mon,10:30,12:30,46
 CL203,Booking_Accepted,Tue,9:00,10:30,46
 CL203,Booking_Accepted,Tue,14:00,15:00,46
+CL203,Booking_Accepted,Tue,15:30,16:30,46
 CL203,Booking_Accepted,Wed,9:00,17:00,46
 CL203,Booking_Accepted,Thu,14:00,16:30,46
 CL204,Booking_Accepted,Tue,10:00,11:00,46
@@ -51,6 +52,7 @@ CW506b,Lecture,Tue,10:00,12:30,46
 CW506b,Booking_Accepted,Tue,14:00,16:00,46
 CW507a,Lecture,Mon,13:00,15:00,46
 CW507a,Lecture,Wed,14:00,17:00,46
+CW507a,Booking_Accepted,Fri,13:00,16:00,46
 CW507b,Booking_Accepted,Tue,13:00,17:00,46
 CW602,Booking_Accepted,Mon,9:00,17:00,46
 CW602,Booking_Accepted,Tue,9:00,17:00,46
@@ -120,6 +122,7 @@ GH634,Booking_Accepted,Tue,9:00,17:00,46
 GH634,Booking_Accepted,Thu,9:00,17:00,46
 GH634,Booking_Accepted,Fri,9:00,17:00,46
 GH640,Tutorial,Fri,13:30,17:00,"24-35,  38-49"
+GH641,Booking_Accepted,Tue,10:00,13:00,46
 GH643,Lecture,Tue,9:00,11:00,42-46
 GH643,Seminar,Wed,10:00,13:00,41-48
 GH643,Lecture,Thu,9:00,11:00,42-46
@@ -138,6 +141,7 @@ GH714,Ad-Hoc,Mon,17:00,22:00,"23-37,  39,  41-42,  44-48"
 GH714,Seminar,Tue,10:00,13:00,46
 GH714,Ad-Hoc,Tue,17:00,22:00,"11-20,  23-37,  39-47"
 GH731,Lecture,Thu,15:00,17:00,46
+GH737a,Booking_Accepted,Tue,10:30,12:30,46
 GH737a,Booking_Accepted,Wed,12:30,14:00,46
 GH738,Project,Wed,10:00,12:00,"39-40,  43-44,  46-47,  49,  51"
 GH738,Tutorial,Fri,9:00,12:30,38-49
@@ -230,7 +234,6 @@ JW411,Booking_Accepted,Tue,8:00,17:00,46
 JW411,Booking_Accepted,Wed,8:00,17:00,46
 JW411,Booking_Accepted,Thu,8:00,17:00,46
 JW411,Booking_Accepted,Fri,8:00,17:00,46
-LH211a,Booking_Accepted,Mon,17:00,19:00,46
 LH211a,Booking_Accepted,Tue,10:00,12:00,44-48
 LH211a,Booking_Accepted,Thu,9:00,17:00,46
 LH211a,Booking_Accepted,Fri,14:00,17:00,46
@@ -1187,6 +1190,7 @@ TL329,Booking_Accepted,Fri,9:00,17:00,46
 TL330,Ad-Hoc,Thu,9:00,17:00,46
 TL330,Ad-Hoc,Fri,13:00,16:00,46
 TL423,Booking_Accepted,Mon,9:00,10:00,46
+TL423,Booking_Accepted,Mon,10:00,11:00,46
 TL423,Booking_Accepted,Mon,11:00,17:00,46
 TL423,Booking_Accepted,Tue,9:00,17:00,46
 TL423,Booking_Accepted,Wed,9:00,17:00,46
@@ -1285,6 +1289,7 @@ TL556,Booking_Accepted,Mon,9:00,17:00,46
 TL556,Booking_Accepted,Tue,9:00,17:00,46
 TL556,Booking_Accepted,Wed,9:00,17:00,46
 TL556,Booking_Accepted,Fri,9:00,17:00,46
+TL556,Booking_Accepted,Wed,17:00,19:00,46
 TL556,Booking_Accepted,Thu,9:00,10:00,"26-41,  45-46"
 TL556,Booking_Accepted,Thu,10:00,17:00,46
 TL556,Booking_Accepted,Mon,9:00,17:00,46
