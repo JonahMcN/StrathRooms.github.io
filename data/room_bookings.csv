@@ -36,7 +36,7 @@ CL204,Booking_Accepted,Thu,8:30,12:00,46
 CL205,Booking_Accepted,Wed,9:00,17:00,46
 CW404a,Lecture,Mon,14:00,17:00,46
 CW404b,Booking_Accepted,Mon,12:00,15:00,46
-CW406b,Lecture,Tue,14:00,17:00,46
+CW406b,Lecture,Fri,14:00,17:00,46
 CW408,Lecture,Tue,9:00,17:00,46
 CW408,Lecture,Wed,9:00,17:00,46
 CW408,Booking_Accepted,Thu,9:00,13:00,46
@@ -80,6 +80,8 @@ GH327,Cll Ad-Hoc,Thu,15:30,21:00,"35-39,  41,  43-46,  48-49,  52"
 GH327,Cll Ad-Hoc,Fri,10:00,12:30,"4-12,  14-26,  28-36,  38-46"
 GH330,Cll Ad-Hoc,Wed,10:00,16:00,"23-28,  30-35,  37-49"
 GH509,Booking_Accepted,Tue,10:00,12:00,46
+GH509,Booking_Accepted,Wed,10:00,14:00,46
+GH509,Booking_Accepted,Wed,15:00,16:00,46
 GH509,Booking_Accepted,Thu,13:00,15:00,46
 GH510,Booking_Accepted,Tue,10:30,14:00,46
 GH510,Booking_Accepted,Tue,14:00,15:00,46
@@ -107,6 +109,7 @@ GH614,Booking_Accepted,Wed,9:00,16:00,46
 GH617,Lecture,Mon,9:00,11:00,"42,  45-47"
 GH617,Ad-Hoc,Thu,18:00,19:30,"9-20,  23-47"
 GH621,Booking_Accepted,Wed,9:00,16:00,46
+GH626,Booking_Accepted,Thu,10:30,14:00,46
 GH626,Lecture,Fri,12:00,14:00,46
 GH630,Booking_Accepted,Mon,11:00,13:00,46
 GH634,Booking_Accepted,Mon,9:00,17:00,46
@@ -938,6 +941,7 @@ RC540,Booking_Accepted,Fri,15:00,17:00,46
 RC557,Booking_Accepted,Mon,9:00,17:00,46
 RC557,Booking_Accepted,Tue,9:00,17:00,46
 RC557,Booking_Accepted,Wed,9:00,17:00,46
+RC641,Booking_Accepted,Wed,10:00,11:00,46
 RC641,Booking_Accepted,Fri,14:00,16:00,46
 RC667,Booking_Accepted,Tue,12:00,16:00,46
 RC667,External,Tue,19:00,21:30,"23-35,  38-47"
@@ -1065,7 +1069,6 @@ SW108,Booking_Accepted,Thu,9:00,17:00,46
 SW108,Booking_Accepted,Fri,9:00,17:00,46
 SW109,Booking_Accepted,Tue,11:30,12:30,46
 SW109,Booking_Accepted,Wed,9:00,17:00,46
-SW109,Booking_Accepted,Thu,9:00,13:00,46
 SW109,Booking_Accepted,Thu,16:00,17:00,46
 SW109,Estates,Fri,8:00,22:00,46
 SW109,Estates,Sat,8:00,22:00,46
