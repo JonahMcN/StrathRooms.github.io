@@ -82,7 +82,9 @@ GH330,Cll Ad-Hoc,Wed,10:00,16:00,"23-28,  30-35,  37-49"
 GH509,Booking_Accepted,Tue,10:00,12:00,46
 GH509,Booking_Accepted,Wed,10:00,14:00,46
 GH509,Booking_Accepted,Wed,15:00,16:00,46
+GH509,Booking_Accepted,Thu,12:00,13:00,46
 GH509,Booking_Accepted,Thu,13:00,15:00,46
+GH509,Booking_Accepted,Fri,11:00,12:00,46
 GH510,Booking_Accepted,Tue,10:30,14:00,46
 GH510,Booking_Accepted,Tue,14:00,15:00,46
 GH510,Booking_Accepted,Wed,10:30,14:00,46
@@ -157,6 +159,7 @@ GH738,Tutorial,Fri,9:00,12:30,38-49
 GH739,Cll Ad-Hoc,Tue,10:00,12:00,"39-41,  43-47"
 GH739,Cll Ad-Hoc,Tue,13:00,15:00,43-46
 GH740,Cll Ad-Hoc,Tue,14:30,16:30,"38-43,  46-47"
+GH740,Cll Ad-Hoc,Fri,10:30,13:30,46
 GH742,Cll Ad-Hoc,Wed,10:30,12:30,"38-43,  46"
 GH744,Cll Ad-Hoc,Mon,9:30,12:00,"37,  39,  41-42,  44-49"
 GH744,Cll Ad-Hoc,Mon,12:00,14:00,"37,  39,  41-42,  44-49"
@@ -1442,6 +1445,7 @@ TL657,Booking_Accepted,Thu,9:30,12:30,46
 TL657,Booking_Accepted,Thu,13:30,16:00,46
 TL660,Booking_Accepted,Thu,9:30,12:30,46
 TL660,Booking_Accepted,Thu,13:30,16:00,46
+TL660,Booking_Accepted,Fri,9:00,13:00,46
 TL660,Tutorial,Fri,13:30,17:00,38-49
 TL662,Booking_Accepted,Mon,9:00,17:00,46
 TL662,Booking_Accepted,Tue,9:00,17:00,46
