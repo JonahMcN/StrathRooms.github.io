@@ -32,6 +32,7 @@ CW404a,Classtest,Wed,10:00,13:30,47
 CW404b,Booking_Accepted,Mon,10:00,13:00,47
 CW404b,Booking_Accepted,Mon,13:00,15:00,47
 CW404b,Booking_Accepted,Tue,9:00,13:00,47
+CW404b,Booking_Accepted,Tue,13:00,14:00,47
 CW404b,Booking_Accepted,Tue,14:00,15:30,47
 CW406a,Booking_Accepted,Thu,9:00,17:00,47
 CW406a,Booking_Accepted,Fri,9:00,13:30,47
@@ -93,9 +94,14 @@ GH513,Booking_Accepted,Tue,12:00,14:00,47
 GH513,Booking_Accepted,Thu,12:00,15:00,40-52
 GH514,Booking_Accepted,Tue,9:30,11:00,47
 GH514,Lecture,Fri,10:00,11:00,46-49
+GH515,Booking_Accepted,Tue,10:00,13:00,47
+GH515,Booking_Accepted,Tue,14:30,16:30,47
 GH542,Booking_Accepted,Wed,15:30,17:00,43-48
+GH552,Booking_Accepted,Tue,10:00,11:00,47
+GH614,Booking_Accepted,Tue,10:30,14:00,47
 GH617,Lecture,Mon,9:00,11:00,"42,  45-47"
 GH617,Ad-Hoc,Thu,18:00,19:30,"9-20,  23-47"
+GH621,Booking_Accepted,Tue,10:30,14:00,47
 GH630,Booking_Accepted,Tue,15:00,16:00,"43,  45,  47"
 GH634,Classtest,Fri,14:00,17:00,47
 GH637,Booking_Accepted,Tue,15:30,16:00,47
@@ -114,6 +120,7 @@ GH713,Tutorial,Fri,13:30,17:00,"23-35,  38-49"
 GH713,Booking_Accepted,Fri,17:00,22:00,47
 GH714,Ad-Hoc,Mon,17:00,22:00,"23-37,  39,  41-42,  44-48"
 GH714,Ad-Hoc,Tue,17:00,22:00,"11-20,  23-37,  39-47"
+GH737,Booking_Accepted,Thu,13:00,17:00,47
 GH737a,Booking_Accepted,Mon,10:00,16:00,47
 GH737a,Booking_Accepted,Thu,11:00,16:00,47
 GH738,Project,Wed,10:00,12:00,"39-40,  43-44,  46-47,  49,  51"
@@ -238,6 +245,7 @@ LH211a,Booking_Accepted,Thu,14:00,15:00,47
 LH211b,Booking_Accepted,Mon,14:00,16:00,47
 LH217,Booking_Accepted,Mon,9:30,16:00,47
 LH217,Booking_Accepted,Wed,16:00,17:00,47
+LH217,Booking_Accepted,Thu,11:30,12:30,47
 LH218,Booking_Accepted,Mon,9:00,17:00,47
 LH218,Booking_Accepted,Wed,13:30,17:00,47
 LH218,Booking_Accepted,Thu,12:00,14:00,47
@@ -695,6 +703,11 @@ RC471 / Assembly Hall,Booking_Accepted,Fri,17:00,22:00,47
 RC501,Booking_Accepted,Mon,9:00,12:30,47
 RC501,Booking_Accepted,Thu,14:00,15:00,47
 RC501,Presentation,Fri,14:30,17:00,47
+RC503,Booking_Accepted,Mon,11:00,16:00,47
+RC503,Booking_Accepted,Tue,11:00,16:00,47
+RC503,Booking_Accepted,Wed,10:00,16:00,47
+RC503,Booking_Accepted,Thu,9:00,16:00,47
+RC503,Booking_Accepted,Fri,9:00,14:30,47
 RC503,Presentation,Fri,14:30,17:00,47
 RC513,Booking_Accepted,Mon,9:00,16:30,47
 RC513,Booking_Accepted,Tue,9:00,16:30,47
@@ -706,6 +719,7 @@ RC540,Booking_Accepted,Tue,9:00,17:00,47
 RC540,Booking_Accepted,Wed,9:00,17:00,47
 RC540,Booking_Accepted,Thu,9:00,17:00,47
 RC540,Booking_Accepted,Fri,9:00,17:00,47
+RC540,Booking_Accepted,Fri,17:00,19:00,47
 RC557,Booking_Accepted,Wed,8:30,17:00,47
 RC557,Classtest,Fri,12:00,14:00,47
 RC667,Booking_Accepted,Mon,9:30,10:30,47
