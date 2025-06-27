@@ -89,12 +89,15 @@ GH511,Booking_Accepted,Tue,9:00,17:00,47
 GH512,Booking_Accepted,Mon,12:00,17:00,47
 GH512,Booking_Accepted,Tue,9:00,17:00,47
 GH512,Tutorial,Wed,17:00,20:00,42-48
+GH512,Booking_Accepted,Fri,11:00,14:00,47
+GH512,Booking_Accepted,Fri,14:00,17:00,47
 GH513,Booking_Accepted,Tue,12:00,14:00,47
 GH513,Booking_Accepted,Thu,12:00,15:00,40-52
 GH514,Booking_Accepted,Tue,9:30,11:00,47
 GH514,Lecture,Fri,10:00,11:00,46-49
 GH515,Booking_Accepted,Tue,10:00,13:00,47
 GH515,Booking_Accepted,Tue,14:30,16:30,47
+GH515,Booking_Accepted,Thu,9:00,17:00,47
 GH542,Booking_Accepted,Wed,15:30,17:00,43-48
 GH552,Booking_Accepted,Tue,10:00,11:00,47
 GH614,Booking_Accepted,Tue,10:30,14:00,47
@@ -392,7 +395,6 @@ LT309,Roll Forward,Wed,9:00,16:00,46-49
 LT309,Roll Forward,Thu,9:00,16:00,46-49
 LT309,Roll Forward,Fri,9:00,16:00,46-49
 LT310,External,Wed,19:00,21:00,"23,  25,  28,  30,  32,  34,  36,  38,  41,  43,  45,  47"
-LT311,Booking_Accepted,Thu,10:00,13:00,47
 LT313,Booking_Accepted,Wed,12:00,13:00,47
 LT401,Roll Forward,Mon,9:00,16:00,46-49
 LT401,Roll Forward,Tue,9:00,16:00,46-49
@@ -550,6 +552,7 @@ LT415,Roll Forward,Wed,8:00,18:00,"46-49,  52"
 LT415,Roll Forward,Thu,8:00,18:00,"46-49,  52"
 LT415,Roll Forward,Fri,8:00,18:00,"46-49,  52"
 LT416,Booking_Accepted,Tue,15:00,16:00,47
+LT417,Booking_Accepted,Fri,9:00,14:00,47
 LT419,Booking_Accepted,Mon,9:00,14:00,47
 LT420,Lecture,Wed,10:00,13:00,"24,  47"
 LT420,Lecture,Wed,14:00,17:00,"24,  47"
@@ -715,6 +718,7 @@ RC513,Booking_Accepted,Tue,9:00,16:30,47
 RC513,Booking_Accepted,Wed,9:00,16:30,47
 RC513,Booking_Accepted,Thu,9:00,16:30,47
 RC513,Booking_Accepted,Fri,9:00,15:30,47
+RC538,Booking_Accepted,Thu,10:00,11:00,47
 RC540,Booking_Accepted,Mon,9:00,17:00,47
 RC540,Booking_Accepted,Tue,9:00,17:00,47
 RC540,Booking_Accepted,Wed,9:00,17:00,47
@@ -787,3 +791,161 @@ SW601b,Booking_Accepted,Tue,9:00,17:00,47
 SW601b,Booking_Accepted,Wed,9:00,17:00,47
 SW601b,Booking_Accepted,Thu,9:00,17:00,47
 SW601b,Booking_Accepted,Fri,9:00,17:00,47
+TG223,Booking_Accepted,Thu,10:00,12:00,47
+TG223,Booking_Accepted,Thu,14:00,17:00,47
+TG227,Booking_Accepted,Thu,16:00,17:00,47
+TG310,Booking_Accepted,Mon,9:00,10:00,44-47
+TG310,Booking_Accepted,Tue,9:00,17:00,47
+TG310,Booking_Accepted,Wed,9:00,17:00,47
+TG312,Booking_Cancelled,Tue,9:00,17:00,47
+TG312,Booking_Cancelled,Wed,9:00,17:00,47
+TG314,Booking_Cancelled,Tue,9:00,17:00,47
+TG314,Booking_Cancelled,Wed,9:00,14:00,47
+TL324,Conference Booking,Mon,8:00,22:00,47
+TL324,Conference Booking,Tue,8:00,22:00,47
+TL324,Conference Booking,Wed,8:00,18:00,47
+TL324,Conference Booking,Wed,18:00,22:00,47
+TL324,Conference Booking,Thu,8:00,22:00,47
+TL324,Conference Booking,Fri,8:00,18:00,47
+TL325a,Conference Booking,Mon,8:00,22:00,47
+TL325a,Conference Booking,Tue,8:00,22:00,47
+TL325a,Conference Booking,Wed,8:00,18:00,47
+TL325a,Conference Booking,Wed,18:00,22:00,47
+TL325a,Conference Booking,Thu,8:00,22:00,47
+TL325a,Conference Booking,Fri,8:00,18:00,47
+TL325b,Conference Booking,Mon,8:00,22:00,47
+TL325b,Conference Booking,Tue,8:00,22:00,47
+TL325b,Conference Booking,Wed,8:00,18:00,47
+TL325b,Conference Booking,Wed,18:00,22:00,47
+TL325b,Conference Booking,Thu,8:00,22:00,47
+TL325b,Conference Booking,Fri,8:00,18:00,47
+TL328,Conference Booking,Mon,8:00,22:00,47
+TL328,Conference Booking,Tue,8:00,22:00,47
+TL328,Conference Booking,Wed,8:00,18:00,47
+TL328,Conference Booking,Wed,18:00,22:00,47
+TL328,Conference Booking,Thu,8:00,22:00,47
+TL328,Conference Booking,Fri,8:00,18:00,47
+TL329,Conference Booking,Mon,8:00,22:00,47
+TL329,Conference Booking,Tue,8:00,22:00,47
+TL329,Conference Booking,Wed,8:00,18:00,47
+TL329,Conference Booking,Wed,18:00,22:00,47
+TL329,Conference Booking,Thu,8:00,22:00,47
+TL329,Conference Booking,Fri,8:00,18:00,47
+TL330,Conference Booking,Mon,8:00,22:00,47
+TL330,Conference Booking,Tue,8:00,22:00,47
+TL330,Conference Booking,Wed,8:00,18:00,47
+TL330,Conference Booking,Wed,18:00,22:00,47
+TL330,Conference Booking,Thu,8:00,22:00,47
+TL330,Conference Booking,Fri,8:00,18:00,47
+TL423,Conference Booking,Mon,8:00,22:00,47
+TL423,Conference Booking,Tue,8:00,18:00,47
+TL423,Conference Booking,Wed,8:00,22:00,47
+TL423,Conference Booking,Thu,8:00,18:00,47
+TL423,Roll Forward,Thu,18:30,21:30,40-48
+TL423,Conference Booking,Fri,8:00,18:00,47
+TL455,Conference Booking,Mon,8:00,22:00,47
+TL455,Ad-Hoc,Tue,8:00,18:00,47
+TL455,Conference Booking,Wed,8:00,22:00,47
+TL455,Conference Booking,Thu,8:00,18:00,47
+TL455,Conference Booking,Thu,18:00,22:00,47
+TL455,Conference Booking,Fri,8:00,13:00,47
+TL455,Ad-Hoc,Fri,13:00,18:00,47
+TL551b,Conference Booking,Mon,8:00,22:00,47
+TL551b,Conference Booking,Tue,8:00,22:00,47
+TL551b,Conference Booking,Wed,8:00,22:00,47
+TL551b,Conference Booking,Thu,8:00,22:00,47
+TL551b,Conference Booking,Fri,8:00,13:00,47
+TL551b,Booking_Accepted,Fri,13:00,14:00,47
+TL553,Conference Booking,Mon,8:00,22:00,47
+TL553,Conference Booking,Tue,8:00,18:00,47
+TL553,Conference Booking,Tue,8:00,22:00,47
+TL553,Ad-Hoc,Tue,18:00,22:00,47
+TL553,Conference Booking,Wed,8:00,22:00,47
+TL553,Conference Booking,Wed,8:00,22:00,47
+TL553,Conference Booking,Thu,8:00,22:00,47
+TL553,Conference Booking,Thu,8:00,22:00,47
+TL553,Conference Booking,Fri,8:00,14:00,47
+TL553,Conference Booking,Fri,8:00,17:00,47
+TL553,Estates,Fri,17:00,22:00,47
+TL556,Conference Booking,Mon,8:00,22:00,47
+TL556,Conference Booking,Tue,8:00,22:00,47
+TL556,Conference Booking,Wed,8:00,22:00,47
+TL556,Conference Booking,Thu,8:00,22:00,47
+TL556,Conference Booking,Fri,8:00,13:00,47
+TL556,Ad-Hoc,Fri,13:00,17:00,47
+TL556,Estates,Fri,17:00,22:00,47
+TL557,Conference Booking,Mon,8:00,22:00,47
+TL557,Conference Booking,Tue,8:00,18:00,47
+TL557,Conference Booking,Tue,8:00,22:00,47
+TL557,Ad-Hoc,Tue,18:00,22:00,47
+TL557,Conference Booking,Wed,8:00,22:00,47
+TL557,Conference Booking,Wed,8:00,22:00,47
+TL557,Conference Booking,Thu,8:00,22:00,47
+TL557,Conference Booking,Thu,8:00,22:00,47
+TL557,Conference Booking,Fri,8:00,14:00,47
+TL557,Conference Booking,Fri,8:00,17:00,47
+TL557,Estates,Fri,17:00,22:00,47
+TL560,Conference Booking,Mon,8:00,22:00,47
+TL560,Conference Booking,Tue,8:00,22:00,47
+TL560,Conference Booking,Tue,8:00,22:00,47
+TL560,Conference Booking,Wed,8:00,22:00,47
+TL560,Conference Booking,Wed,8:00,22:00,47
+TL560,Conference Booking,Thu,8:00,22:00,47
+TL560,Conference Booking,Thu,8:00,22:00,47
+TL560,Conference Booking,Fri,8:00,13:00,47
+TL560,Conference Booking,Fri,8:00,14:00,47
+TL560,Ad-Hoc,Fri,13:00,17:00,47
+TL560,Estates,Fri,17:00,22:00,47
+TL563,Conference Booking,Mon,8:00,22:00,47
+TL563,Conference Booking,Tue,8:00,22:00,47
+TL563,Conference Booking,Wed,8:00,22:00,47
+TL563,Conference Booking,Thu,8:00,22:00,47
+TL563,Conference Booking,Fri,8:00,13:00,47
+TL563,Ad-Hoc,Fri,13:00,17:00,47
+TL563,Estates,Fri,17:00,22:00,47
+TL565,Conference Booking,Mon,8:00,22:00,47
+TL565,Ad-Hoc,Tue,8:00,22:00,47
+TL565,Conference Booking,Tue,8:00,22:00,47
+TL565,Conference Booking,Wed,8:00,22:00,47
+TL565,Conference Booking,Wed,8:00,22:00,47
+TL565,Conference Booking,Thu,8:00,22:00,47
+TL565,Conference Booking,Thu,8:00,22:00,47
+TL565,Conference Booking,Fri,8:00,14:00,47
+TL565,Conference Booking,Fri,8:00,17:00,47
+TL565,Ad-Hoc,Fri,17:00,20:00,"1-18,  23-36,  45-49,  51"
+TL565,Estates,Fri,20:00,22:00,47
+TL651,Conference Booking,Mon,8:00,22:00,47
+TL651,Conference Booking,Tue,8:00,22:00,47
+TL651,Booking_Accepted,Wed,13:00,17:00,47
+TL651,Booking_Accepted,Thu,9:00,12:00,47
+TL651,Booking_Accepted,Thu,15:00,17:00,47
+TL651,Booking_Accepted,Fri,10:00,13:00,47
+TL652,Conference Booking,Mon,8:00,22:00,47
+TL652,Booking_Accepted,Tue,9:00,11:00,47
+TL652,Booking_Accepted,Tue,11:00,13:00,47
+TL652,Roll Forward,Tue,14:00,16:00,47
+TL652,Conference Booking,Wed,8:00,22:00,47
+TL652,Conference Booking,Thu,8:00,22:00,47
+TL652,Conference Booking,Fri,8:00,17:00,47
+TL655,Conference Booking,Mon,8:00,22:00,47
+TL655,Conference Booking,Tue,8:00,22:00,47
+TL655,Conference Booking,Wed,8:00,22:00,47
+TL655,Booking_Accepted,Thu,9:00,17:00,47
+TL655,Booking_Accepted,Fri,9:00,17:00,47
+TL657,Conference Booking,Mon,8:00,22:00,47
+TL657,Conference Booking,Tue,8:00,22:00,47
+TL657,Conference Booking,Wed,8:00,22:00,47
+TL657,Booking_Accepted,Thu,9:00,17:00,47
+TL657,Booking_Accepted,Fri,9:00,17:00,47
+TL660,Conference Booking,Mon,8:00,22:00,47
+TL660,Conference Booking,Tue,8:00,22:00,47
+TL660,Conference Booking,Wed,8:00,22:00,47
+TL660,Conference Booking,Thu,8:00,22:00,47
+TL660,Conference Booking,Fri,8:00,13:00,47
+TL660,Tutorial,Fri,13:30,17:00,38-49
+TL662,Conference Booking,Mon,8:00,22:00,47
+TL662,Conference Booking,Tue,8:00,18:00,47
+TL662,Conference Booking,Wed,8:00,22:00,47
+TL662,Conference Booking,Thu,8:00,22:00,47
+TL662,Conference Booking,Fri,8:00,17:00,47
+WC202,Biomedical Ad-Hoc,Thu,11:00,14:00,47
