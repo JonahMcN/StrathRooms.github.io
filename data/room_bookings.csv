@@ -697,6 +697,7 @@ RC440,Lecture,Mon,15:00,17:00,"42,  45-47"
 RC440,Roll Forward,Tue,18:30,19:00,"15-20,  23-47"
 RC440,Booking_Accepted,Thu,8:00,17:00,47
 RC440,Booking_Accepted,Fri,8:00,17:00,47
+RC447,Booking_Accepted,Fri,12:30,15:30,47
 RC471 / Assembly Hall,Roll Forward,Mon,18:30,21:00,"8,  10-18,  24-37,  44-48"
 RC471 / Assembly Hall,Roll Forward,Tue,19:00,22:00,"23-37,  43-47"
 RC471 / Assembly Hall,Booking_Accepted,Wed,9:00,17:00,47
@@ -713,6 +714,7 @@ RC503,Booking_Accepted,Wed,10:00,16:00,47
 RC503,Booking_Accepted,Thu,9:00,16:00,47
 RC503,Booking_Accepted,Fri,9:00,14:30,47
 RC503,Presentation,Fri,14:30,17:00,47
+RC512,Booking_Accepted,Fri,14:00,15:00,47
 RC513,Booking_Accepted,Mon,9:00,16:30,47
 RC513,Booking_Accepted,Tue,9:00,16:30,47
 RC513,Booking_Accepted,Wed,9:00,16:30,47
