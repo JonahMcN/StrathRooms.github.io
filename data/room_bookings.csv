@@ -67,6 +67,7 @@ GH514,Lecture,Fri,10:00,11:00,46-49
 GH515,Presentation,Fri,13:30,16:00,48
 GH542,Booking_Accepted,Wed,15:30,17:00,43-48
 GH554,Booking_Accepted,Wed,14:00,15:00,48
+GH560,Booking_Accepted,Thu,9:30,11:30,48
 GH630,Booking_Accepted,Mon,11:00,12:30,48
 GH640,Tutorial,Fri,13:30,17:00,"24-35,  38-49"
 GH643,Seminar,Wed,10:00,13:00,41-48
@@ -181,8 +182,10 @@ JW706b,Lecture,Wed,11:00,13:00,"33,  45,  48-49"
 LH211a,Booking_Accepted,Tue,10:00,12:00,44-48
 LH218,Booking_Accepted,Mon,9:30,12:30,48
 LH218,Booking_Accepted,Mon,13:00,17:00,48
+LH218,Booking_Accepted,Thu,12:00,17:00,48
 LH226a,Booking_Accepted,Mon,10:00,16:00,45-50
 LH226a,Booking_Accepted,Tue,10:00,13:00,48
+LH226a,Booking_Accepted,Wed,11:00,14:00,48
 LH228,Booking_Accepted,Mon,11:00,13:00,48
 LH228,Booking_Accepted,Tue,10:00,16:00,45-52
 LH228,Seminar,Thu,14:00,16:00,43-48
@@ -313,7 +316,7 @@ LT309,Roll Forward,Tue,9:00,16:00,46-49
 LT309,Roll Forward,Wed,9:00,16:00,46-49
 LT309,Roll Forward,Thu,9:00,16:00,46-49
 LT309,Roll Forward,Fri,9:00,16:00,46-49
-LT311,Booking_Accepted,Thu,10:00,12:00,48
+LT313,Booking_Accepted,Wed,12:00,13:00,48
 LT401,Roll Forward,Mon,9:00,16:00,46-49
 LT401,Roll Forward,Tue,9:00,16:00,46-49
 LT401,Roll Forward,Wed,9:00,16:00,46-49
@@ -673,6 +676,7 @@ SW205,Classtest,Mon,10:00,15:30,48
 SW205,Classtest,Fri,10:00,15:30,48
 TG223,Booking_Accepted,Fri,9:00,10:30,48
 TG314,Classtest,Wed,9:30,14:00,48
+TG314,Booking_Accepted,Thu,10:30,12:00,48
 TL324,Booking_Accepted,Tue,9:00,17:00,48
 TL324,Booking_Accepted,Wed,9:00,12:00,48
 TL324,Booking_Accepted,Wed,12:30,14:30,48
@@ -802,3 +806,4 @@ TL652,Booking_Accepted,Wed,9:00,17:00,48
 TL652,Booking_Accepted,Thu,9:00,17:00,48
 TL655,Booking_Accepted,Tue,9:00,17:00,48
 TL660,Tutorial,Fri,13:30,17:00,38-49
+WC202,Ad-Hoc,Fri,13:00,14:00,48
