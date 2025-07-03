@@ -180,6 +180,7 @@ JW509a,Presentation,Fri,9:00,11:00,48
 JW509a,Presentation,Fri,11:00,13:00,48
 JW706b,Lecture,Wed,11:00,13:00,"33,  45,  48-49"
 LH211a,Booking_Accepted,Tue,10:00,12:00,44-48
+LH213b,Booking_Accepted,Fri,10:00,17:00,48
 LH218,Booking_Accepted,Mon,9:30,12:30,48
 LH218,Booking_Accepted,Mon,13:00,17:00,48
 LH218,Booking_Accepted,Thu,12:00,17:00,48
@@ -806,4 +807,3 @@ TL652,Booking_Accepted,Wed,9:00,17:00,48
 TL652,Booking_Accepted,Thu,9:00,17:00,48
 TL655,Booking_Accepted,Tue,9:00,17:00,48
 TL660,Tutorial,Fri,13:30,17:00,38-49
-WC202,Ad-Hoc,Fri,13:00,14:00,48
