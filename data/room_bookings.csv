@@ -187,6 +187,7 @@ LH218,Booking_Accepted,Thu,12:00,17:00,48
 LH226a,Booking_Accepted,Mon,10:00,16:00,45-50
 LH226a,Booking_Accepted,Tue,10:00,13:00,48
 LH226a,Booking_Accepted,Wed,11:00,14:00,48
+LH226a,Booking_Accepted,Thu,10:00,13:00,48
 LH228,Booking_Accepted,Mon,11:00,13:00,48
 LH228,Booking_Accepted,Tue,10:00,16:00,45-52
 LH228,Seminar,Thu,14:00,16:00,43-48
@@ -576,6 +577,7 @@ LT719,Roll Forward,Thu,9:00,16:00,46-49
 LT719,Roll Forward,Fri,9:00,16:00,46-49
 RC403,Laboratory,Fri,10:00,17:00,"39,  41,  45,  48"
 RC426,Booking_Accepted,Wed,17:00,21:30,48
+RC440,Booking_Accepted,Thu,11:00,12:00,48
 RC440,Booking_Accepted,Fri,17:30,20:30,48
 RC447,Booking_Accepted,Fri,17:30,20:30,48
 RC471 / Assembly Hall,Booking_Accepted,Mon,9:00,17:00,48
@@ -807,3 +809,4 @@ TL652,Booking_Accepted,Wed,9:00,17:00,48
 TL652,Booking_Accepted,Thu,9:00,17:00,48
 TL655,Booking_Accepted,Tue,9:00,17:00,48
 TL660,Tutorial,Fri,13:30,17:00,38-49
+WC202,Ad-Hoc,Fri,13:00,14:00,48
