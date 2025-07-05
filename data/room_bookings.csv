@@ -58,6 +58,7 @@ GH509,Booking_Accepted,Thu,9:00,17:00,48
 GH510,Booking_Accepted,Tue,14:00,16:00,47-52
 GH510,Booking_Accepted,Wed,10:00,12:00,48
 GH510,Booking_Accepted,Thu,14:00,16:00,48-51
+GH510,Presentation,Fri,13:00,13:30,48
 GH511,Presentation,Fri,13:30,16:00,48
 GH512,Tutorial,Wed,17:00,20:00,42-48
 GH512,Presentation,Fri,13:30,16:00,48
@@ -68,6 +69,9 @@ GH515,Presentation,Fri,13:30,16:00,48
 GH542,Booking_Accepted,Wed,15:30,17:00,43-48
 GH554,Booking_Accepted,Wed,14:00,15:00,48
 GH560,Booking_Accepted,Thu,9:30,11:30,48
+GH621,Booking_Accepted,Tue,15:00,16:00,48
+GH621,Booking_Accepted,Fri,13:00,15:00,48
+GH621,Booking_Accepted,Fri,15:00,16:00,48
 GH630,Booking_Accepted,Mon,11:00,12:30,48
 GH640,Tutorial,Fri,13:30,17:00,"24-35,  38-49"
 GH643,Seminar,Wed,10:00,13:00,41-48
@@ -499,6 +503,7 @@ LT502,Roll Forward,Tue,8:00,18:00,"46-49,  52"
 LT502,Roll Forward,Wed,8:00,18:00,"46-49,  52"
 LT502,Roll Forward,Thu,8:00,18:00,"46-49,  52"
 LT502,Roll Forward,Fri,8:00,18:00,"46-49,  52"
+LT514,Booking_Accepted,Fri,11:00,12:00,48
 LT619,Roll Forward,Mon,9:00,16:00,46-49
 LT619,Roll Forward,Tue,9:00,16:00,46-49
 LT619,Roll Forward,Wed,9:00,16:00,46-49
