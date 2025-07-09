@@ -1,4 +1,5 @@
 Room,Type,Day,Start,End,Weeks
+AB101,Booking_Accepted,Wed,10:30,13:00,49
 BH101 / Barony Main Hall,Conference Booking,Mon,8:00,22:00,49
 BH101 / Barony Main Hall,Conference Booking,Tue,8:00,22:00,49
 BH101 / Barony Main Hall,Conference Booking,Wed,8:00,17:00,49
@@ -38,6 +39,7 @@ GH330,Cll Ad-Hoc,Wed,10:00,16:00,"23-28,  30-35,  37-49"
 GH509,Booking_Accepted,Mon,11:00,15:00,49
 GH510,Booking_Accepted,Mon,12:00,17:00,49
 GH510,Booking_Accepted,Tue,14:00,16:00,47-52
+GH510,Booking_Accepted,Wed,10:00,12:00,49-52
 GH510,Booking_Accepted,Thu,14:00,16:00,48-51
 GH513,Booking_Accepted,Thu,12:00,15:00,40-52
 GH514,Lecture,Fri,10:00,11:00,46-49
@@ -65,7 +67,6 @@ GH709,Booking_Accepted,Tue,12:00,15:00,40-52
 GH713,Tutorial,Fri,13:30,17:00,"23-35,  38-49"
 GH737,Booking_Accepted,Wed,9:30,11:30,49
 GH737a,Ad-Hoc,Mon,8:00,11:00,"31,  36,  41,  44,  49"
-GH737a,Booking_Accepted,Wed,10:30,12:30,49
 GH738,Project,Wed,10:00,12:00,"39-40,  43-44,  46-47,  49,  51"
 GH738,Tutorial,Fri,9:00,12:30,38-49
 GH740,Cll Ad-Hoc,Tue,10:00,12:00,49-52
@@ -239,6 +240,7 @@ LT302,Roll Forward,Tue,9:00,16:00,46-49
 LT302,Roll Forward,Wed,9:00,16:00,46-49
 LT302,Roll Forward,Thu,9:00,16:00,46-49
 LT302,Roll Forward,Fri,9:00,16:00,46-49
+LT304,Booking_Accepted,Tue,14:00,15:30,49
 LT307,Roll Forward,Mon,9:00,16:00,46-49
 LT307,Roll Forward,Tue,9:00,16:00,46-49
 LT307,Roll Forward,Wed,9:00,16:00,46-49
@@ -291,6 +293,7 @@ LT309,Roll Forward,Thu,9:00,16:00,46-49
 LT309,Roll Forward,Fri,9:00,16:00,46-49
 LT310,Booking_Accepted,Wed,10:00,16:00,49
 LT310,External,Wed,19:00,21:00,"49,  51-52"
+LT311,Booking_Accepted,Thu,10:00,12:00,49
 LT401,Roll Forward,Mon,9:00,16:00,46-49
 LT401,Roll Forward,Tue,9:00,16:00,46-49
 LT401,Roll Forward,Wed,9:00,16:00,46-49
@@ -454,6 +457,7 @@ LT415,Roll Forward,Tue,8:00,18:00,"46-49,  52"
 LT415,Roll Forward,Wed,8:00,18:00,"46-49,  52"
 LT415,Roll Forward,Thu,8:00,18:00,"46-49,  52"
 LT415,Roll Forward,Fri,8:00,18:00,"46-49,  52"
+LT416,Booking_Accepted,Wed,11:00,12:00,49
 LT501,Lecture,Wed,10:00,13:00,49
 LT502,Roll Forward,Mon,8:00,18:00,"46-49,  52"
 LT502,Roll Forward,Tue,8:00,18:00,"46-49,  52"
@@ -567,6 +571,7 @@ RC669,Booking_Accepted,Wed,10:00,11:00,49
 RC669,Booking_Accepted,Wed,19:00,22:00,49
 SW104,Booking_Accepted,Tue,10:00,16:00,49
 SW104,Booking_Accepted,Wed,10:00,16:00,49
+SW104,Estates,Thu,10:00,13:00,49
 SW105,Lecture,Mon,9:30,13:30,49
 SW105,Lecture,Tue,9:30,13:30,49
 SW105,Booking_Accepted,Tue,13:30,14:00,49
@@ -574,7 +579,9 @@ SW105,Lecture,Wed,9:30,13:30,49
 SW105,Lecture,Thu,9:30,13:30,49
 SW105,Booking_Accepted,Thu,13:30,14:00,49
 SW105,Lecture,Fri,9:30,13:30,49
+SW106,Estates,Thu,10:00,13:00,49
 SW107,Booking_Accepted,Wed,9:00,12:30,49
+SW107,Estates,Thu,10:00,13:00,49
 SW108,Lecture,Tue,13:00,15:00,47-51
 SW108,Lecture,Thu,13:00,15:00,47-51
 SW108,Estates,Fri,8:00,22:00,49
@@ -603,6 +610,11 @@ TL329,Estates,Tue,8:00,22:00,49
 TL329,Booking_Accepted,Wed,13:30,15:00,49
 TL455,Booking_Accepted,Mon,18:00,20:00,49
 TL551b,Booking_Accepted,Mon,15:00,17:00,49
+TL551b,Booking_Accepted,Tue,10:00,11:00,49
+TL551b,Booking_Accepted,Wed,12:00,13:00,49
+TL551b,Booking_Accepted,Thu,11:00,12:00,49
+TL551b,Booking_Accepted,Thu,14:00,15:00,49
+TL551b,Booking_Accepted,Thu,15:00,16:00,49
 TL556,Booking_Accepted,Wed,12:00,17:00,49
 TL556,Booking_Accepted,Fri,9:30,11:30,49
 TL563,Booking_Accepted,Fri,8:00,17:00,49
