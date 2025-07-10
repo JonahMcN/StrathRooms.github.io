@@ -28,8 +28,11 @@ CL204,Booking_Accepted,Wed,10:00,11:00,49
 CL204,Booking_Accepted,Wed,12:00,17:00,49
 CW404a,Booking_Accepted,Mon,10:00,16:00,49
 CW404a,Booking_Accepted,Wed,9:00,12:30,49
+CW404a,Booking_Accepted,Wed,14:00,15:00,49
 CW404b,Booking_Accepted,Wed,13:30,15:30,49
 CW406a,Lecture,Thu,13:00,16:00,48-50
+CW408,Booking_Accepted,Mon,14:00,15:00,49
+CW408,Booking_Accepted,Wed,14:00,15:00,49
 CW506b,Booking_Accepted,Mon,9:00,13:30,49
 CW602,Classtest,Mon,9:30,13:00,49
 CW602,Classtest,Wed,9:30,13:00,49
@@ -60,6 +63,7 @@ GH515,Booking_Accepted,Wed,9:00,17:00,49
 GH515,Booking_Accepted,Thu,9:00,17:00,49
 GH515,Booking_Accepted,Fri,9:00,17:00,49
 GH554,Classtest,Thu,9:30,13:00,49
+GH630,Booking_Accepted,Mon,10:00,11:00,49
 GH630,Booking_Accepted,Mon,12:00,13:00,49
 GH640,Tutorial,Fri,13:30,17:00,"24-35,  38-49"
 GH701,Ad-Hoc,Mon,17:00,20:00,"2-8,  10-18,  23-37,  44-50"
@@ -67,6 +71,7 @@ GH709,Booking_Accepted,Tue,12:00,15:00,40-52
 GH713,Tutorial,Fri,13:30,17:00,"23-35,  38-49"
 GH737,Booking_Accepted,Wed,9:30,11:30,49
 GH737a,Ad-Hoc,Mon,8:00,11:00,"31,  36,  41,  44,  49"
+GH737a,Booking_Accepted,Wed,9:30,11:30,49
 GH738,Project,Wed,10:00,12:00,"39-40,  43-44,  46-47,  49,  51"
 GH738,Tutorial,Fri,9:00,12:30,38-49
 GH740,Cll Ad-Hoc,Tue,10:00,12:00,49-52
@@ -345,6 +350,7 @@ LT402,Roll Forward,Wed,8:00,18:00,"46-49,  52"
 LT402,Roll Forward,Thu,8:00,18:00,"46-49,  52"
 LT402,Roll Forward,Fri,8:00,18:00,"46-49,  52"
 LT404,Booking_Accepted,Mon,12:00,17:00,49
+LT404,Booking_Accepted,Wed,13:00,15:00,49
 LT404,Booking_Accepted,Wed,15:00,17:00,49
 LT404,Booking_Accepted,Thu,10:00,12:30,45-52
 LT406,Roll Forward,Mon,9:00,16:00,46-49
@@ -603,6 +609,10 @@ TL328,Estates,Mon,8:00,22:00,49
 TL328,Estates,Tue,8:00,22:00,49
 TL328,Estates,Mon,8:00,22:00,49
 TL328,Estates,Tue,8:00,22:00,49
+TL328,Booking_Accepted,Wed,8:00,17:00,49
+TL328,Booking_Accepted,Wed,17:00,22:00,49
+TL328,Booking_Accepted,Thu,8:00,17:00,49
+TL328,Booking_Accepted,Thu,17:00,22:00,49
 TL329,Estates,Mon,8:00,22:00,49
 TL329,Estates,Tue,8:00,22:00,49
 TL329,Estates,Mon,8:00,22:00,49
@@ -620,5 +630,7 @@ TL556,Booking_Accepted,Fri,9:30,11:30,49
 TL563,Booking_Accepted,Fri,8:00,17:00,49
 TL565,Ad-Hoc,Fri,17:00,20:00,"1-18,  23-36,  45-49,  51"
 TL651,Booking_Accepted,Mon,9:00,17:00,49
+TL651,Booking_Accepted,Thu,12:00,13:00,49
 TL651,Booking_Accepted,Thu,16:00,18:00,49
+TL652,Booking_Accepted,Thu,16:00,17:00,49
 TL660,Tutorial,Fri,13:30,17:00,38-49
