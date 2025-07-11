@@ -612,7 +612,6 @@ TL328,Estates,Tue,8:00,22:00,49
 TL328,Booking_Accepted,Wed,8:00,17:00,49
 TL328,Booking_Accepted,Wed,17:00,22:00,49
 TL328,Booking_Accepted,Thu,8:00,17:00,49
-TL328,Booking_Accepted,Thu,17:00,22:00,49
 TL329,Estates,Mon,8:00,22:00,49
 TL329,Estates,Tue,8:00,22:00,49
 TL329,Estates,Mon,8:00,22:00,49
@@ -626,7 +625,6 @@ TL551b,Booking_Accepted,Thu,11:00,12:00,49
 TL551b,Booking_Accepted,Thu,14:00,15:00,49
 TL551b,Booking_Accepted,Thu,15:00,16:00,49
 TL556,Booking_Accepted,Wed,12:00,17:00,49
-TL556,Booking_Accepted,Fri,9:30,11:30,49
 TL563,Booking_Accepted,Fri,8:00,17:00,49
 TL565,Ad-Hoc,Fri,17:00,20:00,"1-18,  23-36,  45-49,  51"
 TL651,Booking_Accepted,Mon,9:00,17:00,49
