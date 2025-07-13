@@ -330,3 +330,47 @@ SW107,Stenhouse Wing,Floor 1,107,Teaching room (flexible seating)
 SW108,Stenhouse Wing,Floor 1,108,Teaching room (flexible seating)
 SW109,Stenhouse Wing,Floor 1,109,Teaching room (flexible seating)
 SW203,Stenhouse Wing,Floor 2,20,eaching and research computer laboratory
+SW204,Stenhouse Wing,Floor 2,204,Teaching room (fixed seating)
+SW205,Stenhouse Wing,Floor 2,205,Teaching and research computer laboratory
+SW601a,Stenhouse Wing,Floor 6,601a,Teaching and research computer laboratory
+SW601b,Stenhouse Wing,Floor 6,601b,Teaching and research computer laboratory
+TC202 / Auditorium,Technology Innovation Centre,Floor 2,20,Temporary teaching room
+TG108,Thomas Graham Building,Floor 2,108,Teaching laboratory
+TG120,Thomas Graham Building,Floor 2,120,Teaching laboratory
+TG223,Thomas Graham Building,Floor 3,223,Teaching room (fixed seating)
+TG224,Thomas Graham Building,Floor 3,224,Teaching laboratory
+TG227,Thomas Graham Building,Floor 3,227,Teaching room (fixed seating)
+TG310,Thomas Graham Building,Floor 4,310,Teaching room (fixed seating)
+TG312,Thomas Graham Building,Floor 4,312,Teaching room (fixed seating)
+TG314,Thomas Graham Building,Floor 4,314,Teaching room (fixed seating)
+TL324,Jocelyn Bell Burnell Wing,Floor 3,TL324,Teaching room (flexible seating)
+TL325a,Jocelyn Bell Burnell Wing,Floor 3,TL325a,Teaching room (fixed seating)
+TL325b,Jocelyn Bell Burnell Wing,Floor 3,TL325b,Teaching room (fixed seating)
+TL328,Jocelyn Bell Burnell Wing,Floor 3,TL328,Teaching room (flexible seating)
+TL329,Jocelyn Bell Burnell Wing,Floor 3,TL329,Teaching room (flexible seating)
+TL330,Jocelyn Bell Burnell Wing,Floor 3,TL330,Teaching room (flexible seating)
+TL423,Jocelyn Bell Burnell Wing,Floor ,TL423,Teaching room (fixed seating)
+TL434 / Speaker's Corner,Jocelyn Bell Burnell Wing,Floor ,TL434,Open Space
+TL455,Mary Dunn Wing,Floor ,TL455,Teaching room (fixed seating)
+TL551b,Mary Dunn Wing,Floor 5,TL551b,Teaching room (flexible seating)
+TL553,Mary Dunn Wing,Floor 5,TL553,Teaching room (flexible seating)
+TL556,Mary Dunn Wing,Floor 5,TL556,Teaching room (flexible seating)
+TL557,Mary Dunn Wing,Floor 5,TL557,Teaching room (flexible seating)
+TL560,Mary Dunn Wing,Floor 5,TL560,Teaching room (flexible seating)
+TL563,Mary Dunn Wing,Floor 5,TL563 ,eaching room (flexible seating)
+TL565,Mary Dunn Wing,Floor 5,TL565,Teaching room (flexible seating)
+TL651,Mary Dunn Wing,Floor 6,TL651,Teaching room (flexible seating)
+TL652,Mary Dunn Wing,Floor 6,TL652,Teaching room (flexible seating)
+TL655,Mary Dunn Wing,Floor 6,TL655,Teaching room (flexible seating)
+TL657,Mary Dunn Wing,Floor 6,TL657,Teaching room (flexible seating)
+TL660,Mary Dunn Wing,Floor 6,TL660,Teaching room (flexible seating)
+TL662,Mary Dunn Wing,Floor 6,TL662,Teaching room (flexible seating)
+UC201,University Centre,Floor 2,201,Teaching room (flexible seating)
+UC304,University Centre,Floor 3,304,Exam Venue
+UC317,University Centre,Level ,NaN,Teaching room (flexible seating)
+WC106,Wolfson Building,Floor 1,106,Teaching laboratory
+WC109,Wolfson Building,Floor 1,109,Teaching laboratory
+WC202,Wolfson Building,Floor 2,202,Teaching room (flexible seating)
+WC203,Wolfson Building,Floor 2,203,Teaching room (flexible seating)
+WC204,Wolfson Building,Floor 2,204,Teaching room (flexible seating)
+WC301,Wolfson Building,Floor 1,109,Teaching laboratory
