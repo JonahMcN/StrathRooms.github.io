@@ -1054,6 +1054,7 @@ SW106,Lecture,Thu,14:00,17:00,50-51
 SW106,Roll Forward,Fri,8:00,22:00,50
 SW106,Roll Forward,Sat,8:00,22:00,50
 SW106,Roll Forward,Sun,8:00,22:00,50
+SW107,Conference Booking,Thu,10:00,11:00,50
 SW107,Roll Forward,Fri,8:00,22:00,50
 SW107,Roll Forward,Sat,8:00,22:00,50
 SW107,Roll Forward,Sun,8:00,22:00,50
@@ -1156,6 +1157,7 @@ TL652,Roll Forward,Fri,8:00,22:00,50
 TL652,Roll Forward,Sat,8:00,22:00,50
 TL652,Roll Forward,Sun,8:00,22:00,50
 TL655,Booking_Accepted,Wed,12:00,15:00,50
+TL655,Booking_Accepted,Thu,15:00,17:00,50
 TL655,Roll Forward,Fri,8:00,22:00,50
 TL655,Roll Forward,Sat,8:00,22:00,50
 TL655,Roll Forward,Sun,8:00,22:00,50
