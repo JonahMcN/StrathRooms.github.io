@@ -40,7 +40,6 @@ CL102,Ad-Hoc,Wed,13:00,17:00,51
 CL102,Ad-Hoc,Thu,9:00,17:00,51
 CL201,Roll Forward,Mon,8:00,22:00,51
 CL202,Roll Forward,Mon,8:00,22:00,51
-CL202,Roll Forward,Thu,10:00,12:00,"12,  29,  38,  51"
 CL203,Roll Forward,Mon,8:00,22:00,51
 CL204,Roll Forward,Mon,8:00,22:00,51
 CL204,Booking_Accepted,Tue,15:00,16:00,51
@@ -180,3 +179,66 @@ JA506,Roll Forward,Mon,8:00,22:00,51
 JA507,Roll Forward,Mon,8:00,22:00,51
 JA512,Roll Forward,Mon,8:00,22:00,51
 JA811,Roll Forward,Mon,8:00,22:00,51
+JW410,Roll Forward,Mon,8:00,22:00,51
+JW410,Estates,Tue,8:00,22:00,51
+JW410,Estates,Wed,8:00,22:00,51
+JW410,Estates,Thu,8:00,22:00,51
+JW410,Estates,Fri,8:00,22:00,51
+JW410,Estates,Sat,8:00,22:00,51
+JW410,Estates,Sun,8:00,22:00,51
+JW410,Estates,Tue,8:00,22:00,51
+JW410,Estates,Wed,8:00,22:00,51
+JW410,Estates,Thu,8:00,22:00,51
+JW410,Estates,Fri,8:00,22:00,51
+JW410,Estates,Sat,8:00,22:00,51
+JW410,Estates,Sun,8:00,22:00,51
+JW410,Estates,Tue,8:00,22:00,51
+JW410,Estates,Wed,8:00,22:00,51
+JW410,Estates,Thu,8:00,22:00,51
+JW410,Estates,Fri,8:00,22:00,51
+JW410,Estates,Sat,8:00,22:00,51
+JW410,Estates,Sun,8:00,22:00,51
+JW410,Estates,Tue,8:00,22:00,51
+JW410,Estates,Wed,8:00,22:00,51
+JW410,Estates,Thu,8:00,22:00,51
+JW410,Estates,Fri,8:00,22:00,51
+JW410,Estates,Sat,8:00,22:00,51
+JW410,Estates,Sun,8:00,22:00,51
+JW411,Roll Forward,Mon,8:00,22:00,51
+JW411,Estates,Tue,8:00,22:00,51
+JW411,Estates,Wed,8:00,22:00,51
+JW411,Estates,Thu,8:00,22:00,51
+JW411,Estates,Fri,8:00,22:00,51
+JW411,Estates,Sat,8:00,22:00,51
+JW411,Estates,Sun,8:00,22:00,51
+JW411,Estates,Tue,8:00,22:00,51
+JW411,Estates,Wed,8:00,22:00,51
+JW411,Estates,Thu,8:00,22:00,51
+JW411,Estates,Fri,8:00,22:00,51
+JW411,Estates,Sat,8:00,22:00,51
+JW411,Estates,Sun,8:00,22:00,51
+JW411,Estates,Tue,8:00,22:00,51
+JW411,Estates,Wed,8:00,22:00,51
+JW411,Estates,Thu,8:00,22:00,51
+JW411,Estates,Fri,8:00,22:00,51
+JW411,Estates,Sat,8:00,22:00,51
+JW411,Estates,Sun,8:00,22:00,51
+JW411,Estates,Tue,8:00,22:00,51
+JW411,Estates,Wed,8:00,22:00,51
+JW411,Estates,Thu,8:00,22:00,51
+JW411,Estates,Fri,8:00,22:00,51
+JW411,Estates,Sat,8:00,22:00,51
+JW411,Estates,Sun,8:00,22:00,51
+JW706b,Lecture,Wed,16:00,17:00,"2,  4,  6,  43,  45,  47,  49,  51"
+LH211a,Roll Forward,Mon,8:00,22:00,51
+LH211a,Booking_Accepted,Wed,9:30,17:00,51
+LH211b,Roll Forward,Mon,8:00,22:00,51
+LH213a,Roll Forward,Mon,8:00,22:00,51
+LH213b,Roll Forward,Mon,8:00,22:00,51
+LH217,Roll Forward,Mon,8:00,22:00,51
+LH217,Lecture,Thu,11:00,13:00,51
+LH217,Lecture,Fri,13:00,15:00,51
+LH218,Roll Forward,Mon,8:00,22:00,51
+LH218,Booking_Accepted,Fri,14:00,16:00,51
+LH226a,Roll Forward,Mon,8:00,22:00,51
+LH226b,Roll Forward,Mon,8:00,22:00,51
