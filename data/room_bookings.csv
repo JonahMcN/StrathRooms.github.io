@@ -25,6 +25,7 @@ BH108 / Barony Bicentenary Hall,Conference Booking,Wed,8:00,22:00,52
 BH108 / Barony Bicentenary Hall,Conference Booking,Thu,8:00,18:00,52
 CL201,Booking_Accepted,Thu,14:30,16:30,52
 CL202,Roll Forward,Thu,10:30,11:30,52
+CL203,Booking_Requested,Wed,10:00,12:00,52
 CL204,Ad-Hoc,Mon,15:00,16:30,52
 CL204,Booking_Accepted,Wed,11:00,13:00,52
 CL205,Booking_Accepted,Wed,10:00,11:00,52
@@ -34,13 +35,10 @@ CU522,Booking_Accepted,Wed,14:00,16:00,52
 CU522,Booking_Accepted,Thu,9:30,14:00,52
 CW408,Booking_Accepted,Wed,14:00,15:30,52
 CW408,Booking_Accepted,Fri,13:30,17:00,52
-CW602,Lecture,Mon,10:00,13:00,52
-CW602,Lecture,Tue,10:00,13:00,52
 CW602,Booking_Accepted,Wed,9:30,13:00,52
 GH322,Cll Ad-Hoc,Thu,10:00,12:00,51-52
 GH322,Cll Ad-Hoc,Thu,12:00,14:30,51-52
 GH327,Cll Ad-Hoc,Thu,15:30,21:00,"35-39,  41,  43-46,  48-49,  52"
-GH330,Cll Ad-Hoc,Tue,10:00,12:00,51-52
 GH330,Cll Ad-Hoc,Tue,14:00,16:00,49-52
 GH509,Booking_Accepted,Mon,8:00,17:00,52
 GH509,Booking_Accepted,Tue,8:00,17:00,52
@@ -61,6 +59,7 @@ GH509,Booking_Accepted,Thu,8:00,17:00,52
 GH510,Booking_Accepted,Tue,14:00,16:00,47-52
 GH510,Booking_Accepted,Wed,10:00,12:00,49-52
 GH513,Booking_Accepted,Thu,12:00,15:00,40-52
+GH514,Booking_Accepted,Wed,14:00,17:00,52
 GH514,Booking_Accepted,Thu,9:00,13:00,52
 GH515,Booking_Accepted,Mon,9:00,17:00,52
 GH557,Booking_Accepted,Tue,10:30,12:30,52
@@ -115,6 +114,7 @@ GH737,Cll Ad-Hoc,Wed,14:00,16:00,51-52
 GH737a,Booking_Accepted,Mon,10:00,12:00,52
 GH737a,Booking_Accepted,Tue,12:00,17:00,52
 GH737a,Booking_Accepted,Fri,14:00,18:00,52
+GH738,Booking_Accepted,Tue,15:00,16:30,52
 GH740,Cll Ad-Hoc,Tue,10:00,12:00,49-52
 GH740,Cll Ad-Hoc,Wed,14:00,16:00,52
 GH740,Cll Ad-Hoc,Thu,10:00,12:00,51-52
@@ -126,9 +126,6 @@ GH744,Cll Ad-Hoc,Mon,12:00,14:00,"50,  52"
 GH744,Cll Ad-Hoc,Tue,9:30,12:00,47-52
 GH744,Cll Ad-Hoc,Tue,12:00,14:00,47-52
 GH744,Cll Ad-Hoc,Wed,14:00,16:30,37-52
-GH748,Cll Ad-Hoc,Mon,10:00,12:00,52
-GH748,Cll Ad-Hoc,Mon,12:00,14:30,52
-GH748,Cll Ad-Hoc,Mon,14:30,16:30,52
 GH748,Cll Ad-Hoc,Tue,10:00,12:00,47-52
 GH748,Cll Ad-Hoc,Tue,12:00,14:30,47-52
 GH748,Cll Ad-Hoc,Wed,10:00,12:00,47-52
@@ -212,6 +209,7 @@ JW411,Estates,Fri,8:00,22:00,"47-49,  52"
 JW411,Estates,Sat,8:00,22:00,"47-49,  52"
 JW411,Estates,Sun,8:00,22:00,"47-49,  52"
 LH217,Booking_Accepted,Mon,9:00,17:00,52
+LH217,Booking_Accepted,Tue,10:00,11:00,52
 LH217,Booking_Accepted,Wed,14:00,17:00,52
 LH217,Booking_Accepted,Thu,14:00,17:00,52
 LH217,Booking_Accepted,Fri,9:00,12:00,52
@@ -248,6 +246,7 @@ LT208,Roll Forward,Tue,9:00,16:00,52
 LT208,Roll Forward,Wed,9:00,16:00,52
 LT208,Roll Forward,Thu,9:00,16:00,52
 LT208,Roll Forward,Fri,9:00,16:00,52
+LT210,Booking_Accepted,Thu,11:00,14:00,52
 LT211,Booking_Accepted,Mon,13:30,14:30,52
 LT212,Roll Forward,Mon,9:00,16:00,52
 LT212,Roll Forward,Tue,9:00,16:00,52
@@ -883,6 +882,7 @@ RC434a,Ad-Hoc,Thu,9:00,12:00,52
 RC434a,Booking_Accepted,Fri,13:30,17:00,52
 RC434b,Booking_Accepted,Fri,13:00,17:00,52
 RC440,Sbs Ad-Hoc,Wed,9:30,12:30,52
+RC440,Booking_Accepted,Wed,17:00,21:30,52
 RC446,Sbs Ad-Hoc,Wed,9:30,11:30,52
 RC446,Ad-Hoc,Fri,9:30,11:30,52
 RC447,Roll Forward,Mon,8:00,21:30,52
@@ -947,11 +947,11 @@ SW104,Booking_Accepted,Tue,9:00,17:00,52
 SW104,Booking_Accepted,Wed,9:00,17:00,52
 SW104,Booking_Accepted,Thu,9:00,17:00,52
 SW104,Booking_Accepted,Fri,9:00,17:00,52
-SW105,Lecture,Wed,10:00,13:00,52
 SW105,Lecture,Thu,10:00,13:00,52
-SW105,Lecture,Fri,10:00,13:00,52
+SW106,Estates,Tue,9:00,13:00,52
 SW106,Booking_Accepted,Wed,9:30,13:00,52
 SW106,Lecture,Fri,14:00,17:00,51-52
+SW107,Estates,Tue,9:00,13:00,52
 SW107,Booking_Accepted,Wed,10:00,13:00,52
 SW107,Booking_Accepted,Fri,10:00,16:00,52
 SW108,Booking_Accepted,Wed,9:30,13:00,52
@@ -965,6 +965,7 @@ TG227,Booking_Accepted,Tue,13:00,14:00,52
 TG312,Booking_Accepted,Tue,14:00,15:00,52
 TL324,Booking_Accepted,Mon,10:00,15:00,52
 TL324,Booking_Accepted,Tue,10:00,15:00,52
+TL324,Booking_Accepted,Wed,11:30,13:00,52
 TL324,Booking_Accepted,Wed,17:00,19:00,52
 TL324,Booking_Accepted,Thu,10:00,12:00,52
 TL328,Booking_Accepted,Wed,9:00,13:00,52
