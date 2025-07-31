@@ -59,6 +59,7 @@ GH509,Booking_Accepted,Wed,8:00,17:00,52
 GH509,Booking_Accepted,Thu,8:00,17:00,52
 GH510,Booking_Accepted,Tue,14:00,16:00,47-52
 GH510,Booking_Accepted,Wed,10:00,12:00,49-52
+GH510,Booking_Accepted,Thu,10:00,13:00,52
 GH513,Booking_Accepted,Thu,12:00,15:00,40-52
 GH514,Booking_Accepted,Wed,14:00,17:00,52
 GH514,Booking_Accepted,Thu,9:00,13:00,52
@@ -73,6 +74,7 @@ GH630,Booking_Accepted,Thu,9:00,14:00,52
 GH634,Booking_Accepted,Thu,9:30,11:30,52
 GH637,Booking_Accepted,Tue,12:00,17:00,52
 GH646,Booking_Accepted,Wed,10:00,12:00,52
+GH646,Booking_Accepted,Wed,13:00,16:00,52
 GH701,Roll Forward,Mon,8:00,21:30,52
 GH701,Roll Forward,Tue,8:00,21:30,52
 GH701,Roll Forward,Mon,8:00,21:30,52
@@ -116,6 +118,7 @@ GH709,Booking_Accepted,Tue,12:00,15:00,40-52
 GH737,Cll Ad-Hoc,Wed,14:00,16:00,51-52
 GH737a,Booking_Accepted,Mon,10:00,12:00,52
 GH737a,Booking_Accepted,Tue,12:00,17:00,52
+GH737a,Booking_Accepted,Wed,14:00,16:00,52
 GH737a,Booking_Accepted,Fri,14:00,18:00,52
 GH738,Booking_Accepted,Tue,15:00,16:30,52
 GH740,Cll Ad-Hoc,Tue,10:00,12:00,49-52
@@ -437,6 +440,7 @@ LT403,Roll Forward,Thu,9:00,16:00,52
 LT403,Roll Forward,Fri,9:00,16:00,52
 LT404,Booking_Accepted,Mon,10:00,12:00,52
 LT404,Booking_Accepted,Thu,10:00,12:30,45-52
+LT404,Booking_Accepted,Fri,14:00,17:00,52
 LT406,Roll Forward,Mon,9:00,16:00,52
 LT406,Roll Forward,Tue,9:00,16:00,52
 LT406,Roll Forward,Wed,9:00,16:00,52
@@ -958,7 +962,6 @@ SW106,Booking_Accepted,Wed,9:30,13:00,52
 SW106,Lecture,Fri,14:00,17:00,51-52
 SW107,Estates,Tue,9:00,13:00,52
 SW107,Booking_Accepted,Wed,10:00,13:00,52
-SW107,Booking_Accepted,Fri,10:00,16:00,52
 SW108,Booking_Accepted,Wed,9:30,13:00,52
 SW108,Booking_Accepted,Thu,13:30,17:00,52
 SW109,Booking_Accepted,Wed,10:00,12:00,52
@@ -980,6 +983,7 @@ TL551b,Booking_Accepted,Wed,10:30,12:00,52
 TL553,Booking_Accepted,Tue,11:00,13:00,52
 TL553,Booking_Accepted,Tue,13:00,15:00,52
 TL553,Booking_Accepted,Fri,10:00,13:00,52
+TL553,Booking_Accepted,Fri,14:00,15:00,52
 TL556,Booking_Accepted,Mon,9:00,17:00,52
 TL556,Booking_Accepted,Tue,9:00,17:00,52
 TL556,Booking_Accepted,Wed,9:00,17:00,52
