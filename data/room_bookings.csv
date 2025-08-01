@@ -15,6 +15,7 @@ AB101,Booking_Accepted,Mon,9:00,17:00,52
 AB101,Booking_Accepted,Tue,9:00,17:00,52
 AB101,Booking_Accepted,Wed,9:00,17:00,52
 AB101,Booking_Accepted,Thu,9:00,17:00,52
+AB101,Booking_Accepted,Fri,9:00,17:00,52
 BH102 / Barony Patrick Thomas Room,Conference Booking,Mon,8:00,22:00,52
 BH102 / Barony Patrick Thomas Room,Conference Booking,Tue,8:00,22:00,52
 BH102 / Barony Patrick Thomas Room,Conference Booking,Wed,8:00,22:00,52
@@ -37,6 +38,7 @@ CW408,Booking_Accepted,Wed,14:00,15:30,52
 CW408,Booking_Accepted,Fri,13:30,17:00,52
 CW602,Booking_Accepted,Wed,9:30,13:00,52
 CW602,Booking_Accepted,Wed,13:30,15:30,52
+CW602,Booking_Accepted,Fri,10:00,12:00,52
 GH322,Cll Ad-Hoc,Thu,10:00,12:00,51-52
 GH322,Cll Ad-Hoc,Thu,12:00,14:30,51-52
 GH327,Cll Ad-Hoc,Thu,15:30,21:00,"35-39,  41,  43-46,  48-49,  52"
@@ -214,6 +216,8 @@ JW411,Estates,Thu,8:00,22:00,"47-49,  52"
 JW411,Estates,Fri,8:00,22:00,"47-49,  52"
 JW411,Estates,Sat,8:00,22:00,"47-49,  52"
 JW411,Estates,Sun,8:00,22:00,"47-49,  52"
+LH211a,Booking_Accepted,Thu,8:00,17:00,52
+LH211a,Booking_Accepted,Fri,9:00,13:30,52
 LH217,Booking_Accepted,Mon,9:00,17:00,52
 LH217,Booking_Accepted,Tue,10:00,11:00,52
 LH217,Booking_Accepted,Wed,14:00,17:00,52
@@ -977,7 +981,6 @@ TL324,Booking_Accepted,Wed,11:30,13:00,52
 TL324,Booking_Accepted,Wed,17:00,19:00,52
 TL324,Booking_Accepted,Thu,10:00,12:00,52
 TL328,Booking_Accepted,Wed,9:00,13:00,52
-TL328,Booking_Accepted,Fri,11:00,16:00,52
 TL329,Booking_Accepted,Mon,9:00,10:00,52
 TL551b,Booking_Accepted,Wed,10:30,12:00,52
 TL553,Booking_Accepted,Tue,11:00,13:00,52
