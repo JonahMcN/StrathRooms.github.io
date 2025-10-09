@@ -1,42 +1,42 @@
-name: run-data-scripts
+#name: run-data-scripts
 
-on:
-   schedule:
-     - cron: '01 0 * * *' # At 00:01 Everyday
+#on:
+   #schedule:
+     #- cron: '01 0 * * *' # At 00:01 Everyday
    # workflow_dispatch
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4.2.2
+#jobs:
+  #build:
+    #runs-on: ubuntu-latest
+    #steps:
+      #- name: Checkout
+        #uses: actions/checkout@v4.2.2
         
-      - name: setup python
-        uses: actions/setup-python@v5.4.0
-        with:
-          python-version: '3.13' # install the python version needed
+      #- name: setup python
+        #uses: actions/setup-python@v5.4.0
+        #with:
+          #python-version: '3.13' # install the python version needed
 
-      - name: install python packages
-        run: |
-          python -m pip install --upgrade pip
-          pip install pandas
-          pip install selenium
-          pip install bs4
+      #- name: install python packages
+        #run: |
+          #python -m pip install --upgrade pip
+          #pip install pandas
+          #pip install selenium
+          #pip install bs4
 
-      - name: execute scraper script # run main.py
-        run: python Scripts/room_timetable_scraper.py
+      #- name: execute scraper script # run main.py
+        #run: python Scripts/room_timetable_scraper.py
 
-      - name: execute hunter script # run main.py
-        run: python Scripts/empty_booking_hunter.py
+      #- name: execute hunter script # run main.py
+        #run: python Scripts/empty_booking_hunter.py
         
-      - name: push
-        run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git add data/
-          git commit -m "Data updated"
-          git push
+      #- name: push
+        #run: |
+          #git config user.name github-actions
+          #git config user.email github-actions@github.com
+          #git add data/
+          #git commit -m "Data updated"
+          #git push
 
           
                    
